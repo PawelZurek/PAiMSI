@@ -1,0 +1,321 @@
+\begin{theindex}
+
+  \item {$\sim $kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{13}
+  \item {$\sim $kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+  \item {$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{24}
+  \item {$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{28}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/doc/pages/strona.\discretionary {-}{}{}dox}, 
+		\hyperpage{33}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/benchmark.\discretionary {-}{}{}hh}, 
+		\hyperpage{33}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}hh}, 
+		\hyperpage{34}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.\discretionary {-}{}{}hh}, 
+		\hyperpage{36}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}hh}, 
+		\hyperpage{37}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.\discretionary {-}{}{}hh}, 
+		\hyperpage{38}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/benchmark.\discretionary {-}{}{}cpp}, 
+		\hyperpage{39}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}cpp}, 
+		\hyperpage{40}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.\discretionary {-}{}{}cpp}, 
+		\hyperpage{41}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{41}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}cpp}, 
+		\hyperpage{42}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.\discretionary {-}{}{}cpp}, 
+		\hyperpage{43}
+
+  \indexspace
+
+  \item {benchmark}, \hyperpage{7}
+    \subitem {benchmark}, \hyperpage{8}
+    \subitem {czas}, \hyperpage{9}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}, 
+		\hyperpage{8}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}, 
+		\hyperpage{8}
+    \subitem {elapsed\discretionary {-}{}{}Time}, \hyperpage{10}
+    \subitem {ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}, 
+		\hyperpage{8}
+    \subitem {t1}, \hyperpage{10}
+    \subitem {t2}, \hyperpage{10}
+    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}algorytn}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {czas}
+    \subitem {benchmark}, \hyperpage{9}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}
+    \subitem {benchmark}, \hyperpage{8}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}
+    \subitem {benchmark}, \hyperpage{8}
+
+  \indexspace
+
+  \item {dane}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{22}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{30}
+  \item {danetmp}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{23}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{31}
+  \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{14}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{25}
+
+  \indexspace
+
+  \item {elapsed\discretionary {-}{}{}Time}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {element}, \hyperpage{10}
+    \subitem {klucz}, \hyperpage{11}
+    \subitem {nastepny}, \hyperpage{11}
+  \item {elementk}, \hyperpage{11}
+    \subitem {klucz}, \hyperpage{12}
+    \subitem {nastepny}, \hyperpage{12}
+
+  \indexspace
+
+  \item {ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}
+    \subitem {benchmark}, \hyperpage{8}
+  \item {is\discretionary {-}{}{}Empty}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{28}
+  \item {isempty}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{15}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{25}
+
+  \indexspace
+
+  \item {klucz}
+    \subitem {element}, \hyperpage{11}
+    \subitem {elementk}, \hyperpage{12}
+  \item {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{12}
+    \subitem {$\sim $kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{13}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{14}
+    \subitem {isempty}, \hyperpage{15}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{13}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{13}
+    \subitem {licznik}, \hyperpage{17}
+    \subitem {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{15}
+    \subitem {pop}, \hyperpage{15}
+    \subitem {przod}, \hyperpage{17}
+    \subitem {push}, \hyperpage{16}
+    \subitem {size}, \hyperpage{16}
+    \subitem {tyl}, \hyperpage{18}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{16, 17}
+  \item {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{18}
+    \subitem {$\sim $kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+    \subitem {dane}, \hyperpage{22}
+    \subitem {danetmp}, \hyperpage{23}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{19}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+    \subitem {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{19}
+    \subitem {pop}, \hyperpage{19}
+    \subitem {push}, \hyperpage{20}
+    \subitem {pushx2}, \hyperpage{20}
+    \subitem {rozmiar}, \hyperpage{23}
+    \subitem {size}, \hyperpage{20}
+    \subitem {spr}, \hyperpage{23}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{21}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}danex2}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {licznik}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{17}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{42}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{42}
+
+  \indexspace
+
+  \item {nastepny}
+    \subitem {element}, \hyperpage{11}
+    \subitem {elementk}, \hyperpage{12}
+
+  \indexspace
+
+  \item {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{15}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{25}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{29}
+  \item {pop}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{15}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{19}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{25}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{29}
+  \item {przod}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{17}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{27}
+  \item {push}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{16}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{20}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{25}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{29}
+  \item {pushx2}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{20}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {rozmiar}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{23}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {size}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{16}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{20}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{26}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{29}
+  \item {spr}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{23}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{31}
+  \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{23}
+    \subitem {$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{24}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{25}
+    \subitem {isempty}, \hyperpage{25}
+    \subitem {licznik}, \hyperpage{27}
+    \subitem {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{25}
+    \subitem {pop}, \hyperpage{25}
+    \subitem {przod}, \hyperpage{27}
+    \subitem {push}, \hyperpage{25}
+    \subitem {size}, \hyperpage{26}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{24}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{24}
+    \subitem {tyl}, \hyperpage{27}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{26}
+  \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{27}
+    \subitem {$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{28}
+    \subitem {dane}, \hyperpage{30}
+    \subitem {danetmp}, \hyperpage{31}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{28}
+    \subitem {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{29}
+    \subitem {pop}, \hyperpage{29}
+    \subitem {push}, \hyperpage{29}
+    \subitem {pushx2}, \hyperpage{29}
+    \subitem {rozmiar}, \hyperpage{31}
+    \subitem {size}, \hyperpage{29}
+    \subitem {spr}, \hyperpage{31}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{28}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{28}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{29, 30}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}danex2}, 
+		\hyperpage{30}
+
+  \indexspace
+
+  \item {t1}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {t2}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {tyl}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{18}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{16, 17}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{21}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
+		\hyperpage{26}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{29, 30}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}danex2}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{22}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{30}
+  \item {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}algorytn}
+    \subitem {benchmark}, \hyperpage{8}
+
+\end{theindex}

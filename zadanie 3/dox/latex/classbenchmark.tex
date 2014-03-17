@@ -1,0 +1,225 @@
+\hypertarget{classbenchmark}{\section{benchmark Class Reference}
+\label{classbenchmark}\index{benchmark@{benchmark}}
+}
+
+
+Modeluje pojecie Benchmark.  
+
+
+
+
+{\ttfamily \#include $<$benchmark.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classbenchmark_af56f1d9420c5c1ccc65e4f6aac54658d}{benchmark} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy Benchmark. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_aacae513e2f55669c83f37a07110f3989}{wykonaj\-\_\-algorytn} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wykonujaca algorytm. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_a42ab532c49030406366e859f9b3f29f8}{czas\-\_\-start} ()
+\begin{DoxyCompactList}\small\item\em Funkcja pomocnicza mierzenia czasu. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_a9beb25d3e65b94c1ac7c085d8105fe65}{czas\-\_\-stop} ()
+\begin{DoxyCompactList}\small\item\em Funkcja pomocnicza mierzenia czasu. \end{DoxyCompactList}\item 
+double \hyperlink{classbenchmark_a613a8792feca7c2622355922d64d6fcd}{ile\-\_\-czasu} ()
+\begin{DoxyCompactList}\small\item\em Funkcja obliczania czasu dzialania programu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classbenchmark_a90e6eda0144befd3f3bc1a881904fb57}{elapsed\-Time}
+\begin{DoxyCompactList}\small\item\em Pole typu double, bedzie uzywane do mierzenia czasu dzialania pojedynczego wypelniania. \end{DoxyCompactList}\item 
+double \hyperlink{classbenchmark_a563b747421276232836b7711b6881ec8}{czas}
+\begin{DoxyCompactList}\small\item\em Pole typu double, bedzie uzywane do mierzenia calkowitego czasu dzialania programu. \end{DoxyCompactList}\item 
+timeval \hyperlink{classbenchmark_a7789217b36df3b3ae427ceaaa2694d0b}{t1}
+\begin{DoxyCompactList}\small\item\em Pole typu timeval, pomoc do liczenia czasu dzialania operacji krotkich ( tzn pojedynczego dzialania) \end{DoxyCompactList}\item 
+timeval \hyperlink{classbenchmark_aea9f22e585c0c5826329e48a97a99803}{t2}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Benchmark. 
+
+Klasa sluzy do przeprowadzenia Benchmarku programu, tzn \-: -\/$>$ wczytania 4 zestawu danych o ilosci elementow \-: \par
+-\/$>$ 10 \par
+-\/$>$ 100 \par
+-\/$>$ 1000 \par
+-\/$>$ 10000 \par
+ Na czterech klasach \-: \par
+ -\/$>$ \hyperlink{classstos__lista}{stos\-\_\-lista} \par
+ -\/$>$ \hyperlink{classstos__tablica}{stos\-\_\-tablica} \par
+ -\/$>$ \hyperlink{classkolejka__lista}{kolejka\-\_\-lista} \par
+ -\/$>$ \hyperlink{classkolejka__tablica}{kolejka\-\_\-tablica} \par
+-\/$>$ Na koniec zostana wyswietlone czasy kazdej akcji z osobna 
+
+Definition at line 42 of file benchmark.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classbenchmark_af56f1d9420c5c1ccc65e4f6aac54658d}{\index{benchmark@{benchmark}!benchmark@{benchmark}}
+\index{benchmark@{benchmark}!benchmark@{benchmark}}
+\subsubsection[{benchmark}]{\setlength{\rightskip}{0pt plus 5cm}benchmark\-::benchmark (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classbenchmark_af56f1d9420c5c1ccc65e4f6aac54658d}
+
+
+Konstruktor klasy Benchmark. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 68 of file benchmark.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classbenchmark_a42ab532c49030406366e859f9b3f29f8}{\index{benchmark@{benchmark}!czas\-\_\-start@{czas\-\_\-start}}
+\index{czas\-\_\-start@{czas\-\_\-start}!benchmark@{benchmark}}
+\subsubsection[{czas\-\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::czas\-\_\-start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a42ab532c49030406366e859f9b3f29f8}
+
+
+Funkcja pomocnicza mierzenia czasu. 
+
+Funkcja zaczyna liczyc czas od momentu wywolania tej metody Sluzy do liczenia czasu wykonywania pojedynczego wypelniania stosu/kolejki 
+
+Definition at line 14 of file benchmark.\-cpp.
+
+\hypertarget{classbenchmark_a9beb25d3e65b94c1ac7c085d8105fe65}{\index{benchmark@{benchmark}!czas\-\_\-stop@{czas\-\_\-stop}}
+\index{czas\-\_\-stop@{czas\-\_\-stop}!benchmark@{benchmark}}
+\subsubsection[{czas\-\_\-stop}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::czas\-\_\-stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a9beb25d3e65b94c1ac7c085d8105fe65}
+
+
+Funkcja pomocnicza mierzenia czasu. 
+
+Funkcja konczy liczyc czas od momentu wywolania tej metody Sluzy do liczenia czasu wykonywania pojedynczego wypelniania stosu/kolejki 
+
+Definition at line 17 of file benchmark.\-cpp.
+
+\hypertarget{classbenchmark_a613a8792feca7c2622355922d64d6fcd}{\index{benchmark@{benchmark}!ile\-\_\-czasu@{ile\-\_\-czasu}}
+\index{ile\-\_\-czasu@{ile\-\_\-czasu}!benchmark@{benchmark}}
+\subsubsection[{ile\-\_\-czasu}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::ile\-\_\-czasu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a613a8792feca7c2622355922d64d6fcd}
+
+
+Funkcja obliczania czasu dzialania programu. 
+
+Funkcja podaje czas wykonywania pojedynczego wypelniania stosu/kolejki
+
+\begin{DoxyReturn}{Returns}
+elapsed\-Time -\/$>$ zmienna typu double ( wynik obliczen ) 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file benchmark.\-cpp.
+
+\hypertarget{classbenchmark_aacae513e2f55669c83f37a07110f3989}{\index{benchmark@{benchmark}!wykonaj\-\_\-algorytn@{wykonaj\-\_\-algorytn}}
+\index{wykonaj\-\_\-algorytn@{wykonaj\-\_\-algorytn}!benchmark@{benchmark}}
+\subsubsection[{wykonaj\-\_\-algorytn}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::wykonaj\-\_\-algorytn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_aacae513e2f55669c83f37a07110f3989}
+
+
+Funkcja wykonujaca algorytm. 
+
+Dzialanie funkcji\-: \par
+-\/$>$ stworzenie obiektow klas \-: \par
+ $\ast$stos\-\_\-lista \par
+ $\ast$stos\-\_\-tablica \par
+ $\ast$kolejka\-\_\-lista \par
+ $\ast$kolejka\-\_\-tablica \par
+-\/$>$ wypelniana jest wartosciami z plikow z \-: \par
+ $\ast$ 10 elementami \par
+ $\ast$ 100 elementami \par
+ $\ast$ 1000 elementami \par
+ $\ast$ 10000 elementami \par
+-\/$>$ wyswietlenie wynikow \-: \par
+-\/ czasu dzialania po kolei kazdego wypelnienia z osobna \par
+-\/ czasu dzialania calego algorytmu 
+
+Definition at line 27 of file benchmark.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbenchmark_aacae513e2f55669c83f37a07110f3989_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classbenchmark_aacae513e2f55669c83f37a07110f3989_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classbenchmark_a563b747421276232836b7711b6881ec8}{\index{benchmark@{benchmark}!czas@{czas}}
+\index{czas@{czas}!benchmark@{benchmark}}
+\subsubsection[{czas}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::czas\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_a563b747421276232836b7711b6881ec8}
+
+
+Pole typu double, bedzie uzywane do mierzenia calkowitego czasu dzialania programu. 
+
+
+
+Definition at line 52 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_a90e6eda0144befd3f3bc1a881904fb57}{\index{benchmark@{benchmark}!elapsed\-Time@{elapsed\-Time}}
+\index{elapsed\-Time@{elapsed\-Time}!benchmark@{benchmark}}
+\subsubsection[{elapsed\-Time}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::elapsed\-Time\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_a90e6eda0144befd3f3bc1a881904fb57}
+
+
+Pole typu double, bedzie uzywane do mierzenia czasu dzialania pojedynczego wypelniania. 
+
+
+
+Definition at line 48 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_a7789217b36df3b3ae427ceaaa2694d0b}{\index{benchmark@{benchmark}!t1@{t1}}
+\index{t1@{t1}!benchmark@{benchmark}}
+\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}timeval benchmark\-::t1\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_a7789217b36df3b3ae427ceaaa2694d0b}
+
+
+Pole typu timeval, pomoc do liczenia czasu dzialania operacji krotkich ( tzn pojedynczego dzialania) 
+
+
+
+Definition at line 56 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_aea9f22e585c0c5826329e48a97a99803}{\index{benchmark@{benchmark}!t2@{t2}}
+\index{t2@{t2}!benchmark@{benchmark}}
+\subsubsection[{t2}]{\setlength{\rightskip}{0pt plus 5cm}timeval benchmark\-::t2\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_aea9f22e585c0c5826329e48a97a99803}
+
+
+Definition at line 56 of file benchmark.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/inc/\hyperlink{benchmark_8hh}{benchmark.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/src/\hyperlink{benchmark_8cpp}{benchmark.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,37 @@
+/*!
+\mainpage Benchmark
+
+\author Pawel Zurek
+\date 16.03.2014
+\version 1.1.b
+
+Program umożliwia liczenie czasu trwania operacji wypelniania liczbami stosu / kolejki.
+
+\section etykieta-wazne-cechy Najważniejsze cechy
+
+Program sluzy do liczenia czasu wypelnienia liczbami stosow i kolejek za pomoca :\n
+
+\n-> list
+\n-> tablic ( po przekroczeniu rozmiaru tablicy, rozmiar powiekszany o jeden )
+\n-> tablic ( po przekroczeniu rozmiaru tablicy, rozmiar zwiekszany dwukrotnie )
+  
+\section etykieta-op-algorytm  Opis algorytmu
+
+Algorytm w tym zadaniu to 6 petli :
+\n-> wypelnienie stosu za pomoca listy
+\n-> wypelnienie kolejki za pomoca listy
+\n-> wypelnienie stosu za pomoca tablicy ( rozmiar o jeden )
+\n-> wypelnienie stosu za pomoca tablicy ( rozmiar x2 )
+\n-> wypelnienie kolejki za pomoca tablicy ( rozmiar o jeden )
+\n-> wypelnienie kolejki za pomoca tablicy ( rozmiar x2)
+
+\n,na ktora sklada sie wypelnienie nastepujaca iloscia elementow:
+
+\n-> 10
+\n-> 100
+\n-> 1000
+\n-> 10000
+
+Czasy sa wyprowadzane na standartowe wyjscie.
+
+ */

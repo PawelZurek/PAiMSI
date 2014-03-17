@@ -1,0 +1,316 @@
+\hypertarget{classstos__lista}{\section{stos\-\_\-lista Class Reference}
+\label{classstos__lista}\index{stos\-\_\-lista@{stos\-\_\-lista}}
+}
+
+
+Modeluje pojecie Stos.  
+
+
+
+
+{\ttfamily \#include $<$stos\-\_\-lista.\-hh$>$}
+
+
+
+Collaboration diagram for stos\-\_\-lista\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{classstos__lista__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstos__lista_af779e46538f7fec8b2ecdd6469ead07c}{stos\-\_\-lista} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy stos. \end{DoxyCompactList}\item 
+\hyperlink{classstos__lista_a41eabf2ed23d39a334345484896857ed}{$\sim$stos\-\_\-lista} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy stos. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__lista_a33781da85b24ffc9d6a6f5b470eaa654}{wczytaj\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__lista_a3ee1e31107ca47737451d808c85f2167}{wczytaj\-\_\-dane} (string nazwa)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__lista_afd27e50bafd3f39fec49568522cc61b2}{pokaz\-\_\-elementy} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca. \end{DoxyCompactList}\item 
+bool \hyperlink{classstos__lista_abce2b3948d8a5dd5f62bfc985d97fe54}{isempty} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania pustosci stosu. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classstos__lista_a36fa9223746729efa49ffad6001e87ae}{size} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania rozmiar stosu. \end{DoxyCompactList}\item 
+\hyperlink{classelement}{element} $\ast$ \hyperlink{classstos__lista_ad38186a811405f247940c262073744f1}{push} (\hyperlink{classelement}{element} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Funkcja dodajaca element. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__lista_af461edd89f331e301d02460dc330b4e5}{dodaj\-\_\-element} (int a)
+\begin{DoxyCompactList}\small\item\em Funkcja dodajaca element. \end{DoxyCompactList}\item 
+\hyperlink{classelement}{element} $\ast$ \hyperlink{classstos__lista_af637e1d174c0f0005e0157b6dc35c41a}{pop} ()
+\begin{DoxyCompactList}\small\item\em Funkcja usuwajaca ostatni element ze stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classelement}{element} $\ast$ \hyperlink{classstos__lista_ad9cd66242f8b8342bb3d8cb5852f58c5}{przod}
+\begin{DoxyCompactList}\small\item\em Pole typu element, wskazuje na pierwszy element listy. \end{DoxyCompactList}\item 
+\hyperlink{classelement}{element} $\ast$ \hyperlink{classstos__lista_af724a08b1601250dfc1a333430be9515}{tyl}
+\begin{DoxyCompactList}\small\item\em Pole typu element, wskazuje na ostatni element listy. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classstos__lista_ab9d47f55d1288d44e0b58fcea281925f}{licznik}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako rozmiar stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Stos. 
+
+Stos jest klasa zawierajaca dynamicznie zaalokowane lista 
+
+Definition at line 53 of file stos\-\_\-lista.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classstos__lista_af779e46538f7fec8b2ecdd6469ead07c}{\index{stos\-\_\-lista@{stos\-\_\-lista}!stos\-\_\-lista@{stos\-\_\-lista}}
+\index{stos\-\_\-lista@{stos\-\_\-lista}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{stos\-\_\-lista}]{\setlength{\rightskip}{0pt plus 5cm}stos\-\_\-lista\-::stos\-\_\-lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__lista_af779e46538f7fec8b2ecdd6469ead07c}
+
+
+Konstruktor klasy stos. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 79 of file stos\-\_\-lista.\-hh.
+
+\hypertarget{classstos__lista_a41eabf2ed23d39a334345484896857ed}{\index{stos\-\_\-lista@{stos\-\_\-lista}!$\sim$stos\-\_\-lista@{$\sim$stos\-\_\-lista}}
+\index{$\sim$stos\-\_\-lista@{$\sim$stos\-\_\-lista}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{$\sim$stos\-\_\-lista}]{\setlength{\rightskip}{0pt plus 5cm}stos\-\_\-lista\-::$\sim$stos\-\_\-lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__lista_a41eabf2ed23d39a334345484896857ed}
+
+
+Destruktor klasy stos. 
+
+Usuwa dynamicznie zaalokawana liste 
+
+Definition at line 86 of file stos\-\_\-lista.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classstos__lista_af461edd89f331e301d02460dc330b4e5}{\index{stos\-\_\-lista@{stos\-\_\-lista}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-lista\-::dodaj\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{int}]{a}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_af461edd89f331e301d02460dc330b4e5}
+
+
+Funkcja dodajaca element. 
+
+Funkcja dodaje do stosu element podany przez uzytkownika poprzez wywolanie funkcji \hyperlink{classstos__lista_ad38186a811405f247940c262073744f1}{push()}. 
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ pole typu int przechowuje wartosc jaka ma byc wpisana \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file stos\-\_\-lista.\-cpp.
+
+\hypertarget{classstos__lista_abce2b3948d8a5dd5f62bfc985d97fe54}{\index{stos\-\_\-lista@{stos\-\_\-lista}!isempty@{isempty}}
+\index{isempty@{isempty}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{isempty}]{\setlength{\rightskip}{0pt plus 5cm}bool stos\-\_\-lista\-::isempty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_abce2b3948d8a5dd5f62bfc985d97fe54}
+
+
+Funkcja sprawdzania pustosci stosu. 
+
+Funkcja sprawdza czy stos jest pusty
+
+\begin{DoxyReturn}{Returns}
+1 -\/$>$ Stos pusty \par
+ 0 -\/$>$ Stos nie pusty 
+\end{DoxyReturn}
+
+
+Definition at line 7 of file stos\-\_\-lista.\-cpp.
+
+\hypertarget{classstos__lista_afd27e50bafd3f39fec49568522cc61b2}{\index{stos\-\_\-lista@{stos\-\_\-lista}!pokaz\-\_\-elementy@{pokaz\-\_\-elementy}}
+\index{pokaz\-\_\-elementy@{pokaz\-\_\-elementy}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{pokaz\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-lista\-::pokaz\-\_\-elementy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_afd27e50bafd3f39fec49568522cc61b2}
+
+
+Funkcja wyswietlajaca. 
+
+Funkcja wyswietla aktualny stan stosu 
+
+Definition at line 44 of file stos\-\_\-lista.\-cpp.
+
+\hypertarget{classstos__lista_af637e1d174c0f0005e0157b6dc35c41a}{\index{stos\-\_\-lista@{stos\-\_\-lista}!pop@{pop}}
+\index{pop@{pop}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}{\bf element} $\ast$ stos\-\_\-lista\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_af637e1d174c0f0005e0157b6dc35c41a}
+
+
+Funkcja usuwajaca ostatni element ze stosu. 
+
+Funkcja usuwa z listy pierwszy element i zwraca jego adres. Element zostaje jedynie odłączony od listy, lecz wciąż zajmuje swój obszar pamięci.
+
+Na początku sprawdzamy, czy lista zawiera jakiś element. Jeśli nie, zwracamy N\-U\-L\-L. W przeciwnym razie zapamiętujemy w zmiennej p adres pierwszego elementu. W polu przod umieszczamy adres następnego elementu listy. W ten sposób element p zostaje odłączony logicznie od listy.
+
+Jeśli po odłączeniu pole przod zawiera adres N\-U\-L\-L, to lista jest obecnie pusta i N\-U\-L\-L wpisujemy również do pola tyl.
+
+Zmniejszamy o jeden licznik licznik i zwracamy adres usuniętego z listy elementu. 
+
+Definition at line 28 of file stos\-\_\-lista.\-cpp.
+
+\hypertarget{classstos__lista_ad38186a811405f247940c262073744f1}{\index{stos\-\_\-lista@{stos\-\_\-lista}!push@{push}}
+\index{push@{push}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}{\bf element} $\ast$ stos\-\_\-lista\-::push (
+\begin{DoxyParamCaption}
+\item[{{\bf element} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_ad38186a811405f247940c262073744f1}
+
+
+Funkcja dodajaca element. 
+
+Funkcja wstawia nowy element p na początek listy i zwraca jego adres.
+
+Najpierw wpisuje w pole nastpeny elementu p adres pierwszego elementu listy. W efekcie pierwszy element listy staje się elementem następnym dla p. W polu przod zostaje umieszczony adres elementu p, czyli staje się on pierwszym elementem na liście.
+
+Lista mogła być pusta. Jeśli pole tyl zawiera N\-U\-L\-L, to wstawiony element jest jedynym jak dotąd elementem listy. Zatem jest on zarówno elementem pierwszym jak i ostatnim. Dlatego w polu tyl umieszczamy w tym przypadku adres pierwszego elementu pobrany z pola przod.
+
+Po wstawieniu elementu zwiększamy licznik licznik i zwracamy adres pierwszego elementu listy.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & -\/ pole typu element przechowuje wartosc jaka ma byc wpisana \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+adres nowego elementu. 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file stos\-\_\-lista.\-cpp.
+
+\hypertarget{classstos__lista_a36fa9223746729efa49ffad6001e87ae}{\index{stos\-\_\-lista@{stos\-\_\-lista}!size@{size}}
+\index{size@{size}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}unsigned stos\-\_\-lista\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_a36fa9223746729efa49ffad6001e87ae}
+
+
+Funkcja sprawdzania rozmiar stosu. 
+
+Funkcja podaje aktualny rozmiar stosu
+
+\begin{DoxyReturn}{Returns}
+rozmiar -\/$>$ rozmiar stosu 
+\end{DoxyReturn}
+
+
+Definition at line 15 of file stos\-\_\-lista.\-cpp.
+
+\hypertarget{classstos__lista_a33781da85b24ffc9d6a6f5b470eaa654}{\index{stos\-\_\-lista@{stos\-\_\-lista}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-lista\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_a33781da85b24ffc9d6a6f5b470eaa654}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do stosu z podanego pliku przez uzytkownika. 
+
+Definition at line 68 of file stos\-\_\-lista.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__lista_a33781da85b24ffc9d6a6f5b470eaa654_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstos__lista_a3ee1e31107ca47737451d808c85f2167}{\index{stos\-\_\-lista@{stos\-\_\-lista}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-lista\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classstos__lista_a3ee1e31107ca47737451d808c85f2167}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli po przez wpisanie nazwy jako argument metody Wykorzystuje metode push jako funkcje wpisujaca do stosu
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & -\/$>$ zmienna typu string, przechowuje nazwe otwieranego pliku \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 85 of file stos\-\_\-lista.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classstos__lista_ab9d47f55d1288d44e0b58fcea281925f}{\index{stos\-\_\-lista@{stos\-\_\-lista}!licznik@{licznik}}
+\index{licznik@{licznik}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{licznik}]{\setlength{\rightskip}{0pt plus 5cm}unsigned stos\-\_\-lista\-::licznik\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__lista_ab9d47f55d1288d44e0b58fcea281925f}
+
+
+Pole typu int, bedzie uzywane jako rozmiar stosu. 
+
+
+
+Definition at line 68 of file stos\-\_\-lista.\-hh.
+
+\hypertarget{classstos__lista_ad9cd66242f8b8342bb3d8cb5852f58c5}{\index{stos\-\_\-lista@{stos\-\_\-lista}!przod@{przod}}
+\index{przod@{przod}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{przod}]{\setlength{\rightskip}{0pt plus 5cm}{\bf element}$\ast$ stos\-\_\-lista\-::przod\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__lista_ad9cd66242f8b8342bb3d8cb5852f58c5}
+
+
+Pole typu element, wskazuje na pierwszy element listy. 
+
+
+
+Definition at line 59 of file stos\-\_\-lista.\-hh.
+
+\hypertarget{classstos__lista_af724a08b1601250dfc1a333430be9515}{\index{stos\-\_\-lista@{stos\-\_\-lista}!tyl@{tyl}}
+\index{tyl@{tyl}!stos_lista@{stos\-\_\-lista}}
+\subsubsection[{tyl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf element}$\ast$ stos\-\_\-lista\-::tyl\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__lista_af724a08b1601250dfc1a333430be9515}
+
+
+Pole typu element, wskazuje na ostatni element listy. 
+
+
+
+Definition at line 63 of file stos\-\_\-lista.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/inc/\hyperlink{stos__lista_8hh}{stos\-\_\-lista.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/src/\hyperlink{stos__lista_8cpp}{stos\-\_\-lista.\-cpp}\end{DoxyCompactItemize}

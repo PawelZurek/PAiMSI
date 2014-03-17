@@ -1,0 +1,372 @@
+\hypertarget{classkolejka__lista}{\section{kolejka\-\_\-lista Class Reference}
+\label{classkolejka__lista}\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}}
+}
+
+
+Modeluje pojecie Kolejka.  
+
+
+
+
+{\ttfamily \#include $<$kolejka\-\_\-lista.\-hh$>$}
+
+
+
+Collaboration diagram for kolejka\-\_\-lista\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{classkolejka__lista__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkolejka__lista_a501a2eeb46cc914d6aa84e0eab0f7b20}{kolejka\-\_\-lista} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy kolejka. \end{DoxyCompactList}\item 
+\hyperlink{classkolejka__lista_a01a293936690fd9af18220939a8a934c}{$\sim$kolejka\-\_\-lista} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy Kolejka. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__lista_a6b3e5198fc3f572417e718c5c263c184}{wczytaj\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__lista_a0db9fa402ebbd0a4038950d3abddba8c}{wczytaj\-\_\-dane} (string nazwa)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__lista_a42a5b9ed3da1c9d3b855999b890ccee3}{pokaz\-\_\-elementy} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca. \end{DoxyCompactList}\item 
+bool \hyperlink{classkolejka__lista_a139de3d0627c47ed921d95bd3bc41bae}{isempty} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania pustosci kolejki. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classkolejka__lista_a874481fb9b5c8324205b30c28a58d713}{size} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania rozmiar kolejki. \end{DoxyCompactList}\item 
+\hyperlink{classelementk}{elementk} $\ast$ \hyperlink{classkolejka__lista_abb6cd9a2a527bcaa2515e62c9c6e6813}{push} (\hyperlink{classelementk}{elementk} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Funkcja dodajaca element. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__lista_af92f6af53ded24a2b86c85790797b356}{dodaj\-\_\-element} (int a)
+\begin{DoxyCompactList}\small\item\em Funkcja dodajaca element. \end{DoxyCompactList}\item 
+\hyperlink{classelementk}{elementk} $\ast$ \hyperlink{classkolejka__lista_a36a5b9c7c4e57e23aa8d2bb9afb223ef}{pop} ()
+\begin{DoxyCompactList}\small\item\em Funkcja usuwajaca ostatni element ze stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classelementk}{elementk} $\ast$ \hyperlink{classkolejka__lista_aedc7846eba7725b49c3de16fa18ae33a}{przod}
+\begin{DoxyCompactList}\small\item\em Pole typu element, wskazuje na pierwszy element listy. \end{DoxyCompactList}\item 
+\hyperlink{classelementk}{elementk} $\ast$ \hyperlink{classkolejka__lista_a9675dc97e4a026b1556699024e24636e}{tyl}
+\begin{DoxyCompactList}\small\item\em Pole typu element, wskazuje na ostatni element listy. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classkolejka__lista_a6b12b09e2f057761ac4d5ac1b1c82115}{licznik}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako rozmiar kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Kolejka. 
+
+Stos jest klasa zawierajaca dynamicznie zaalokowane liste 
+
+Definition at line 52 of file kolejka\-\_\-lista.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classkolejka__lista_a501a2eeb46cc914d6aa84e0eab0f7b20}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!kolejka\-\_\-lista@{kolejka\-\_\-lista}}
+\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{kolejka\-\_\-lista}]{\setlength{\rightskip}{0pt plus 5cm}kolejka\-\_\-lista\-::kolejka\-\_\-lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejka__lista_a501a2eeb46cc914d6aa84e0eab0f7b20}
+
+
+Konstruktor klasy kolejka. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 78 of file kolejka\-\_\-lista.\-hh.
+
+\hypertarget{classkolejka__lista_a01a293936690fd9af18220939a8a934c}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!$\sim$kolejka\-\_\-lista@{$\sim$kolejka\-\_\-lista}}
+\index{$\sim$kolejka\-\_\-lista@{$\sim$kolejka\-\_\-lista}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{$\sim$kolejka\-\_\-lista}]{\setlength{\rightskip}{0pt plus 5cm}kolejka\-\_\-lista\-::$\sim$kolejka\-\_\-lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejka__lista_a01a293936690fd9af18220939a8a934c}
+
+
+Destruktor klasy Kolejka. 
+
+Usuwa dynamicznie zaalokawana liste 
+
+Definition at line 85 of file kolejka\-\_\-lista.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classkolejka__lista_af92f6af53ded24a2b86c85790797b356}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-lista\-::dodaj\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{int}]{a}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_af92f6af53ded24a2b86c85790797b356}
+
+
+Funkcja dodajaca element. 
+
+Funkcja dodaje do stosu element podany przez uzytkownika poprzez wywolanie funkcji \hyperlink{classkolejka__lista_abb6cd9a2a527bcaa2515e62c9c6e6813}{push()}. 
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ pole typu int przechowuje wartosc jaka ma byc wpisana \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file kolejka\-\_\-lista.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classkolejka__lista_af92f6af53ded24a2b86c85790797b356_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__lista_af92f6af53ded24a2b86c85790797b356_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__lista_a139de3d0627c47ed921d95bd3bc41bae}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!isempty@{isempty}}
+\index{isempty@{isempty}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{isempty}]{\setlength{\rightskip}{0pt plus 5cm}bool kolejka\-\_\-lista\-::isempty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_a139de3d0627c47ed921d95bd3bc41bae}
+
+
+Funkcja sprawdzania pustosci kolejki. 
+
+Funkcja sprawdza czy kolejka jest pusty
+
+\begin{DoxyReturn}{Returns}
+1 -\/$>$ Kolejka pusta 0 -\/$>$ kolejka nie pusta 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file kolejka\-\_\-lista.\-cpp.
+
+\hypertarget{classkolejka__lista_a42a5b9ed3da1c9d3b855999b890ccee3}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!pokaz\-\_\-elementy@{pokaz\-\_\-elementy}}
+\index{pokaz\-\_\-elementy@{pokaz\-\_\-elementy}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{pokaz\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-lista\-::pokaz\-\_\-elementy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_a42a5b9ed3da1c9d3b855999b890ccee3}
+
+
+Funkcja wyswietlajaca. 
+
+Funkcja wyswietla aktualny stan kolejki 
+
+Definition at line 44 of file kolejka\-\_\-lista.\-cpp.
+
+\hypertarget{classkolejka__lista_a36a5b9c7c4e57e23aa8d2bb9afb223ef}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!pop@{pop}}
+\index{pop@{pop}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}{\bf elementk} $\ast$ kolejka\-\_\-lista\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_a36a5b9c7c4e57e23aa8d2bb9afb223ef}
+
+
+Funkcja usuwajaca ostatni element ze stosu. 
+
+Funkcja usuwa z listy ostatni element i zwraca jego adres.
+
+Jeśli lista jest pusta, to pole tyl zawiera N\-U\-L\-L. W takim przypadku zwracamy N\-U\-L\-L i kończymy.
+
+W przeciwnym razie zapamiętujemy adres ostatniego elementu listy w p. Jeśli lista zawiera tylko jeden element , to pola przod i tyl zawierają ten sam adres. W takim przypadku lista staje się pusta po odłączeniu ostatniego elementu, dlatego wpisujemy w nie adres pusty N\-U\-L\-L.
+
+Jeśli lista zawiera więcej niż jeden element, to przechodzimy kolejno przez wszystkie elementy listy ustawiając pole tyl na adres poprzednika ostatniego elementu. W poprzedniku zerujemy następnik.
+
+Zmniejszamy licznik i zwracamy zapamiętany w p adres ostatniego elementu. 
+
+Definition at line 28 of file kolejka\-\_\-lista.\-cpp.
+
+\hypertarget{classkolejka__lista_abb6cd9a2a527bcaa2515e62c9c6e6813}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!push@{push}}
+\index{push@{push}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}{\bf elementk} $\ast$ kolejka\-\_\-lista\-::push (
+\begin{DoxyParamCaption}
+\item[{{\bf elementk} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_abb6cd9a2a527bcaa2515e62c9c6e6813}
+
+
+Funkcja dodajaca element. 
+
+Funkcja wstawia nowy element p na koniec kolejki i zwraca jego adres.
+
+Jeśli lista zawiera jakieś elementy, to tyl zawsze wskazuje ostatni element listy. W pole nastepny ostatniego elementu wpisujemy w takim przypadku adres wstawianego elementu. W efekcie zostanie on dołączony do końca listy. W polu nastepny nowego elementu umieszczamy adres zerowy N\-U\-L\-L, ponieważ jest on teraz ostatnim elementem i nie posiada następnika.
+
+Lista mogła być pusta. W takim przypadku wstawiony element jest jednocześnie pierwszym i ostatnim. Dlatego do pola przod wpisujemy adres pobrany z pola tyl.
+
+Po wstawieniu elementu zwiększamy licznik licznik i zwracamy adres końca kolejki.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & -\/ pole typu element przechowuje wartosc jaka ma byc wpisana \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+adres nowego elementu. 
+\end{DoxyReturn}
+
+
+Definition at line 19 of file kolejka\-\_\-lista.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__lista_abb6cd9a2a527bcaa2515e62c9c6e6813_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__lista_a874481fb9b5c8324205b30c28a58d713}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!size@{size}}
+\index{size@{size}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}unsigned kolejka\-\_\-lista\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_a874481fb9b5c8324205b30c28a58d713}
+
+
+Funkcja sprawdzania rozmiar kolejki. 
+
+Funkcja podaje aktualny rozmiar kolejki
+
+\begin{DoxyReturn}{Returns}
+rozmiar -\/$>$ rozmiar kolejki 
+\end{DoxyReturn}
+
+
+Definition at line 14 of file kolejka\-\_\-lista.\-cpp.
+
+\hypertarget{classkolejka__lista_a6b3e5198fc3f572417e718c5c263c184}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-lista\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_a6b3e5198fc3f572417e718c5c263c184}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do stosu z podanego pliku przez uzytkownika. 
+
+Definition at line 68 of file kolejka\-\_\-lista.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__lista_a6b3e5198fc3f572417e718c5c263c184_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__lista_a6b3e5198fc3f572417e718c5c263c184_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__lista_a0db9fa402ebbd0a4038950d3abddba8c}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-lista\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__lista_a0db9fa402ebbd0a4038950d3abddba8c}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli po przez wpisanie nazwy jako argument metody Wykorzystuje metode push jako funkcje wpisujaca do kolejki
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & -\/$>$ zmienna typu string, przechowuje nazwe otwieranego pliku \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 85 of file kolejka\-\_\-lista.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__lista_a0db9fa402ebbd0a4038950d3abddba8c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classkolejka__lista_a6b12b09e2f057761ac4d5ac1b1c82115}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!licznik@{licznik}}
+\index{licznik@{licznik}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{licznik}]{\setlength{\rightskip}{0pt plus 5cm}unsigned kolejka\-\_\-lista\-::licznik\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__lista_a6b12b09e2f057761ac4d5ac1b1c82115}
+
+
+Pole typu int, bedzie uzywane jako rozmiar kolejki. 
+
+
+
+Definition at line 67 of file kolejka\-\_\-lista.\-hh.
+
+\hypertarget{classkolejka__lista_aedc7846eba7725b49c3de16fa18ae33a}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!przod@{przod}}
+\index{przod@{przod}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{przod}]{\setlength{\rightskip}{0pt plus 5cm}{\bf elementk}$\ast$ kolejka\-\_\-lista\-::przod\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__lista_aedc7846eba7725b49c3de16fa18ae33a}
+
+
+Pole typu element, wskazuje na pierwszy element listy. 
+
+
+
+Definition at line 58 of file kolejka\-\_\-lista.\-hh.
+
+\hypertarget{classkolejka__lista_a9675dc97e4a026b1556699024e24636e}{\index{kolejka\-\_\-lista@{kolejka\-\_\-lista}!tyl@{tyl}}
+\index{tyl@{tyl}!kolejka_lista@{kolejka\-\_\-lista}}
+\subsubsection[{tyl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf elementk}$\ast$ kolejka\-\_\-lista\-::tyl\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__lista_a9675dc97e4a026b1556699024e24636e}
+
+
+Pole typu element, wskazuje na ostatni element listy. 
+
+
+
+Definition at line 62 of file kolejka\-\_\-lista.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/inc/\hyperlink{kolejka__lista_8hh}{kolejka\-\_\-lista.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/src/\hyperlink{kolejka__lista_8cpp}{kolejka\-\_\-lista.\-cpp}\end{DoxyCompactItemize}

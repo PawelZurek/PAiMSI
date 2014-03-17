@@ -1,0 +1,403 @@
+\hypertarget{classkolejka__tablica}{\section{kolejka\-\_\-tablica Class Reference}
+\label{classkolejka__tablica}\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}}
+}
+
+
+Modeluje pojecie Kolejka.  
+
+
+
+
+{\ttfamily \#include $<$kolejka\-\_\-tablica.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkolejka__tablica_a565d77cf3095a0cb77cfccf27e9260a9}{kolejka\-\_\-tablica} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy kolejka. \end{DoxyCompactList}\item 
+\hyperlink{classkolejka__tablica_a5acfcbf51ae46b443f12d42434979071}{$\sim$kolejka\-\_\-tablica} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy kolejka. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_af0bad5bef2d63767aff69de565026fd2}{wczytaj\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_a228697894cc79cea2e5555d624989b1d}{wczytaj\-\_\-dane} (string nazwa)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_a997d0fa8aa2ff8eb838998a82353d828}{wczytaj\-\_\-danex2} (string nazwa)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_ab6d165be6dfc519412499250722d1097}{pokaz\-\_\-elementy} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca. \end{DoxyCompactList}\item 
+bool \hyperlink{classkolejka__tablica_ad9c58be886c2a4ff8b94c135776442a4}{is\-Empty} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania pustosci kolejki. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classkolejka__tablica_a6073b1f832606e6ff706577bc2699338}{size} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania rozmiar kolejki. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_a080e798ff0e2f7168b41c96f3e46753a}{push} (int \hyperlink{classelement}{element})
+\begin{DoxyCompactList}\small\item\em Funkcja dodajaca element. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_ae08cb58ee66340aeb5ef7462eaf05ed8}{pushx2} (int \hyperlink{classelement}{element})
+\begin{DoxyCompactList}\small\item\em Funkcja dodajaca element. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tablica_acba0b7dffe0511cf500dc7b4e1bcb3ee}{pop} ()
+\begin{DoxyCompactList}\small\item\em Funkcja usuwajaca ostatni element ze kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classkolejka__tablica_a3db25a7939b4a9d96127b29b753d9010}{dane}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako kolejki z danymi. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classkolejka__tablica_a3701ca21511ad3acdecf4cce08625eba}{danetmp}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako kolejko z danymi sprawdzajacymi, pomocniczymi. \end{DoxyCompactList}\item 
+int \hyperlink{classkolejka__tablica_a1cec0ee294c7afb2c6b7ba5589cb8e38}{rozmiar}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako rozmiar tabeli. \end{DoxyCompactList}\item 
+int \hyperlink{classkolejka__tablica_afbf8e02fb0cbdc2674fc68da04d8202d}{spr}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako pomocnicza wartosc jako rozmiar kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Kolejka. 
+
+Kolejka\-\_\-tab jest klasa zawierajaca dynamicznie zaalokowana tablice i tablice pomocnicza przy dodawaniu i usuwaniu elementow z kolejki. 
+
+Definition at line 29 of file kolejka\-\_\-tablica.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classkolejka__tablica_a565d77cf3095a0cb77cfccf27e9260a9}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!kolejka\-\_\-tablica@{kolejka\-\_\-tablica}}
+\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{kolejka\-\_\-tablica}]{\setlength{\rightskip}{0pt plus 5cm}kolejka\-\_\-tablica\-::kolejka\-\_\-tablica (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejka__tablica_a565d77cf3095a0cb77cfccf27e9260a9}
+
+
+Konstruktor klasy kolejka. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 59 of file kolejka\-\_\-tablica.\-hh.
+
+\hypertarget{classkolejka__tablica_a5acfcbf51ae46b443f12d42434979071}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!$\sim$kolejka\-\_\-tablica@{$\sim$kolejka\-\_\-tablica}}
+\index{$\sim$kolejka\-\_\-tablica@{$\sim$kolejka\-\_\-tablica}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{$\sim$kolejka\-\_\-tablica}]{\setlength{\rightskip}{0pt plus 5cm}kolejka\-\_\-tablica\-::$\sim$kolejka\-\_\-tablica (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejka__tablica_a5acfcbf51ae46b443f12d42434979071}
+
+
+Destruktor klasy kolejka. 
+
+Usuwa dynamicznie zaalokawana tablice 
+
+Definition at line 66 of file kolejka\-\_\-tablica.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classkolejka__tablica_ad9c58be886c2a4ff8b94c135776442a4}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}bool kolejka\-\_\-tablica\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_ad9c58be886c2a4ff8b94c135776442a4}
+
+
+Funkcja sprawdzania pustosci kolejki. 
+
+Funkcja sprawdza czy kolejka jest pusty
+
+\begin{DoxyReturn}{Returns}
+1 -\/$>$ Kolejka pusta 0 -\/$>$ Kolejka nie pusta 
+\end{DoxyReturn}
+
+
+Definition at line 4 of file kolejka\-\_\-tablica.\-cpp.
+
+\hypertarget{classkolejka__tablica_ab6d165be6dfc519412499250722d1097}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!pokaz\-\_\-elementy@{pokaz\-\_\-elementy}}
+\index{pokaz\-\_\-elementy@{pokaz\-\_\-elementy}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{pokaz\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::pokaz\-\_\-elementy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_ab6d165be6dfc519412499250722d1097}
+
+
+Funkcja wyswietlajaca. 
+
+Funkcja wyswietla aktualny stan kolejki 
+
+Definition at line 94 of file kolejka\-\_\-tablica.\-cpp.
+
+\hypertarget{classkolejka__tablica_acba0b7dffe0511cf500dc7b4e1bcb3ee}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!pop@{pop}}
+\index{pop@{pop}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_acba0b7dffe0511cf500dc7b4e1bcb3ee}
+
+
+Funkcja usuwajaca ostatni element ze kolejki. 
+
+Funkcja usuwa ostatni element znajdujacy sie na kolejce oraz zmniejsza jego rozmiar o jeden. 
+
+Definition at line 75 of file kolejka\-\_\-tablica.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_acba0b7dffe0511cf500dc7b4e1bcb3ee_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__tablica_a080e798ff0e2f7168b41c96f3e46753a}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!push@{push}}
+\index{push@{push}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_a080e798ff0e2f7168b41c96f3e46753a}
+
+
+Funkcja dodajaca element. 
+
+Funkcja dodaje do stosu element podany przez uzytkownika Funkcja dodaje element poprzez zwiekszenie rozmiaru tablicy o jeden. 
+\begin{DoxyParams}{Parameters}
+{\em element} & -\/ pole typu int przechowuje wartosc jaka ma byc wpisana \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 17 of file kolejka\-\_\-tablica.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_a080e798ff0e2f7168b41c96f3e46753a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__tablica_ae08cb58ee66340aeb5ef7462eaf05ed8}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!pushx2@{pushx2}}
+\index{pushx2@{pushx2}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{pushx2}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::pushx2 (
+\begin{DoxyParamCaption}
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_ae08cb58ee66340aeb5ef7462eaf05ed8}
+
+
+Funkcja dodajaca element. 
+
+Funkcja dodaje do stosu element podany przez uzytkownika Funkcja dodaje element poprzez zwiekszenie rozmiaru tablicy o dwa razy niz aktualny stan. 
+\begin{DoxyParams}{Parameters}
+{\em element} & -\/ pole typu int przechowuje wartosc jaka ma byc wpisana \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file kolejka\-\_\-tablica.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_ae08cb58ee66340aeb5ef7462eaf05ed8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__tablica_a6073b1f832606e6ff706577bc2699338}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!size@{size}}
+\index{size@{size}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}unsigned kolejka\-\_\-tablica\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_a6073b1f832606e6ff706577bc2699338}
+
+
+Funkcja sprawdzania rozmiar kolejki. 
+
+Funkcja podaje aktualny rozmiar kolejki
+
+\begin{DoxyReturn}{Returns}
+rozmiar -\/$>$ rozmiar kolejki 
+\end{DoxyReturn}
+
+
+Definition at line 12 of file kolejka\-\_\-tablica.\-cpp.
+
+\hypertarget{classkolejka__tablica_af0bad5bef2d63767aff69de565026fd2}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_af0bad5bef2d63767aff69de565026fd2}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli z podanego pliku przez uzytkownika. 
+
+Definition at line 107 of file kolejka\-\_\-tablica.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_af0bad5bef2d63767aff69de565026fd2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_af0bad5bef2d63767aff69de565026fd2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__tablica_a228697894cc79cea2e5555d624989b1d}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_a228697894cc79cea2e5555d624989b1d}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli po przez wpisanie nazwy jako argument metody Wykorzystuje metode push jako funkcje wpisujaca do kolejki
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & -\/$>$ zmienna typu string, przechowuje nazwe otwieranego pliku \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 124 of file kolejka\-\_\-tablica.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_a228697894cc79cea2e5555d624989b1d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkolejka__tablica_a997d0fa8aa2ff8eb838998a82353d828}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!wczytaj\-\_\-danex2@{wczytaj\-\_\-danex2}}
+\index{wczytaj\-\_\-danex2@{wczytaj\-\_\-danex2}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{wczytaj\-\_\-danex2}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tablica\-::wczytaj\-\_\-danex2 (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tablica_a997d0fa8aa2ff8eb838998a82353d828}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli po przez wpisanie nazwy jako argument metody Wykorzystuje metode pushx2 jako funkcje wpisujaca do kolejki
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & -\/$>$ zmienna typu string, przechowuje nazwe otwieranego pliku \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 140 of file kolejka\-\_\-tablica.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_a997d0fa8aa2ff8eb838998a82353d828_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkolejka__tablica_a997d0fa8aa2ff8eb838998a82353d828_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classkolejka__tablica_a3db25a7939b4a9d96127b29b753d9010}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!dane@{dane}}
+\index{dane@{dane}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{dane}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ kolejka\-\_\-tablica\-::dane\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__tablica_a3db25a7939b4a9d96127b29b753d9010}
+
+
+Pole typu int, bedzie uzywane jako kolejki z danymi. 
+
+
+
+Definition at line 35 of file kolejka\-\_\-tablica.\-hh.
+
+\hypertarget{classkolejka__tablica_a3701ca21511ad3acdecf4cce08625eba}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!danetmp@{danetmp}}
+\index{danetmp@{danetmp}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{danetmp}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ kolejka\-\_\-tablica\-::danetmp\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__tablica_a3701ca21511ad3acdecf4cce08625eba}
+
+
+Pole typu int, bedzie uzywane jako kolejko z danymi sprawdzajacymi, pomocniczymi. 
+
+
+
+Definition at line 39 of file kolejka\-\_\-tablica.\-hh.
+
+\hypertarget{classkolejka__tablica_a1cec0ee294c7afb2c6b7ba5589cb8e38}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int kolejka\-\_\-tablica\-::rozmiar\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__tablica_a1cec0ee294c7afb2c6b7ba5589cb8e38}
+
+
+Pole typu int, bedzie uzywane jako rozmiar tabeli. 
+
+
+
+Definition at line 44 of file kolejka\-\_\-tablica.\-hh.
+
+\hypertarget{classkolejka__tablica_afbf8e02fb0cbdc2674fc68da04d8202d}{\index{kolejka\-\_\-tablica@{kolejka\-\_\-tablica}!spr@{spr}}
+\index{spr@{spr}!kolejka_tablica@{kolejka\-\_\-tablica}}
+\subsubsection[{spr}]{\setlength{\rightskip}{0pt plus 5cm}int kolejka\-\_\-tablica\-::spr\hspace{0.3cm}{\ttfamily [private]}}}\label{classkolejka__tablica_afbf8e02fb0cbdc2674fc68da04d8202d}
+
+
+Pole typu int, bedzie uzywane jako pomocnicza wartosc jako rozmiar kolejki. 
+
+
+
+Definition at line 48 of file kolejka\-\_\-tablica.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/inc/\hyperlink{kolejka__tablica_8hh}{kolejka\-\_\-tablica.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/zad3/prj/src/\hyperlink{kolejka__tablica_8cpp}{kolejka\-\_\-tablica.\-cpp}\end{DoxyCompactItemize}

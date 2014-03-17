@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['wczytaj_5fdane',['wczytaj_dane',['../classkolejka__lista.html#a6b3e5198fc3f572417e718c5c263c184',1,'kolejka_lista::wczytaj_dane()'],['../classkolejka__lista.html#a0db9fa402ebbd0a4038950d3abddba8c',1,'kolejka_lista::wczytaj_dane(string nazwa)'],['../classkolejka__tablica.html#af0bad5bef2d63767aff69de565026fd2',1,'kolejka_tablica::wczytaj_dane()'],['../classkolejka__tablica.html#a228697894cc79cea2e5555d624989b1d',1,'kolejka_tablica::wczytaj_dane(string nazwa)'],['../classstos__lista.html#a33781da85b24ffc9d6a6f5b470eaa654',1,'stos_lista::wczytaj_dane()'],['../classstos__lista.html#a3ee1e31107ca47737451d808c85f2167',1,'stos_lista::wczytaj_dane(string nazwa)'],['../classstos__tablica.html#a68d7d3ed8622663ff7aca3b9696724c5',1,'stos_tablica::wczytaj_dane()'],['../classstos__tablica.html#a33b9257de4213c84e96e666898f5ead0',1,'stos_tablica::wczytaj_dane(string nazwa)']]],
+  ['wczytaj_5fdanex2',['wczytaj_danex2',['../classkolejka__tablica.html#a997d0fa8aa2ff8eb838998a82353d828',1,'kolejka_tablica::wczytaj_danex2()'],['../classstos__tablica.html#ac940862b9c8d4807a471ffd1db23ea5b',1,'stos_tablica::wczytaj_danex2()']]],
+  ['wykonaj_5falgorytn',['wykonaj_algorytn',['../classbenchmark.html#aacae513e2f55669c83f37a07110f3989',1,'benchmark']]]
+];

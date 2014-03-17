@@ -1,0 +1,131 @@
+\contentsline {chapter}{\numberline {1}Benchmark}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Najwa\IeC {\.z}niejsze cechy}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Opis algorytmu}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}benchmark Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}benchmark}{8}{subsubsection.4.1.2.1}
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}{8}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}{8}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}{8}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}algorytn}{8}{subsubsection.4.1.3.4}
+\contentsline {subsection}{\numberline {4.1.4}Member Data Documentation}{9}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}czas}{10}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}elapsed\discretionary {-}{}{}Time}{10}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.3}t1}{10}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.4}t2}{10}{subsubsection.4.1.4.4}
+\contentsline {section}{\numberline {4.2}element Class Reference}{10}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Member Data Documentation}{11}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}klucz}{11}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}nastepny}{11}{subsubsection.4.2.2.2}
+\contentsline {section}{\numberline {4.3}elementk Class Reference}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{11}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Member Data Documentation}{12}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}klucz}{12}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}nastepny}{12}{subsubsection.4.3.2.2}
+\contentsline {section}{\numberline {4.4}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista Class Reference}{12}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{13}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{13}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{13}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}$\sim $kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{13}{subsubsection.4.4.2.2}
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{14}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{14}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.3.2}isempty}{15}{subsubsection.4.4.3.2}
+\contentsline {subsubsection}{\numberline {4.4.3.3}pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{15}{subsubsection.4.4.3.3}
+\contentsline {subsubsection}{\numberline {4.4.3.4}pop}{15}{subsubsection.4.4.3.4}
+\contentsline {subsubsection}{\numberline {4.4.3.5}push}{16}{subsubsection.4.4.3.5}
+\contentsline {subsubsection}{\numberline {4.4.3.6}size}{16}{subsubsection.4.4.3.6}
+\contentsline {subsubsection}{\numberline {4.4.3.7}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{16}{subsubsection.4.4.3.7}
+\contentsline {subsubsection}{\numberline {4.4.3.8}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{17}{subsubsection.4.4.3.8}
+\contentsline {subsection}{\numberline {4.4.4}Member Data Documentation}{17}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}licznik}{17}{subsubsection.4.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.4.2}przod}{17}{subsubsection.4.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.4.3}tyl}{18}{subsubsection.4.4.4.3}
+\contentsline {section}{\numberline {4.5}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica Class Reference}{18}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{19}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{19}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{19}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}$\sim $kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{19}{subsubsection.4.5.2.2}
+\contentsline {subsection}{\numberline {4.5.3}Member Function Documentation}{19}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.3.1}is\discretionary {-}{}{}Empty}{19}{subsubsection.4.5.3.1}
+\contentsline {subsubsection}{\numberline {4.5.3.2}pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{19}{subsubsection.4.5.3.2}
+\contentsline {subsubsection}{\numberline {4.5.3.3}pop}{19}{subsubsection.4.5.3.3}
+\contentsline {subsubsection}{\numberline {4.5.3.4}push}{20}{subsubsection.4.5.3.4}
+\contentsline {subsubsection}{\numberline {4.5.3.5}pushx2}{20}{subsubsection.4.5.3.5}
+\contentsline {subsubsection}{\numberline {4.5.3.6}size}{21}{subsubsection.4.5.3.6}
+\contentsline {subsubsection}{\numberline {4.5.3.7}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{21}{subsubsection.4.5.3.7}
+\contentsline {subsubsection}{\numberline {4.5.3.8}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{21}{subsubsection.4.5.3.8}
+\contentsline {subsubsection}{\numberline {4.5.3.9}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}danex2}{22}{subsubsection.4.5.3.9}
+\contentsline {subsection}{\numberline {4.5.4}Member Data Documentation}{22}{subsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.4.1}dane}{22}{subsubsection.4.5.4.1}
+\contentsline {subsubsection}{\numberline {4.5.4.2}danetmp}{23}{subsubsection.4.5.4.2}
+\contentsline {subsubsection}{\numberline {4.5.4.3}rozmiar}{23}{subsubsection.4.5.4.3}
+\contentsline {subsubsection}{\numberline {4.5.4.4}spr}{23}{subsubsection.4.5.4.4}
+\contentsline {section}{\numberline {4.6}stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista Class Reference}{23}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{24}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Constructor \& Destructor Documentation}{24}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{24}{subsubsection.4.6.2.1}
+\contentsline {subsubsection}{\numberline {4.6.2.2}$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{24}{subsubsection.4.6.2.2}
+\contentsline {subsection}{\numberline {4.6.3}Member Function Documentation}{25}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{25}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}isempty}{25}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{25}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.4}pop}{25}{subsubsection.4.6.3.4}
+\contentsline {subsubsection}{\numberline {4.6.3.5}push}{25}{subsubsection.4.6.3.5}
+\contentsline {subsubsection}{\numberline {4.6.3.6}size}{26}{subsubsection.4.6.3.6}
+\contentsline {subsubsection}{\numberline {4.6.3.7}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{26}{subsubsection.4.6.3.7}
+\contentsline {subsubsection}{\numberline {4.6.3.8}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{26}{subsubsection.4.6.3.8}
+\contentsline {subsection}{\numberline {4.6.4}Member Data Documentation}{27}{subsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.4.1}licznik}{27}{subsubsection.4.6.4.1}
+\contentsline {subsubsection}{\numberline {4.6.4.2}przod}{27}{subsubsection.4.6.4.2}
+\contentsline {subsubsection}{\numberline {4.6.4.3}tyl}{27}{subsubsection.4.6.4.3}
+\contentsline {section}{\numberline {4.7}stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica Class Reference}{27}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{28}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Constructor \& Destructor Documentation}{28}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{28}{subsubsection.4.7.2.1}
+\contentsline {subsubsection}{\numberline {4.7.2.2}$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{28}{subsubsection.4.7.2.2}
+\contentsline {subsection}{\numberline {4.7.3}Member Function Documentation}{28}{subsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.3.1}is\discretionary {-}{}{}Empty}{28}{subsubsection.4.7.3.1}
+\contentsline {subsubsection}{\numberline {4.7.3.2}pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{29}{subsubsection.4.7.3.2}
+\contentsline {subsubsection}{\numberline {4.7.3.3}pop}{29}{subsubsection.4.7.3.3}
+\contentsline {subsubsection}{\numberline {4.7.3.4}push}{29}{subsubsection.4.7.3.4}
+\contentsline {subsubsection}{\numberline {4.7.3.5}pushx2}{29}{subsubsection.4.7.3.5}
+\contentsline {subsubsection}{\numberline {4.7.3.6}size}{29}{subsubsection.4.7.3.6}
+\contentsline {subsubsection}{\numberline {4.7.3.7}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{30}{subsubsection.4.7.3.7}
+\contentsline {subsubsection}{\numberline {4.7.3.8}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{30}{subsubsection.4.7.3.8}
+\contentsline {subsubsection}{\numberline {4.7.3.9}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}danex2}{30}{subsubsection.4.7.3.9}
+\contentsline {subsection}{\numberline {4.7.4}Member Data Documentation}{30}{subsection.4.7.4}
+\contentsline {subsubsection}{\numberline {4.7.4.1}dane}{31}{subsubsection.4.7.4.1}
+\contentsline {subsubsection}{\numberline {4.7.4.2}danetmp}{31}{subsubsection.4.7.4.2}
+\contentsline {subsubsection}{\numberline {4.7.4.3}rozmiar}{31}{subsubsection.4.7.4.3}
+\contentsline {subsubsection}{\numberline {4.7.4.4}spr}{31}{subsubsection.4.7.4.4}
+\contentsline {chapter}{\numberline {5}File Documentation}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/doc/pages/strona.dox File Reference}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/benchmark.hh File Reference}{33}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{34}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.hh File Reference}{34}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{35}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.hh File Reference}{36}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{37}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.hh File Reference}{37}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{38}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.hh File Reference}{38}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{39}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/benchmark.cpp File Reference}{39}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{40}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.cpp File Reference}{40}{section.5.8}
+\contentsline {section}{\numberline {5.9}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.cpp File Reference}{41}{section.5.9}
+\contentsline {section}{\numberline {5.10}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/main.cpp File Reference}{41}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{42}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Function Documentation}{42}{subsection.5.10.2}
+\contentsline {subsubsection}{\numberline {5.10.2.1}main}{42}{subsubsection.5.10.2.1}
+\contentsline {section}{\numberline {5.11}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.cpp File Reference}{42}{section.5.11}
+\contentsline {section}{\numberline {5.12}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/zad3/prj/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.cpp File Reference}{43}{section.5.12}
+\contentsline {part}{Index}{44}{section*.20}
