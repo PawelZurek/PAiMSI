@@ -1,0 +1,594 @@
+\hypertarget{classstos__tablica}{\section{stos\-\_\-tablica Class Reference}
+\label{classstos__tablica}\index{stos\-\_\-tablica@{stos\-\_\-tablica}}
+}
+
+
+Modeluje pojecie Stos.  
+
+
+
+
+{\ttfamily \#include $<$stos\-\_\-tablica.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstos__tablica_a7dfdcb1a98f9434a5f94ebc19ac14af5}{stos\-\_\-tablica} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy stos. \end{DoxyCompactList}\item 
+\hyperlink{classstos__tablica_a684a8f468cb76ecf6c01df66fcbae8f6}{$\sim$stos\-\_\-tablica} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy stos. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a68d7d3ed8622663ff7aca3b9696724c5}{wczytaj\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a33b9257de4213c84e96e666898f5ead0}{wczytaj\-\_\-dane} (string nazwa)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytywania. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a89f6cd04da8bafdded7b8d0f003e3978}{pokaz\-\_\-elementy} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_a29bd76c04019f6b149090a8882d54f7b}{get\-\_\-rozmiar} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzania rozmiar stosu. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a340038b0ac6af3983de3fe21fa54aa36}{quicksort} (int left, int right)
+\begin{DoxyCompactList}\small\item\em Funkcja sortujaca. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a636f59632a29c985a404c0c8a3a9a18f}{quick\-\_\-sort} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wywolujaca funkcje sorujaca Quick Sort. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a64e273a78434133331b24a4f9bbff87b}{swap} (int $\ast$x, int $\ast$y)
+\begin{DoxyCompactList}\small\item\em Funkcja zamieniania wartosci. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_abeeb3fc4e2bc9a9b9917b3e996eb388e}{wypelnij\-\_\-losowo} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wypelniajaca stos losowymi wartosciami. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a430a06f13dc5a74bca50b07cc993196c}{wyzeruj\-\_\-stos} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zerujaca stos. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_aabebf0add57a2440cddd9b4305d165f8}{wyzeruj\-\_\-stos\-\_\-caly} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zerujaca caly stos. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_a688f873f65a862620d11b92f9d52c685}{get\-\_\-lewy} ()
+\begin{DoxyCompactList}\small\item\em Funkcja dostepu do prywantego pola klasy lewy. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_aa8c6fdb7c9214f9235dbc896a9c53581}{get\-\_\-prawy} ()
+\begin{DoxyCompactList}\small\item\em Funkcja dostepu do prywantego pola klasy prawy. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a79d983833ba1481654c51787bb604936}{mergesort} (int pocz, int kon)
+\begin{DoxyCompactList}\small\item\em Funkcja sortujaca. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_afaad303fc8eef3b5c115d5da31c38bc1}{merge\-\_\-sort} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wywolujaca funkcje sorujaca Merge Sort. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a3e932a92382d6befc649da95561b99ce}{build\-\_\-heap} ()
+\begin{DoxyCompactList}\small\item\em Funkcja budujaca kopiec ( Heap ). \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_aa3a60813771d70e2d9c8f2cab195964c}{disassemble\-\_\-heap} ()
+\begin{DoxyCompactList}\small\item\em Funkcja rozbierajaca kopiec ( Heap ). \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_a6168dfa3d54b01c4702313329112fb1d}{heap\-\_\-sort} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wywolujaca funkcje sorujaca Heap Sort. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tablica_aac88873e08b12ea26661690feb28ea86}{przypisz} ()
+\begin{DoxyCompactList}\small\item\em Funkcja przypisujaca. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classstos__tablica_a008b0f69384d5d987782c2f24fcbd387}{dane}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako stosu z danymi. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classstos__tablica_a2ee83414df31c2f56383199a5d47c755}{danetmp}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako stosu z danymi sprawdzajacymi, pomocniczymi. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_aa9c1d33bd477174602d2632c74ebea9c}{rozmiar}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako rozmiar tabeli. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_adcfe2091d485a93da47eb9fb6a337b06}{rozmiar\-\_\-tmp}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako pomocnicza wartosc jako rozmiar stosu. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_addee4392050e497f2b9f07a5e7a17606}{lewy}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako pomocnicza wartosc do metody Quick Sort. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_aab32beac5ab0f185fb27492736798749}{prawy}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako pomocnicza wartosc do metody Quick Sort. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tablica_ae1737beb175c9041e44ff8b374fa3565}{heap\-\_\-size}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane jako pomocnicza wartosc do metody Heap Size. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Stos. 
+
+Stos jest klasa zawierajaca dynamicznie zaalokowane 2 tablice Pierwsza z nich to tablica z danymi, na ktorych beda wykonywane operacje. Druga z nich sluzy jako tablica do przechowywania tymczasowych danych. 
+
+Definition at line 33 of file stos\-\_\-tablica.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classstos__tablica_a7dfdcb1a98f9434a5f94ebc19ac14af5}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!stos\-\_\-tablica@{stos\-\_\-tablica}}
+\index{stos\-\_\-tablica@{stos\-\_\-tablica}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{stos\-\_\-tablica}]{\setlength{\rightskip}{0pt plus 5cm}stos\-\_\-tablica\-::stos\-\_\-tablica (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_a7dfdcb1a98f9434a5f94ebc19ac14af5}
+
+
+Konstruktor klasy stos. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 73 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_a684a8f468cb76ecf6c01df66fcbae8f6}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!$\sim$stos\-\_\-tablica@{$\sim$stos\-\_\-tablica}}
+\index{$\sim$stos\-\_\-tablica@{$\sim$stos\-\_\-tablica}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{$\sim$stos\-\_\-tablica}]{\setlength{\rightskip}{0pt plus 5cm}stos\-\_\-tablica\-::$\sim$stos\-\_\-tablica (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_a684a8f468cb76ecf6c01df66fcbae8f6}
+
+
+Destruktor klasy stos. 
+
+Usuwa dynamicznie zaalokawana tablice 
+
+Definition at line 80 of file stos\-\_\-tablica.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classstos__tablica_a3e932a92382d6befc649da95561b99ce}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!build\-\_\-heap@{build\-\_\-heap}}
+\index{build\-\_\-heap@{build\-\_\-heap}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{build\-\_\-heap}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::build\-\_\-heap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a3e932a92382d6befc649da95561b99ce}
+
+
+Funkcja budujaca kopiec ( Heap ). 
+
+Funkcja tworzy kopiec z wstepnie posortowanymi danymi. Reszta zostanie posortowana przy jego rozbieraniu. 
+
+Definition at line 184 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_aa3a60813771d70e2d9c8f2cab195964c}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!disassemble\-\_\-heap@{disassemble\-\_\-heap}}
+\index{disassemble\-\_\-heap@{disassemble\-\_\-heap}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{disassemble\-\_\-heap}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::disassemble\-\_\-heap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_aa3a60813771d70e2d9c8f2cab195964c}
+
+
+Funkcja rozbierajaca kopiec ( Heap ). 
+
+Funkcja rozbiera kopiec, jednoczesnie sortujac dane. 
+
+Definition at line 203 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_a688f873f65a862620d11b92f9d52c685}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!get\-\_\-lewy@{get\-\_\-lewy}}
+\index{get\-\_\-lewy@{get\-\_\-lewy}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{get\-\_\-lewy}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::get\-\_\-lewy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_a688f873f65a862620d11b92f9d52c685}
+
+
+Funkcja dostepu do prywantego pola klasy lewy. 
+
+\begin{DoxyReturn}{Returns}
+lewy -\/$>$ obiekt typu int, indeks pierwszego elementu stosu ( zazwyczaj 0 ) 
+\end{DoxyReturn}
+
+
+Definition at line 185 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_aa8c6fdb7c9214f9235dbc896a9c53581}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!get\-\_\-prawy@{get\-\_\-prawy}}
+\index{get\-\_\-prawy@{get\-\_\-prawy}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{get\-\_\-prawy}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::get\-\_\-prawy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_aa8c6fdb7c9214f9235dbc896a9c53581}
+
+
+Funkcja dostepu do prywantego pola klasy prawy. 
+
+\begin{DoxyReturn}{Returns}
+prawy -\/$>$ obiekt typu int, indeks ostatniego elementu stosu ( zazwyczaj rowne rozmiarowi ) 
+\end{DoxyReturn}
+
+
+Definition at line 192 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_a29bd76c04019f6b149090a8882d54f7b}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!get\-\_\-rozmiar@{get\-\_\-rozmiar}}
+\index{get\-\_\-rozmiar@{get\-\_\-rozmiar}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{get\-\_\-rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::get\-\_\-rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_a29bd76c04019f6b149090a8882d54f7b}
+
+
+Funkcja sprawdzania rozmiar stosu. 
+
+Funkcja podaje aktualny rozmiar stosu
+
+\begin{DoxyReturn}{Returns}
+rozmiar -\/$>$ rozmiar stosu 
+\end{DoxyReturn}
+
+
+Definition at line 127 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_a6168dfa3d54b01c4702313329112fb1d}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!heap\-\_\-sort@{heap\-\_\-sort}}
+\index{heap\-\_\-sort@{heap\-\_\-sort}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{heap\-\_\-sort}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::heap\-\_\-sort (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_a6168dfa3d54b01c4702313329112fb1d}
+
+
+Funkcja wywolujaca funkcje sorujaca Heap Sort. 
+
+Funkcja jest tylko po to, aby mozna bylo w klasie innej niz ta uruchomic funkcje sortowania jednym poleceniem 
+
+Definition at line 233 of file stos\-\_\-tablica.\-hh.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__tablica_a6168dfa3d54b01c4702313329112fb1d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstos__tablica_afaad303fc8eef3b5c115d5da31c38bc1}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!merge\-\_\-sort@{merge\-\_\-sort}}
+\index{merge\-\_\-sort@{merge\-\_\-sort}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{merge\-\_\-sort}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::merge\-\_\-sort (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_afaad303fc8eef3b5c115d5da31c38bc1}
+
+
+Funkcja wywolujaca funkcje sorujaca Merge Sort. 
+
+Funkcja jest tylko po to, aby mozna bylo w klasie innej niz ta uruchomic funkcje sortowania bezparametrycznie 
+
+Definition at line 210 of file stos\-\_\-tablica.\-hh.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__tablica_afaad303fc8eef3b5c115d5da31c38bc1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstos__tablica_a79d983833ba1481654c51787bb604936}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!mergesort@{mergesort}}
+\index{mergesort@{mergesort}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{mergesort}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::mergesort (
+\begin{DoxyParamCaption}
+\item[{int}]{pocz, }
+\item[{int}]{kon}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a79d983833ba1481654c51787bb604936}
+
+
+Funkcja sortujaca. 
+
+Funkcja sortuje dane za pomoca algorytmu Merge Sort
+
+
+\begin{DoxyParams}{Parameters}
+{\em pocz} & -\/$>$ Pole typu int, zawiera informacje indeksie poczatkowym sortowanego zbioru\par
+ \\
+\hline
+{\em kon} & -\/$>$ Pole typu int, zawiera informacje indeksie koncowym sortowanego zbioru \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 160 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_a89f6cd04da8bafdded7b8d0f003e3978}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!pokaz\-\_\-elementy@{pokaz\-\_\-elementy}}
+\index{pokaz\-\_\-elementy@{pokaz\-\_\-elementy}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{pokaz\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::pokaz\-\_\-elementy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a89f6cd04da8bafdded7b8d0f003e3978}
+
+
+Funkcja wyswietlajaca. 
+
+Funkcja wyswietla aktualny stan stosu 
+
+Definition at line 7 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_aac88873e08b12ea26661690feb28ea86}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!przypisz@{przypisz}}
+\index{przypisz@{przypisz}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{przypisz}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::przypisz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_aac88873e08b12ea26661690feb28ea86}
+
+
+Funkcja przypisujaca. 
+
+Funkcja przypisuje wartosci dynamicznej, pomocniczej tabeli danetmp do tabeli glownej programu -\/$>$ dane 
+
+Definition at line 64 of file stos\-\_\-tablica.\-cpp.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__tablica_aac88873e08b12ea26661690feb28ea86_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstos__tablica_a636f59632a29c985a404c0c8a3a9a18f}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!quick\-\_\-sort@{quick\-\_\-sort}}
+\index{quick\-\_\-sort@{quick\-\_\-sort}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{quick\-\_\-sort}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::quick\-\_\-sort (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstos__tablica_a636f59632a29c985a404c0c8a3a9a18f}
+
+
+Funkcja wywolujaca funkcje sorujaca Quick Sort. 
+
+Funkcja jest tylko po to, aby mozna bylo w kklasie innej niz ta uruchomic funkcje sortowania bezparametrycznie 
+
+Definition at line 145 of file stos\-\_\-tablica.\-hh.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__tablica_a636f59632a29c985a404c0c8a3a9a18f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstos__tablica_a340038b0ac6af3983de3fe21fa54aa36}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!quicksort@{quicksort}}
+\index{quicksort@{quicksort}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{quicksort}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::quicksort (
+\begin{DoxyParamCaption}
+\item[{int}]{left, }
+\item[{int}]{right}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a340038b0ac6af3983de3fe21fa54aa36}
+
+
+Funkcja sortujaca. 
+
+Funkcja sortuje dane za pomoca algorytmu Quick Sort
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & -\/$>$ Pole typu int, zawiera informacje indeksie poczatkowym sortowanego zbioru\par
+ \\
+\hline
+{\em right} & -\/$>$ Pole typu int, zawiera informacje indeksie koncowym sortowanego zbioru \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 126 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_a64e273a78434133331b24a4f9bbff87b}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!swap@{swap}}
+\index{swap@{swap}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{swap}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::swap (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{x, }
+\item[{int $\ast$}]{y}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a64e273a78434133331b24a4f9bbff87b}
+
+
+Funkcja zamieniania wartosci. 
+
+Funkcja zamienia wartosciami obiekty, ktore sa argumentami funkcji 
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/$>$ Pole typu $\ast$int, zawiera adres obiektu, ktorego wartosc ma byc zamieniona z obiektem y\par
+ \\
+\hline
+{\em y} & -\/$>$ Pole typu $\ast$int, zawiera adres obiektu, ktorego wartosc ma byc zamieniona z obiektem x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 153 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_a68d7d3ed8622663ff7aca3b9696724c5}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a68d7d3ed8622663ff7aca3b9696724c5}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli z podanego pliku przez uzytkownika. 
+
+Definition at line 19 of file stos\-\_\-tablica.\-cpp.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__tablica_a68d7d3ed8622663ff7aca3b9696724c5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstos__tablica_a33b9257de4213c84e96e666898f5ead0}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a33b9257de4213c84e96e666898f5ead0}
+
+
+Funkcja wczytywania. 
+
+Funkcja wczytuje wartosci do tabeli po przez wpisanie nazwy jako argument metody Wykorzystuje metode push jako funkcje wpisujaca do stosu
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & -\/$>$ zmienna typu string, przechowuje nazwe otwieranego pliku \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_abeeb3fc4e2bc9a9b9917b3e996eb388e}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!wypelnij\-\_\-losowo@{wypelnij\-\_\-losowo}}
+\index{wypelnij\-\_\-losowo@{wypelnij\-\_\-losowo}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{wypelnij\-\_\-losowo}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::wypelnij\-\_\-losowo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_abeeb3fc4e2bc9a9b9917b3e996eb388e}
+
+
+Funkcja wypelniajaca stos losowymi wartosciami. 
+
+Funkcja wypelnia stos losowymi wartosciami. Uzytkownik wybiera sam ile elementow ma zostac wpisanych 
+
+Definition at line 79 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_a430a06f13dc5a74bca50b07cc993196c}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!wyzeruj\-\_\-stos@{wyzeruj\-\_\-stos}}
+\index{wyzeruj\-\_\-stos@{wyzeruj\-\_\-stos}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{wyzeruj\-\_\-stos}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::wyzeruj\-\_\-stos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_a430a06f13dc5a74bca50b07cc993196c}
+
+
+Funkcja zerujaca stos. 
+
+Funkcja kasuje dynamicznie zaalokowana tablice dane, zeby mozna bylo wpisac kolejna tablice z tymi samymi wartosciami Dodatkowo zeruje pola klasy zwiazane z ową tablica 
+
+Definition at line 99 of file stos\-\_\-tablica.\-cpp.
+
+\hypertarget{classstos__tablica_aabebf0add57a2440cddd9b4305d165f8}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!wyzeruj\-\_\-stos\-\_\-caly@{wyzeruj\-\_\-stos\-\_\-caly}}
+\index{wyzeruj\-\_\-stos\-\_\-caly@{wyzeruj\-\_\-stos\-\_\-caly}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{wyzeruj\-\_\-stos\-\_\-caly}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tablica\-::wyzeruj\-\_\-stos\-\_\-caly (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tablica_aabebf0add57a2440cddd9b4305d165f8}
+
+
+Funkcja zerujaca caly stos. 
+
+Funkcja kasuje wszystkie dynamicznie zaalokowane obiekty. Dodatkowo zeruje wszystkie pola klasy \hyperlink{classstos__tablica}{stos\-\_\-tablica} 
+
+Definition at line 110 of file stos\-\_\-tablica.\-cpp.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classstos__tablica_aabebf0add57a2440cddd9b4305d165f8_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classstos__tablica_a008b0f69384d5d987782c2f24fcbd387}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!dane@{dane}}
+\index{dane@{dane}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{dane}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ stos\-\_\-tablica\-::dane\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_a008b0f69384d5d987782c2f24fcbd387}
+
+
+Pole typu int, bedzie uzywane jako stosu z danymi. 
+
+
+
+Definition at line 38 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_a2ee83414df31c2f56383199a5d47c755}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!danetmp@{danetmp}}
+\index{danetmp@{danetmp}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{danetmp}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ stos\-\_\-tablica\-::danetmp\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_a2ee83414df31c2f56383199a5d47c755}
+
+
+Pole typu int, bedzie uzywane jako stosu z danymi sprawdzajacymi, pomocniczymi. 
+
+
+
+Definition at line 42 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_ae1737beb175c9041e44ff8b374fa3565}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!heap\-\_\-size@{heap\-\_\-size}}
+\index{heap\-\_\-size@{heap\-\_\-size}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{heap\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::heap\-\_\-size\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_ae1737beb175c9041e44ff8b374fa3565}
+
+
+Pole typu int, bedzie uzywane jako pomocnicza wartosc do metody Heap Size. 
+
+
+
+Definition at line 62 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_addee4392050e497f2b9f07a5e7a17606}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!lewy@{lewy}}
+\index{lewy@{lewy}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{lewy}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::lewy\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_addee4392050e497f2b9f07a5e7a17606}
+
+
+Pole typu int, bedzie uzywane jako pomocnicza wartosc do metody Quick Sort. 
+
+
+
+Definition at line 54 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_aab32beac5ab0f185fb27492736798749}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!prawy@{prawy}}
+\index{prawy@{prawy}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{prawy}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::prawy\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_aab32beac5ab0f185fb27492736798749}
+
+
+Pole typu int, bedzie uzywane jako pomocnicza wartosc do metody Quick Sort. 
+
+
+
+Definition at line 58 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_aa9c1d33bd477174602d2632c74ebea9c}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::rozmiar\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_aa9c1d33bd477174602d2632c74ebea9c}
+
+
+Pole typu int, bedzie uzywane jako rozmiar tabeli. 
+
+
+
+Definition at line 46 of file stos\-\_\-tablica.\-hh.
+
+\hypertarget{classstos__tablica_adcfe2091d485a93da47eb9fb6a337b06}{\index{stos\-\_\-tablica@{stos\-\_\-tablica}!rozmiar\-\_\-tmp@{rozmiar\-\_\-tmp}}
+\index{rozmiar\-\_\-tmp@{rozmiar\-\_\-tmp}!stos_tablica@{stos\-\_\-tablica}}
+\subsubsection[{rozmiar\-\_\-tmp}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tablica\-::rozmiar\-\_\-tmp\hspace{0.3cm}{\ttfamily [private]}}}\label{classstos__tablica_adcfe2091d485a93da47eb9fb6a337b06}
+
+
+Pole typu int, bedzie uzywane jako pomocnicza wartosc jako rozmiar stosu. 
+
+
+
+Definition at line 50 of file stos\-\_\-tablica.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/sortowanie/prj/inc/\hyperlink{stos__tablica_8hh}{stos\-\_\-tablica.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/sortowanie/prj/src/\hyperlink{stos__tablica_8cpp}{stos\-\_\-tablica.\-cpp}\end{DoxyCompactItemize}

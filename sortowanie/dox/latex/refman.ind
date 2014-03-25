@@ -1,0 +1,217 @@
+\begin{theindex}
+
+  \item {$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowanie/prj/doc/pages/strona.\discretionary {-}{}{}dox}, 
+		\hyperpage{19}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowanie/prj/inc/benchmark.\discretionary {-}{}{}hh}, 
+		\hyperpage{19}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowanie/prj/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.\discretionary {-}{}{}hh}, 
+		\hyperpage{20}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowanie/prj/src/benchmark.\discretionary {-}{}{}cpp}, 
+		\hyperpage{21}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowanie/prj/src/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{22}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowanie/prj/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.\discretionary {-}{}{}cpp}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {benchmark}, \hyperpage{7}
+    \subitem {benchmark}, \hyperpage{8}
+    \subitem {czas}, \hyperpage{10}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}, 
+		\hyperpage{8}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}, 
+		\hyperpage{8}
+    \subitem {elapsed\discretionary {-}{}{}Time}, \hyperpage{10}
+    \subitem {ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}, 
+		\hyperpage{8}
+    \subitem {t1}, \hyperpage{10}
+    \subitem {t2}, \hyperpage{10}
+    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}algorytn\discretionary {-}{}{}\_\discretionary {-}{}{}sortowanie}, 
+		\hyperpage{8}
+  \item {build\discretionary {-}{}{}\_\discretionary {-}{}{}heap}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {czas}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}
+    \subitem {benchmark}, \hyperpage{8}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}
+    \subitem {benchmark}, \hyperpage{8}
+
+  \indexspace
+
+  \item {dane}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{16}
+  \item {danetmp}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{16}
+  \item {disassemble\discretionary {-}{}{}\_\discretionary {-}{}{}heap}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {elapsed\discretionary {-}{}{}Time}
+    \subitem {benchmark}, \hyperpage{10}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}lewy}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}prawy}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}rozmiar}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {heap\discretionary {-}{}{}\_\discretionary {-}{}{}size}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{16}
+  \item {heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}
+    \subitem {benchmark}, \hyperpage{8}
+
+  \indexspace
+
+  \item {lewy}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{23}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{23}
+  \item {merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{13}
+  \item {mergesort}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{14}
+  \item {prawy}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{17}
+  \item {przypisz}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{14}
+  \item {quicksort}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {rozmiar}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{17}
+  \item {rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tmp}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{10}
+    \subitem {$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+    \subitem {build\discretionary {-}{}{}\_\discretionary {-}{}{}heap}, 
+		\hyperpage{12}
+    \subitem {dane}, \hyperpage{16}
+    \subitem {danetmp}, \hyperpage{16}
+    \subitem {disassemble\discretionary {-}{}{}\_\discretionary {-}{}{}heap}, 
+		\hyperpage{12}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}lewy}, 
+		\hyperpage{12}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}prawy}, 
+		\hyperpage{12}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}rozmiar}, 
+		\hyperpage{13}
+    \subitem {heap\discretionary {-}{}{}\_\discretionary {-}{}{}size}, 
+		\hyperpage{16}
+    \subitem {heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
+		\hyperpage{13}
+    \subitem {lewy}, \hyperpage{17}
+    \subitem {merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
+		\hyperpage{13}
+    \subitem {mergesort}, \hyperpage{13}
+    \subitem {pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{14}
+    \subitem {prawy}, \hyperpage{17}
+    \subitem {przypisz}, \hyperpage{14}
+    \subitem {quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
+		\hyperpage{14}
+    \subitem {quicksort}, \hyperpage{15}
+    \subitem {rozmiar}, \hyperpage{17}
+    \subitem {rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tmp}, 
+		\hyperpage{17}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{12}
+    \subitem {swap}, \hyperpage{15}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{15}
+    \subitem {wypelnij\discretionary {-}{}{}\_\discretionary {-}{}{}losowo}, 
+		\hyperpage{16}
+    \subitem {wyzeruj\discretionary {-}{}{}\_\discretionary {-}{}{}stos}, 
+		\hyperpage{16}
+    \subitem {wyzeruj\discretionary {-}{}{}\_\discretionary {-}{}{}stos\discretionary {-}{}{}\_\discretionary {-}{}{}caly}, 
+		\hyperpage{16}
+  \item {swap}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {t1}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {t2}
+    \subitem {benchmark}, \hyperpage{10}
+
+  \indexspace
+
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{15}
+  \item {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}algorytn\discretionary {-}{}{}\_\discretionary {-}{}{}sortowanie}
+    \subitem {benchmark}, \hyperpage{8}
+  \item {wypelnij\discretionary {-}{}{}\_\discretionary {-}{}{}losowo}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{16}
+  \item {wyzeruj\discretionary {-}{}{}\_\discretionary {-}{}{}stos}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{16}
+  \item {wyzeruj\discretionary {-}{}{}\_\discretionary {-}{}{}stos\discretionary {-}{}{}\_\discretionary {-}{}{}caly}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
+		\hyperpage{16}
+
+\end{theindex}
