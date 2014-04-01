@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$classbenchmark.html#aedc5a477317912eb0d9ca5f9f1da3b7c" title="Funkcja wykonujaca algorytm. " alt="" coords="104,173,248,203"/>
+<area shape="rect" id="node5" href="$classstos__tablica.html#a68d7d3ed8622663ff7aca3b9696724c5" title="Funkcja wczytywania. " alt="" coords="297,5,476,35"/>
+<area shape="rect" id="node7" href="$classstos__tablica.html#aac88873e08b12ea26661690feb28ea86" title="Funkcja przypisujaca. " alt="" coords="312,59,461,88"/>
+<area shape="rect" id="node9" href="$classstos__tablica.html#a636f59632a29c985a404c0c8a3a9a18f" title="Funkcja wywolujaca funkcje sorujaca Quick Sort. " alt="" coords="307,112,467,141"/>
+<area shape="rect" id="node11" href="$classstos__tablica.html#aabebf0add57a2440cddd9b4305d165f8" title="Funkcja zerujaca caly stos. " alt="" coords="315,165,459,211"/>
+<area shape="rect" id="node13" href="$classstos__tablica.html#afaad303fc8eef3b5c115d5da31c38bc1" title="Funkcja wywolujaca funkcje sorujaca Merge Sort. " alt="" coords="304,235,469,264"/>
+<area shape="rect" id="node15" href="$classstos__tablica.html#a6168dfa3d54b01c4702313329112fb1d" title="Funkcja wywolujaca funkcje sorujaca Heap Sort. " alt="" coords="308,288,465,317"/>
+<area shape="rect" id="node17" href="$classstos__tablica.html#a29bd76c04019f6b149090a8882d54f7b" title="Funkcja sprawdzania rozmiar stosu. " alt="" coords="303,341,471,371"/>
+</map>

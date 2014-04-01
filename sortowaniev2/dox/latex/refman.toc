@@ -1,0 +1,71 @@
+\contentsline {chapter}{\numberline {1}Sortowanie}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Najwa\IeC {\.z}niejsze cechy}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Opis algorytmu}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}benchmark Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}benchmark}{8}{subsubsection.4.1.2.1}
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}algorytm}{8}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}{9}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}{9}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}{10}{subsubsection.4.1.3.4}
+\contentsline {subsubsection}{\numberline {4.1.3.5}wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}algorytn\discretionary {-}{}{}\_\discretionary {-}{}{}sortowanie}{10}{subsubsection.4.1.3.5}
+\contentsline {subsubsection}{\numberline {4.1.3.6}wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}wszystko}{11}{subsubsection.4.1.3.6}
+\contentsline {subsection}{\numberline {4.1.4}Member Data Documentation}{11}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}czas}{11}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly}{12}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.3}elapsed\discretionary {-}{}{}Time}{12}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.4}t1}{12}{subsubsection.4.1.4.4}
+\contentsline {subsubsection}{\numberline {4.1.4.5}t2}{12}{subsubsection.4.1.4.5}
+\contentsline {section}{\numberline {4.2}stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica Class Reference}{12}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{14}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{14}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}$\sim $stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{14}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{14}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}build\discretionary {-}{}{}\_\discretionary {-}{}{}heap}{14}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}disassemble\discretionary {-}{}{}\_\discretionary {-}{}{}heap}{14}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}get\discretionary {-}{}{}\_\discretionary {-}{}{}lewy}{14}{subsubsection.4.2.3.3}
+\contentsline {subsubsection}{\numberline {4.2.3.4}get\discretionary {-}{}{}\_\discretionary {-}{}{}prawy}{14}{subsubsection.4.2.3.4}
+\contentsline {subsubsection}{\numberline {4.2.3.5}get\discretionary {-}{}{}\_\discretionary {-}{}{}rozmiar}{15}{subsubsection.4.2.3.5}
+\contentsline {subsubsection}{\numberline {4.2.3.6}heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}{15}{subsubsection.4.2.3.6}
+\contentsline {subsubsection}{\numberline {4.2.3.7}merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}{15}{subsubsection.4.2.3.7}
+\contentsline {subsubsection}{\numberline {4.2.3.8}mergesort}{16}{subsubsection.4.2.3.8}
+\contentsline {subsubsection}{\numberline {4.2.3.9}pokaz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{16}{subsubsection.4.2.3.9}
+\contentsline {subsubsection}{\numberline {4.2.3.10}przypisz}{16}{subsubsection.4.2.3.10}
+\contentsline {subsubsection}{\numberline {4.2.3.11}quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}{17}{subsubsection.4.2.3.11}
+\contentsline {subsubsection}{\numberline {4.2.3.12}quicksort}{17}{subsubsection.4.2.3.12}
+\contentsline {subsubsection}{\numberline {4.2.3.13}swap}{17}{subsubsection.4.2.3.13}
+\contentsline {subsubsection}{\numberline {4.2.3.14}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{17}{subsubsection.4.2.3.14}
+\contentsline {subsubsection}{\numberline {4.2.3.15}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{18}{subsubsection.4.2.3.15}
+\contentsline {subsubsection}{\numberline {4.2.3.16}wypelnij\discretionary {-}{}{}\_\discretionary {-}{}{}losowo}{18}{subsubsection.4.2.3.16}
+\contentsline {subsubsection}{\numberline {4.2.3.17}wyzeruj\discretionary {-}{}{}\_\discretionary {-}{}{}stos}{18}{subsubsection.4.2.3.17}
+\contentsline {subsubsection}{\numberline {4.2.3.18}wyzeruj\discretionary {-}{}{}\_\discretionary {-}{}{}stos\discretionary {-}{}{}\_\discretionary {-}{}{}caly}{18}{subsubsection.4.2.3.18}
+\contentsline {subsection}{\numberline {4.2.4}Member Data Documentation}{19}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}dane}{19}{subsubsection.4.2.4.1}
+\contentsline {subsubsection}{\numberline {4.2.4.2}danetmp}{19}{subsubsection.4.2.4.2}
+\contentsline {subsubsection}{\numberline {4.2.4.3}heap\discretionary {-}{}{}\_\discretionary {-}{}{}size}{19}{subsubsection.4.2.4.3}
+\contentsline {subsubsection}{\numberline {4.2.4.4}lewy}{19}{subsubsection.4.2.4.4}
+\contentsline {subsubsection}{\numberline {4.2.4.5}prawy}{19}{subsubsection.4.2.4.5}
+\contentsline {subsubsection}{\numberline {4.2.4.6}rozmiar}{19}{subsubsection.4.2.4.6}
+\contentsline {subsubsection}{\numberline {4.2.4.7}rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tmp}{19}{subsubsection.4.2.4.7}
+\contentsline {chapter}{\numberline {5}File Documentation}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowaniev2/prj/doc/pages/strona.dox File Reference}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowaniev2/prj/inc/benchmark.hh File Reference}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{22}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowaniev2/prj/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.hh File Reference}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{23}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowaniev2/prj/src/benchmark.cpp File Reference}{24}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{24}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowaniev2/prj/src/main.cpp File Reference}{24}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{25}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Function Documentation}{25}{subsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.2.1}main}{25}{subsubsection.5.5.2.1}
+\contentsline {section}{\numberline {5.6}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/sortowaniev2/prj/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica.cpp File Reference}{25}{section.5.6}
+\contentsline {part}{Index}{27}{section*.9}

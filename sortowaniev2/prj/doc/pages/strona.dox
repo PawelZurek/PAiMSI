@@ -1,0 +1,41 @@
+/*!
+\mainpage Sortowanie
+
+\author Pawel Zurek
+\date 22.03.2014
+\version 1.5
+
+Program umożliwia liczenie czasu trwania operacji sortowania danych
+
+\section etykieta-wazne-cechy Najważniejsze cechy
+
+Program sluzy do liczenia czasu trwania operacji sortowania:\n
+
+\n-> Quick Sort ( Sortowanie szybkie )
+\n-> Merge Sort ( Sortowanie przez scalanie )
+\n-> Heap Sort ( Sortowanie przez budowanie kopca )
+  
+\section etykieta-op-algorytm  Opis algorytmu
+
+Algorytm w tym zadaniu to 10 petli :
+\n-> posortowanie stosu za pomoca Quick Sort
+\n-> posortowanie stosu za pomoca Merge Sort
+\n-> posortowanie stosu za pomoca Heap Sort
+
+\n,na ktora sklada sie wypelnienie nastepujaca iloscia elementow:
+
+\n-> 10
+\n-> 100
+\n-> 1000
+\n-> 10000
+\n-> 100000
+\n-> 1000000
+
+\n Wszystkie posortowania zostały przeprowadzone dla elementów uporządkowanych rosnąco, malejąco oraz losowo. Informacje te zostały zawarte na wykresach dostępnych w pliku głównym programu.
+
+Czasy każdego sortowania dla każdej ilości elementów razem z czasem całkowitym sa wyprowadzane na standartowe wyjscie.
+
+
+
+
+ */

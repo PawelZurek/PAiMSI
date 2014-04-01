@@ -1,0 +1,323 @@
+\hypertarget{classbenchmark}{\section{benchmark Class Reference}
+\label{classbenchmark}\index{benchmark@{benchmark}}
+}
+
+
+Modeluje pojecie Benchmark.  
+
+
+
+
+{\ttfamily \#include $<$benchmark.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classbenchmark_af56f1d9420c5c1ccc65e4f6aac54658d}{benchmark} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy Benchmark. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_a42ab532c49030406366e859f9b3f29f8}{czas\-\_\-start} ()
+\begin{DoxyCompactList}\small\item\em Funkcja pomocnicza mierzenia czasu. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_a9beb25d3e65b94c1ac7c085d8105fe65}{czas\-\_\-stop} ()
+\begin{DoxyCompactList}\small\item\em Funkcja pomocnicza mierzenia czasu. \end{DoxyCompactList}\item 
+double \hyperlink{classbenchmark_a613a8792feca7c2622355922d64d6fcd}{ile\-\_\-czasu} ()
+\begin{DoxyCompactList}\small\item\em Funkcja obliczania czasu dzialania programu. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_a845da6947383df74d871e273bf225721}{wykonaj\-\_\-algorytn\-\_\-sortowanie} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wykonujaca algorytm. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_aedc5a477317912eb0d9ca5f9f1da3b7c}{algorytm} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wykonujaca algorytm. \end{DoxyCompactList}\item 
+void \hyperlink{classbenchmark_a45a6a3fcaf8d09f172f2776451d67c9b}{wyswietl\-\_\-wszystko} (double $\ast$c, double $\ast$q, double $\ast$m, double $\ast$h, int n, int s)
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietalnia wynikow. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classbenchmark_a90e6eda0144befd3f3bc1a881904fb57}{elapsed\-Time}
+\begin{DoxyCompactList}\small\item\em Pole typu double, bedzie uzywane do mierzenia czasu dzialania pojedynczego wypelniania. \end{DoxyCompactList}\item 
+double \hyperlink{classbenchmark_a563b747421276232836b7711b6881ec8}{czas}
+\begin{DoxyCompactList}\small\item\em Pole typu double, bedzie uzywane do mierzenia calkowitego czasu dzialania programu. \end{DoxyCompactList}\item 
+double \hyperlink{classbenchmark_af677300c0b0a0086f306a0a08a6172b9}{czas\-\_\-caly}
+\begin{DoxyCompactList}\small\item\em Pole typu double, bedzie uzywane do mierzenia calkowitego czasu dzialania programu. ! \end{DoxyCompactList}\item 
+timeval \hyperlink{classbenchmark_a7789217b36df3b3ae427ceaaa2694d0b}{t1}
+\begin{DoxyCompactList}\small\item\em Pole typu timeval, pomoc do liczenia czasu dzialania operacji krotkich ( tzn pojedynczego dzialania) \end{DoxyCompactList}\item 
+timeval \hyperlink{classbenchmark_aea9f22e585c0c5826329e48a97a99803}{t2}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Benchmark. 
+
+Klasa sluzy do przeprowadzenia Benchmarku programu, tzn \-: -\/$>$ wczytania dowolnego zestawu danych o ilosci elementow \-: \par
+-\/$>$ 10 \par
+-\/$>$ 100 \par
+-\/$>$ 1000 \par
+-\/$>$ 10000 \par
+-\/$>$ 100000 \par
+-\/$>$ 1000000 \par
+ Trzema roznymi metodami \-: \par
+ -\/$>$ Quick Sort \par
+ -\/$>$ Merge Sort \par
+ -\/$>$ Heap Sort \par
+ Można jeszcze wybrać ile razy ma zostać wykonany program. \par
+-\/$>$ Na koniec zostana wyswietlone czasy kazdej akcji z osobna oraz czas calkowity 
+
+Definition at line 41 of file benchmark.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classbenchmark_af56f1d9420c5c1ccc65e4f6aac54658d}{\index{benchmark@{benchmark}!benchmark@{benchmark}}
+\index{benchmark@{benchmark}!benchmark@{benchmark}}
+\subsubsection[{benchmark}]{\setlength{\rightskip}{0pt plus 5cm}benchmark\-::benchmark (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classbenchmark_af56f1d9420c5c1ccc65e4f6aac54658d}
+
+
+Konstruktor klasy Benchmark. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 71 of file benchmark.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classbenchmark_aedc5a477317912eb0d9ca5f9f1da3b7c}{\index{benchmark@{benchmark}!algorytm@{algorytm}}
+\index{algorytm@{algorytm}!benchmark@{benchmark}}
+\subsubsection[{algorytm}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::algorytm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_aedc5a477317912eb0d9ca5f9f1da3b7c}
+
+
+Funkcja wykonujaca algorytm. 
+
+Wykonanie algorytmu ma przebieg \-:\par
+ -\/$>$ posortowanie wybranego pliku trzema metodami\-: \par
+
+\begin{DoxyItemize}
+\item Quick Sort
+\item Merge Sort
+\item Heap Sort -\/$>$ po każdym posortowaniu, obiekt jest całkowicie zerowany\par
+ -\/$>$ wszystko to wykonuje się zadana przez uzytkownika ilosc razy \par
+ 
+\end{DoxyItemize}
+
+Definition at line 98 of file benchmark.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbenchmark_aedc5a477317912eb0d9ca5f9f1da3b7c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classbenchmark_aedc5a477317912eb0d9ca5f9f1da3b7c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classbenchmark_a42ab532c49030406366e859f9b3f29f8}{\index{benchmark@{benchmark}!czas\-\_\-start@{czas\-\_\-start}}
+\index{czas\-\_\-start@{czas\-\_\-start}!benchmark@{benchmark}}
+\subsubsection[{czas\-\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::czas\-\_\-start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a42ab532c49030406366e859f9b3f29f8}
+
+
+Funkcja pomocnicza mierzenia czasu. 
+
+Funkcja zaczyna liczyc czas od momentu wywolania tej metody Sluzy do liczenia czasu wykonywania pojedynczego wypelniania stosu/kolejki 
+
+Definition at line 14 of file benchmark.\-cpp.
+
+\hypertarget{classbenchmark_a9beb25d3e65b94c1ac7c085d8105fe65}{\index{benchmark@{benchmark}!czas\-\_\-stop@{czas\-\_\-stop}}
+\index{czas\-\_\-stop@{czas\-\_\-stop}!benchmark@{benchmark}}
+\subsubsection[{czas\-\_\-stop}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::czas\-\_\-stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a9beb25d3e65b94c1ac7c085d8105fe65}
+
+
+Funkcja pomocnicza mierzenia czasu. 
+
+Funkcja konczy liczyc czas od momentu wywolania tej metody Sluzy do liczenia czasu wykonywania pojedynczego wypelniania stosu/kolejki 
+
+Definition at line 17 of file benchmark.\-cpp.
+
+\hypertarget{classbenchmark_a613a8792feca7c2622355922d64d6fcd}{\index{benchmark@{benchmark}!ile\-\_\-czasu@{ile\-\_\-czasu}}
+\index{ile\-\_\-czasu@{ile\-\_\-czasu}!benchmark@{benchmark}}
+\subsubsection[{ile\-\_\-czasu}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::ile\-\_\-czasu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a613a8792feca7c2622355922d64d6fcd}
+
+
+Funkcja obliczania czasu dzialania programu. 
+
+Funkcja podaje czas wykonywania pojedynczego wypelniania stosu/kolejki
+
+\begin{DoxyReturn}{Returns}
+elapsed\-Time -\/$>$ zmienna typu double ( wynik obliczen ) 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file benchmark.\-cpp.
+
+\hypertarget{classbenchmark_a845da6947383df74d871e273bf225721}{\index{benchmark@{benchmark}!wykonaj\-\_\-algorytn\-\_\-sortowanie@{wykonaj\-\_\-algorytn\-\_\-sortowanie}}
+\index{wykonaj\-\_\-algorytn\-\_\-sortowanie@{wykonaj\-\_\-algorytn\-\_\-sortowanie}!benchmark@{benchmark}}
+\subsubsection[{wykonaj\-\_\-algorytn\-\_\-sortowanie}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::wykonaj\-\_\-algorytn\-\_\-sortowanie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a845da6947383df74d871e273bf225721}
+
+
+Funkcja wykonujaca algorytm. 
+
+Wykonanie algorytmu ma przebieg \-:\par
+ -\/$>$ posortowanie danych metoda Quick Sort\par
+ -\/$>$ posortowanie danych metoda Merge Sort\par
+ -\/$>$ posortowanie danych metoda Heap Sort\par
+ \par
+ Dla \-:\par
+
+\begin{DoxyItemize}
+\item 10 elementow \par
+
+\item 100 elementow \par
+
+\item 1000 elementow \par
+
+\item 10000 elementow \par
+
+\item 100000 elementow \par
+
+\item 1000000 elementow \par
+ 
+\end{DoxyItemize}
+
+Definition at line 27 of file benchmark.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbenchmark_a845da6947383df74d871e273bf225721_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classbenchmark_a45a6a3fcaf8d09f172f2776451d67c9b}{\index{benchmark@{benchmark}!wyswietl\-\_\-wszystko@{wyswietl\-\_\-wszystko}}
+\index{wyswietl\-\_\-wszystko@{wyswietl\-\_\-wszystko}!benchmark@{benchmark}}
+\subsubsection[{wyswietl\-\_\-wszystko}]{\setlength{\rightskip}{0pt plus 5cm}void benchmark\-::wyswietl\-\_\-wszystko (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{c, }
+\item[{double $\ast$}]{q, }
+\item[{double $\ast$}]{m, }
+\item[{double $\ast$}]{h, }
+\item[{int}]{n, }
+\item[{int}]{s}
+\end{DoxyParamCaption}
+)}}\label{classbenchmark_a45a6a3fcaf8d09f172f2776451d67c9b}
+
+
+Funkcja wyswietalnia wynikow. 
+
+Funkcja wyswietla wszystkie czasy liczone w programie. Tzn\-: Czasy wszystkich wykonan dla kazdego sortowania, najwolniejsze, najszybsze oraz srednie wykonanie. Dodatkowo czas wykonania calej petli za kazdym razem
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & -\/$>$ wskaznik na zmienna typu double, przechowuje adres pola czasu calkowitego ( czasy ) \\
+\hline
+{\em q} & -\/$>$ wskaznik na zmienna typu double, przechowuje adres pola czasu wykonywania Quick Sort ( quick ) \\
+\hline
+{\em m} & -\/$>$ wskaznik na zmienna typu double, przechowuje adres pola czasu wykonywania Merge Sort ( merge ) \\
+\hline
+{\em h} & -\/$>$ wskaznik na zmienna typu double, przechowuje adres pola czasu wykonywania Heap Sort ( heap ) \\
+\hline
+{\em n} & -\/$>$ zmienna typu int, przechowuje adres pola, w ktorym jest informacja o tym ile razy zostal wykonany algorytm ( ile\-\_\-razy ) \\
+\hline
+{\em s} & -\/$>$ zmienna typu int, przechowuje adres pola rozmiaru tablicy ( size ) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 149 of file benchmark.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classbenchmark_a563b747421276232836b7711b6881ec8}{\index{benchmark@{benchmark}!czas@{czas}}
+\index{czas@{czas}!benchmark@{benchmark}}
+\subsubsection[{czas}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::czas\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_a563b747421276232836b7711b6881ec8}
+
+
+Pole typu double, bedzie uzywane do mierzenia calkowitego czasu dzialania programu. 
+
+
+
+Definition at line 51 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_af677300c0b0a0086f306a0a08a6172b9}{\index{benchmark@{benchmark}!czas\-\_\-caly@{czas\-\_\-caly}}
+\index{czas\-\_\-caly@{czas\-\_\-caly}!benchmark@{benchmark}}
+\subsubsection[{czas\-\_\-caly}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::czas\-\_\-caly\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_af677300c0b0a0086f306a0a08a6172b9}
+
+
+Pole typu double, bedzie uzywane do mierzenia calkowitego czasu dzialania programu. ! 
+
+
+
+Definition at line 55 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_a90e6eda0144befd3f3bc1a881904fb57}{\index{benchmark@{benchmark}!elapsed\-Time@{elapsed\-Time}}
+\index{elapsed\-Time@{elapsed\-Time}!benchmark@{benchmark}}
+\subsubsection[{elapsed\-Time}]{\setlength{\rightskip}{0pt plus 5cm}double benchmark\-::elapsed\-Time\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_a90e6eda0144befd3f3bc1a881904fb57}
+
+
+Pole typu double, bedzie uzywane do mierzenia czasu dzialania pojedynczego wypelniania. 
+
+
+
+Definition at line 47 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_a7789217b36df3b3ae427ceaaa2694d0b}{\index{benchmark@{benchmark}!t1@{t1}}
+\index{t1@{t1}!benchmark@{benchmark}}
+\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}timeval benchmark\-::t1\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_a7789217b36df3b3ae427ceaaa2694d0b}
+
+
+Pole typu timeval, pomoc do liczenia czasu dzialania operacji krotkich ( tzn pojedynczego dzialania) 
+
+
+
+Definition at line 59 of file benchmark.\-hh.
+
+\hypertarget{classbenchmark_aea9f22e585c0c5826329e48a97a99803}{\index{benchmark@{benchmark}!t2@{t2}}
+\index{t2@{t2}!benchmark@{benchmark}}
+\subsubsection[{t2}]{\setlength{\rightskip}{0pt plus 5cm}timeval benchmark\-::t2\hspace{0.3cm}{\ttfamily [private]}}}\label{classbenchmark_aea9f22e585c0c5826329e48a97a99803}
+
+
+Definition at line 59 of file benchmark.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/sortowaniev2/prj/inc/\hyperlink{benchmark_8hh}{benchmark.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/sortowaniev2/prj/src/\hyperlink{benchmark_8cpp}{benchmark.\-cpp}\end{DoxyCompactItemize}
