@@ -1,0 +1,13 @@
+/*
+sasiedztwo (v1)
+dodaj_wierzcholek(v);
+dodaj_krawedz(v1,v2,e);
+usun_krawedz(v1,v2);
+usun_wierzolek(v);
+
+poczytac o (wyszukiwania to sa ) :
+
+depth first search
+breadth first search
+A*
+*/

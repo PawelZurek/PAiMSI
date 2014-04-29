@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Wstep}{2}
+\contentsline {section}{\numberline {2}Wyniki}{2}
+\contentsline {paragraph}{Wynik dzia\IeC {\l }ania programu : \\}{2}
+\contentsline {paragraph}{Dane wy\IeC {\'s}wietlone za pomoca wykresu ( wykres dost\IeC {\k e}pny osobno w pliku wykres.pdf) }{4}
+\contentsline {section}{\numberline {3}Wnioski:}{4}
