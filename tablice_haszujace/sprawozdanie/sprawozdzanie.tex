@@ -1,0 +1,44 @@
+\documentclass[10 pt]{article}
+\usepackage{graphicx}
+\pagestyle{plain}
+\usepackage[OT4]{polski}
+\usepackage[utf8]{inputenc}
+\title{Sprawozdzanie 5 \\ \emph{\textbf{Tablice z haszowaniem}}}
+\author{Paweł Żurek 200404}
+\date{09.04.2014}
+\begin{document}
+\tableofcontents
+\maketitle
+\section{Wstęp}
+Prosty program, w którym użyte są podstawowe funkcje tablic haszujących.
+\section{Krótki opis programu}
+\textbf{Program udostępnia prosty interfejs z następującymi opcjami: }
+\begin{itemize}
+\item Dodanie elementu
+\item Usunięcie elementu
+\item Wyświetlenie wybranego elementu
+\item Sprawdzenia czy są jakieś elementy
+\item Sprawdzenia dokładnej ilości elementów
+\item Wyświetlenie elementów
+\end{itemize}
+
+\textbf{Najważniejszy element klasy głównej programu to : }
+\begin{itemize}
+\item Tablica typu string z wartościami elementów
+\end{itemize}
+
+\section{Wnioski:}
+\begin{itemize}
+\item Program działa poprawnie
+\item Jako, że tablice haszujące same tworzą indeks dla elementu dodawanego, znacznie upraszcza to strukturę programu. Porównując ją choćby do tablic asocjacyjnych, gdzie ręcznie trzeba ustalać klucze. Jednak oczywiście obie struktury mają zalety i wady
+\item Jedną z wad jest tablic haszujących jest samo haszowanie. Funkcja, której użyłem działa na zasadzie przeliczania danych typu string na wartości typu int a później wykonanie na nich działanie modulo. Niestety, dzielenie modulo ( szczególnie dla małych wartości ) powoduje, że wartości mogą się powtórzyć. Kiedy tak się dzieje, element jest wpisywany w pierwsze miejsce wolne za indeksem wyliczonym
+\item można zatem łatwo zauważyć, iż wyszukanie elementu może mieć złożoność :
+\begin{itemize}
+\item O(1) w najlepszym przypadku ( gdy element znajduje się w miejscu obliczonego indeksu )
+\item O(n) w najgorszym ( gdy element znajduje się jedno miejsce przed obliczonym indeksem )
+\end{itemize}
+
+\end{itemize}
+
+
+\end{document}

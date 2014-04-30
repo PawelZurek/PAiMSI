@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Wst\IeC {\k e}p}{2}
+\contentsline {section}{\numberline {2}Kr\IeC {\'o}tki opis programu}{2}
+\contentsline {section}{\numberline {3}Wynik:}{2}
+\contentsline {paragraph}{Dane zilustrowane w formie wykresu ( dane oraz wykres dost\IeC {\k e}pne w pliku wynik.xlsx ) \\}{2}
+\contentsline {section}{\numberline {4}Wnioski:}{3}

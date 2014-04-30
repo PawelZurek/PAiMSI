@@ -1,0 +1,39 @@
+\documentclass[10 pt]{article}
+\usepackage{graphicx}
+\pagestyle{plain}
+\usepackage[OT4]{polski}
+\usepackage[utf8]{inputenc}
+\title{Sprawozdzanie 4 \\ \emph{\textbf{Tablice Asocjacyjne}}}
+\author{Paweł Żurek 200404}
+\date{01.04.2014}
+\begin{document}
+\tableofcontents
+\maketitle
+\section{Wstęp}
+Prosty program, w którym użyte są podstawowe funkcje tablic asocjacyjnych.
+\section{Krótki opis programu}
+\textbf{Program udostępnia prosty interfejs z następującymi opcjami: }
+\begin{itemize}
+\item Dodanie elementu wraz z kluczem
+\item Usunięcie elementu o danym kluczu
+\item Wyświetlenie elementu z danym kluczem
+\item Sprawdzenia czy są jakieś elementy
+\item Sprawdzenia dokładnej ilości elementów
+\item Wyświetlenie elementów wraz z ich kluczami
+\end{itemize}
+
+\textbf{Najważniejsze elementy klasy głównej to : }
+\begin{itemize}
+\item Tablica typu string z wartościami elementów
+\item Druga tablica, również typu string, która posiada klucze elementów
+\end{itemize}
+
+\section{Wnioski:}
+\begin{itemize}
+\item Program działa poprawnie, lecz wyszukiwanie klucza ma złożoność O(n), gdzie n to liczba elementów w tablicy
+\item Jako budulec struktury użyłem tablicy opisanej za pomocą stosu, ponieważ z poprzednich zadań zauważyłem, iż ta struktura oprócz łatwej obsługi, działa dostatecznie szybko.
+
+\end{itemize}
+
+
+\end{document}
