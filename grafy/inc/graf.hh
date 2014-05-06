@@ -8,6 +8,10 @@
 
 #include <iostream>
 #include <iomanip>
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
+#include "stos_lista.hh"
+#include "kolejka_lista.hh"
 
 using namespace std;
 
@@ -19,6 +23,9 @@ private:
   int *wagi;// wagi krawedzi
   int **tab;//tablica polaczen
   int *wierzcholki;
+  bool *odwiedzony;
+  stos_lista stos;
+
 public:
   graf(int liczba_wierz);
   ~graf();
@@ -62,6 +69,31 @@ public:
   void ilosc_wierzcholkow();
 
   void wyswietl_wierzcholki();
+
+  void dfs(int v);
+
+  void depth();
+
+  void bfs(int v);
+
+  void breth();  
+
+  void storz_tab_odw();
+
+  void usun_tab_odw();
+
+  void wypelnianie();
+  /*
+
+  int nastepny_dfs(int v);
+
+  void wyszukanie_depth();
+
+  void szukajcie(int v1, int v2);
+
+  void szukaj();
+
+  void nastepny( int v1, int v2);*/
 
 };
 

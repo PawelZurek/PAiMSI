@@ -6,6 +6,7 @@ using namespace std;
 graf::graf(int liczba_wierz){
   n= liczba_wierz;
   m=0;
+  odwiedzony=0;
   tab = new int * [liczba_wierz];    // Tworzymy tablicę wskaźników
   wartosci = new string[liczba_wierz];
   wierzcholki = new int[liczba_wierz];
@@ -17,6 +18,10 @@ graf::graf(int liczba_wierz){
     tab[i] = new int [liczba_wierz]; // Tworzymy wiersze
 
   wypelnij_zerami();
+
+  odwiedzony = new bool[n];
+
+  for(int i = 0; i < n; i++) odwiedzony[i] = false;
 }
 
 graf::~graf(){
@@ -27,6 +32,7 @@ graf::~graf(){
   if (m > 0)  
     delete [] wagi;
   delete [] wierzcholki;
+  delete [] odwiedzony;
 }
   
 void graf::wypelnij_zerami(){
@@ -60,7 +66,7 @@ void graf::ustaw_polaczenia(){
     }
     if (jest == 2){
       if ( ( (v1 >= wierzcholki[0] ) && (v1 <= wierzcholki[n-1]) ) && ( (v2 >= wierzcholki[0]) && (v2 <= wierzcholki[n-1]) ) ){
-        tab[indeks][indeks2] = 1;      // Krawędź v1->v2 obecna
+        tab[indeks][indeks2] = 1;      // Krawędź v1<->v2 obecna
       }
       else{
         cout<<"Zle wartosci ! wierzcholek musi byc wiekszy od 0 i nie wiekszy od "<<n<<" !"<<endl;
@@ -375,3 +381,140 @@ void graf::wyswietl_wierzcholki(){
   for (int i = 0; i < n; i++)
     cout<<wierzcholki[i]<<endl;
 }
+
+void graf::dfs(int v){
+  odwiedzony[v-1]=true;
+  cout<< setw(3) << v;
+
+  for (int i = 0; i < n; i++)
+    if ((tab[v-1][i] == 1) && (odwiedzony[i]==false))
+      dfs(i+1);
+}
+
+void graf::depth(){
+  int v=0;
+  usun_tab_odw();
+  storz_tab_odw();
+
+  cout<<"Podaj wierzcholek : ";
+  cin>>v;
+  dfs(v);
+  cout<<endl;
+}
+
+void graf::bfs(int v){
+  --v;
+  elementk *q,*head,*tail;
+
+  q = new elementk;        // W kolejce umieszczamy v
+  q->nastepny = NULL;
+  q->klucz = v;
+  head = tail = q;
+
+
+  odwiedzony[v] = true;      // Wierzchołek v oznaczamy jako odwiedzony
+
+  while(head)
+  {
+    v = head->klucz;       // Odczytujemy v z kolejki
+    q = head;             // Usuwamy z kolejki odczytane v
+    head = head->nastepny;
+    if(!head) tail = NULL;
+    delete q;
+
+    cout << setw(3) << v+1;
+
+    for(int i = 0; i < n; i++)
+      if((tab[v][i] == 1) && !odwiedzony[i])
+      {
+        q = new elementk; // W kolejce umieszczamy nieodwiedzonych sąsiadów
+        q->nastepny = NULL;
+        q->klucz = i;
+        if(!tail) head = q;
+        else tail->nastepny = q;
+        tail = q;
+        odwiedzony[i] = true; // i oznaczamy ich jako odwiedzonych
+      }
+  }
+}
+
+void graf::breth(){
+  usun_tab_odw();
+  storz_tab_odw();
+  int v=0;
+  
+  cout<<"Podaj wierzcholek : ";
+  cin>>v;
+  bfs(v);
+  cout<<endl;
+}
+
+void graf::usun_tab_odw(){
+  delete [] odwiedzony;
+}
+
+void graf::storz_tab_odw(){
+  odwiedzony = new bool[n];
+
+  for(int i = 0; i < n; i++) odwiedzony[i] = false;
+}
+
+void graf::wypelnianie(){
+  srand (time(NULL));
+  for (int i = 0; i < n; i++)
+    for (int j = 0; j < n; j++)
+      tab[i][j] = rand() % 2;
+}
+
+/*
+void graf::szukajcie(int v1, int v2){
+  odwiedzony = new bool[n];
+  if (tab[v1-1][v2-1] == 0 ){
+    odwiedzony[v1-1]=true;
+    stos.dodaj_element(v1);
+    
+     nastepny(v1, v2);
+    
+  }
+  else
+    cout<<"Te wierzcholki sa polaczone bezposrednio ze soba !!!!"<<endl;
+  stos.pokaz_elementy();
+}
+
+void graf::nastepny(int v1, int v2){
+  int tmp=0;
+  for (int i = 0; i < n; i++){
+   if ((tab[v1-1][i]==1) && (odwiedzony[i]==0 )){
+     stos.dodaj_element(wierzcholki[i]);
+     odwiedzony[i]=1;
+     tmp=i+1;
+     break;
+   }
+  }
+  if (tmp != v2)
+  nastepny(tmp,v2); 
+}
+
+void graf::szukaj(){
+  int v1=0, v2=0;
+  cout<<"podaj wierzcholek : ";
+  cin>>v1;
+  cout<<"Drugi wierzcholek : ";
+  cin>>v2;
+
+  szukajcie(v1,v2);
+}
+
+int graf::nastepny_dfs(int v){
+
+  for (int i=n-1;i>=0;i--)
+    if ((tab[i][v]==1)&&(odwiedzony[i]==0)){
+      odwiedzony[i]=1;
+      return(i);
+    }
+ 
+//Wierzcholek v nie ma juz nastepnikow do odwiedzenia
+  return(-1);
+}
+
+*/

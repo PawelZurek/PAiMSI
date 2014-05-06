@@ -9,6 +9,7 @@ int main(){
 	cin >> w;         // Czytamy liczbę wierzchołków i krawędzi
 
   	graf g(w);
+  	g.wypelnianie();
  	int oper=0;
 	
 	do{
@@ -23,9 +24,11 @@ int main(){
 		<<"8 -> ile wierzcholkow\n"
 		<<"9 -> pokaz wierzcholki\n"
 		<<"10 -> koniec\n"
+		<<"11 -> dfs\n"
+		<<"12 -> bfs\n"
 		<<"Twoja opcja to : ";
 		cin>>oper;
-		if (( oper > 0 ) && ( oper < 11)){
+		if (( oper > 0 ) && ( oper < 13)){
 			switch(oper){
 			case 1: g.ustaw_polaczenia(); break;
 			case 2: g.dodaj_wierzcholek(); break;
@@ -36,6 +39,8 @@ int main(){
 			case 7: g.wyswietl_wszystko(); break;
 			case 8: g.ilosc_wierzcholkow(); break;
 			case 9: g.wyswietl_wierzcholki(); break;
+			case 11: g.depth(); break;
+			case 12: g.breth(); break;
 			case 10: break;
 			default: cerr << "\n***********nierozpoznana opcja ! Wpisz ponownie : ***********\n"; break;
 			}
