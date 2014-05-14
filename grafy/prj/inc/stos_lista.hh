@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <sys/time.h>
 
+
 using namespace std;
 
 /*!
@@ -178,6 +179,13 @@ Zmniejszamy o jeden licznik licznik i zwracamy adres usuniętego z listy element
 	element *pop();
 
 	int top();
+
+	bool znajdz(int a);
+
+	void usun(int tmp);
+
+	int usun();
+
 };
 
 #endif 

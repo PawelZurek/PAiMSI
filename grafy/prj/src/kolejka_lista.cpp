@@ -96,5 +96,3 @@ void kolejka_lista::wczytaj_dane(string nazwa){
 
     	}
 }
-
-

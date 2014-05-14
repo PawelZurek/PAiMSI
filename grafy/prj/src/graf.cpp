@@ -3,7 +3,9 @@
 using namespace std;
 
 
+
 graf::graf(int liczba_wierz){
+
   n= liczba_wierz;
   m=0;
   odwiedzony=0;
@@ -91,7 +93,7 @@ void graf::dodaj_wagi(){
   cout<<"\nPrzydzielanie wagi do krawedzi : "<<endl;
   for (int i = 0; i < m; i++){
   cout<<"Podaj Wartosc dla krawedzi "<<i+1<<" : ";
-  cin>>wartosci[i];
+  cin>>wagi[i];
   }
 }
 
@@ -131,20 +133,21 @@ void graf::wyswietl_wszystko(){
 
 bool graf::czy_sasiad(int v1,int v2){
   if (tab[v1][v2]==1){
-    cout<<"wierzcholek : "<<v1<<" jest sasiadem z wierzcholkiem : "<<v2<<endl;
+    //cout<<"wierzcholek : "<<v1<<" jest sasiadem z wierzcholkiem : "<<v2<<endl;
     return 1;
     }
   else{
-    cout<<"wierzcholek : "<<v1<<" NIE jest sasiadem z wierzcholkiem : "<<v2<<endl;
+    //cout<<"wierzcholek : "<<v1<<" NIE jest sasiadem z wierzcholkiem : "<<v2<<endl;
     return 0;
   }
+  cout<<"111111\n"<<endl;
 }
 
 void graf::sasiedztwo(){
   int w;
   cout<<"Podaj jakiego wierzcholka chcesz zbadac sasiedztwo : ";
   cin>>w;
-  sasiedzi(w);  
+  sasiedztwo(w);  
 }
 
 void graf::usuwanie_wierzcholka(){
@@ -158,13 +161,13 @@ void graf::usuwanie_wierzcholka(){
       jest = 1;
   }
   if (jest == 1){
-    usun_wierzcholek(w);
+    usuwanie_wierzcholka(w);
   }
   else
     cout<<"Nie ma takiego wierzcholka !!!";
 }
 
-void graf::sasiedzi(int v){
+void graf::sasiedztwo(int v){
   int tmp=0;
   bool jest = 0;
   int indeks = 0;
@@ -243,7 +246,7 @@ void graf::dodaj_wierzcholek(){
   }
 }
 
-void graf::usun_wierzcholek(int v){
+void graf::usuwanie_wierzcholka(int v){
   if (n > 0){
     int * tmp_wierzcholki;
     tmp_wierzcholki =  new int[n];
@@ -307,7 +310,7 @@ void graf::usun_wierzcholek(int v){
     cout<<"Brak wierzcholkow !!!!!!!!"<<endl;
 }
 
-void graf::dodaj_krawedz(int v1, int v2, int e){
+void graf::dodawanie_krawedzi(int v1, int v2, int e){
   if (tab[v1][v2] == 0)
     tab[v1][v2] = e;
   else
@@ -335,12 +338,12 @@ void graf::dodawanie_krawedzi(){
   }
 
   if (jest ==2)
-    dodaj_krawedz(indeks,indeks2,e);
+    dodawanie_krawedzi(indeks,indeks2,e);
   else
     cout<<"Nie ma ktoregos z wierzcholka"<<endl;
 }
 
-void graf::usun_krawedz(int v1, int v2){
+void graf::usuwanie_krawedzi(int v1, int v2){
   if (tab[v1][v2] != 0)
     tab[v1][v2] = 0;
   else
@@ -366,7 +369,7 @@ void graf::usuwanie_krawedzi(){
   }
 
   if (jest ==2)
-    usun_krawedz(indeks,indeks2);
+    usuwanie_krawedzi(indeks,indeks2);
   else
     cout<<"Nie ma ktoregos z wierzcholka"<<endl;
   
@@ -374,6 +377,10 @@ void graf::usuwanie_krawedzi(){
 
 void graf::ilosc_wierzcholkow(){
   cout<<" Aktualnie w grafie jest : "<<n<<" wierzcholkow."<<endl;
+}
+
+int graf::get_wierzcholki(){
+  return n;
 }
 
 void graf::wyswietl_wierzcholki(){
@@ -384,14 +391,14 @@ void graf::wyswietl_wierzcholki(){
 
 void graf::dfs(int v){
   odwiedzony[v-1]=true;
-  cout<< setw(3) << v;
+  //cout<< setw(3) << v;
 
   for (int i = 0; i < n; i++)
-    if ((tab[v-1][i] == 1) && (odwiedzony[i]==false))
+    if ((tab[v-1][i] != 0) && (odwiedzony[i]==false))
       dfs(i+1);
 }
 
-void graf::depth(){
+void graf::dfs(){
   int v=0;
   usun_tab_odw();
   storz_tab_odw();
@@ -422,10 +429,10 @@ void graf::bfs(int v){
     if(!head) tail = NULL;
     delete q;
 
-    cout << setw(3) << v+1;
+    //cout << setw(3) << v+1;
 
     for(int i = 0; i < n; i++)
-      if((tab[v][i] == 1) && !odwiedzony[i])
+      if((tab[v][i] != 0) && !odwiedzony[i])
       {
         q = new elementk; // W kolejce umieszczamy nieodwiedzonych sąsiadów
         q->nastepny = NULL;
@@ -438,7 +445,7 @@ void graf::bfs(int v){
   }
 }
 
-void graf::breth(){
+void graf::bfs(){
   usun_tab_odw();
   storz_tab_odw();
   int v=0;
@@ -459,62 +466,248 @@ void graf::storz_tab_odw(){
   for(int i = 0; i < n; i++) odwiedzony[i] = false;
 }
 
-void graf::wypelnianie(){
-  srand (time(NULL));
+
+void graf::losuj_polaczenia(){
+  
+  int proc;
+  cout<<"Podaj procentowo jakie chcesz zapelnienie: ";
+  cin>>proc;
+  m=(proc*n*n)/100;
+  wagi = new int[m];
+  int wartosc=0;
+  int indeks = 0, indeks2 =0;
+
+  for(int j = 0; j < m; j++){
+    indeks = rand() % n;
+    indeks2 = rand() % n;
+      if (tab[indeks][indeks2] == 0){
+        wartosc= 1;
+        tab[indeks][indeks2] = wartosc;
+        wagi[j] = wartosc;
+      }
+      else j--;
+    }
+}
+
+void graf::losuj_polaczenia(int proc){
+
+  m=(proc*n*n)/100;
+  wagi = new int[m];
+  int wartosc=0;
+  int indeks = 0, indeks2 =0;
+
+  for(int j = 0; j < m; j++){
+    indeks = rand() % n;
+    indeks2 = rand() % n;
+      if (tab[indeks][indeks2] == 0){
+        wartosc= 1;
+        tab[indeks][indeks2] = wartosc;
+        wagi[j] = wartosc;
+      }
+      else j--;
+    }
+}
+
+void graf::usun_wszystko(){
+  if (m>0)
+    delete [] wagi;
+  
   for (int i = 0; i < n; i++)
     for (int j = 0; j < n; j++)
-      tab[i][j] = rand() % 2;
+      tab[i][j] = 0;
 }
 
-/*
-void graf::szukajcie(int v1, int v2){
-  odwiedzony = new bool[n];
-  if (tab[v1-1][v2-1] == 0 ){
-    odwiedzony[v1-1]=true;
-    stos.dodaj_element(v1);
-    
-     nastepny(v1, v2);
-    
-  }
-  else
-    cout<<"Te wierzcholki sa polaczone bezposrednio ze soba !!!!"<<endl;
-  stos.pokaz_elementy();
-}
-
-void graf::nastepny(int v1, int v2){
-  int tmp=0;
-  for (int i = 0; i < n; i++){
-   if ((tab[v1-1][i]==1) && (odwiedzony[i]==0 )){
-     stos.dodaj_element(wierzcholki[i]);
-     odwiedzony[i]=1;
-     tmp=i+1;
-     break;
-   }
-  }
-  if (tmp != v2)
-  nastepny(tmp,v2); 
-}
-
-void graf::szukaj(){
+void graf::a_star(){
   int v1=0, v2=0;
-  cout<<"podaj wierzcholek : ";
+
+  cout<<"Podaj wierzcholek 1 : ";
   cin>>v1;
-  cout<<"Drugi wierzcholek : ";
+  cout<<"Podaj wierzcholek 2 : ";
   cin>>v2;
 
-  szukajcie(v1,v2);
+  a_star(v1,v2);
+
 }
 
-int graf::nastepny_dfs(int v){
+void graf::a_star(int start, int koniec){
+  otwarte.dodaj_element(start);
+  zamkniete.dodaj_element(start);
+  do{
+    punkty_odwiedzone.dodaj_element(start);
+    wartosci[start-1]=oblicz_F_G_H(start);
 
-  for (int i=n-1;i>=0;i--)
-    if ((tab[i][v]==1)&&(odwiedzony[i]==0)){
-      odwiedzony[i]=1;
-      return(i);
+    start=znajdz_najmniejsze_f();
+    otwarte.usun(start);
+    cout<<"start : "<<start<<endl;
+    zamkniete.dodaj_element(start);
+    for (int j = 0; j <  n; j++){
+      if ((czy_sasiad(start-1,j)==1) && (zamkniete.znajdz(j+1) == 0 )){
+        
+        if (otwarte.znajdz(j+1)==0){        
+          otwarte.dodaj_element(j+1);
+          start=j+1;
+          wartosci[j]=oblicz_F_G_H(j+1);
+        }
+        else{
+
+          if (zdobadz_G(j+1) > zdobadz_G(start)){
+              start=j+1;
+          wartosci[j]=oblicz_F_G_H(j+1);
+          }
+        }
+      }
     }
- 
-//Wierzcholek v nie ma juz nastepnikow do odwiedzenia
-  return(-1);
+  }while(start != koniec);
+  cout<<koniec<<endl;
+  if (start == koniec){
+    cout<<"Znaleziono polaczenie nastepujaca droga : "<<endl;
+    punkty_odwiedzone.pokaz_elementy();
+  }
+  else
+    cout<<"Nie Znaleziono polaczenia"<<endl;
 }
 
-*/
+string graf::oblicz_F_G_H(int indeks){
+
+  int g=0,h=0,f=0;
+  string tmp,tmp1,tmp2,fgh;
+  g = oblicz_G();
+  tmp = intToStr(g);
+  h = oblicz_H(indeks);
+  tmp1 = intToStr(h);
+  f= g+h;
+  tmp2= intToStr(f);
+  fgh = tmp+"."+tmp1+","+tmp2;
+  cout<<endl<<fgh<<endl;
+  return fgh;
+}
+
+int graf::oblicz_H(int indeks){
+  int suma=0;
+  przejdz_do_nastepnego(indeks);
+  for (int i = 0; i < m; i++)
+  suma = suma + wagi[i];
+  
+  return suma;
+}
+int graf::przejdz_do_nastepnego(int indeks){
+  int j = 0;
+  for (j = 0; j < n; j++){
+      if ((tab[indeks-1][j] == 1) && (odwiedzony[j]==0)){
+        odwiedzony[j] = 1;
+        dodaj_wagi(indeks, j, 5);
+        break;
+      } 
+    }
+    return  j;
+}
+
+int graf::oblicz_G(){
+  int suma= 0, i =0 ; 
+  int *tmp;
+  if (punkty_odwiedzone.size() > 1){
+    int rozmiar = punkty_odwiedzone.size();
+    tmp  = new int[rozmiar];
+    while(punkty_odwiedzone.isempty() == 0 ){
+      tmp[i] = punkty_odwiedzone.top();
+      punkty_odwiedzone.pop();
+      i++;
+    }
+  for (int j = 0; j < rozmiar; j++){
+    punkty_odwiedzone.dodaj_element(tmp[j]);
+    suma = suma + (2*tmp[j]);
+  }
+  delete [] tmp;
+  }
+  
+  return suma;
+}
+
+int graf::znajdz_najmniejsze_f(){
+
+  
+  int *tymczas;
+  int *tmp;
+  int rozmiar = punkty_odwiedzone.size();
+  tymczas = new int[rozmiar];
+  tmp =  new int[rozmiar];
+  int i = 0, najmniejszy = 999, indeks = 0;
+  while(punkty_odwiedzone.isempty() == 0 ){
+    tymczas[i]=punkty_odwiedzone.usun();
+    tmp[i] = zdobadz_F(tymczas[i]);
+    i++;
+  }
+  for (int i = 0; i < rozmiar; i++){
+    punkty_odwiedzone.dodaj_element(tymczas[i]);
+     if( tmp[i] < najmniejszy ){
+         najmniejszy = tmp[ i ];
+         indeks = i;
+       }
+  }
+  delete [] tymczas;
+  delete [] tmp;
+  return indeks+1;
+}
+
+int graf::zdobadz_G(int indeks){
+  return znajdz_g(wartosci[indeks-1]);
+}
+
+int graf::zdobadz_F(int indeks){
+  return znajdz_f(wartosci[indeks-1]);
+}
+
+
+
+int graf::znajdz_g(string tmp){
+  int pos = tmp.find(".");
+
+  string g = tmp.substr(0,pos);
+  int g_gotowe  = strToInt(g);
+
+  return  g_gotowe;
+}
+
+int graf::znajdz_f(string tmp){
+  int pos = tmp.find(",");
+  string f = tmp.substr(pos+1);
+  int f_gotowe  = strToInt(f);
+
+  return  f_gotowe;
+} 
+
+
+
+string intToStr(int n){
+     string tmp;
+     if(n < 0) {
+      tmp = "-";
+      n = -n;
+     }
+     if(n > 9)
+      tmp += intToStr(n / 10);
+     tmp += n % 10 + 48;
+     return tmp;
+}
+
+int strToInt(string s){
+     unsigned tmp = 0, i = 0;
+     bool m = false;
+     if(s[0] == '-') {
+      m = true;
+      i++;
+     }
+     for(; i < s.size(); i++)
+      tmp = 10 * tmp + s[i] - 48;
+     return m ? -tmp : tmp;   
+}
+
+void graf::dodaj_wagi( int v1, int v2 , int waga){
+  tab[v1][v2] = waga;
+  for (int i = 0; i < m; i++)
+    if (wagi[i]==0){
+      wagi[i] = waga;
+      break;
+    }
+
+}

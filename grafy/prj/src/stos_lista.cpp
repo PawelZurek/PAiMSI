@@ -13,7 +13,7 @@ using namespace std;
 	}
 
 	unsigned stos_lista::size(){
-		cout<<"Rozmiar to: "<<licznik<<endl;
+		//cout<<endl<<"Rozmiar to: "<<licznik<<endl;
 		return licznik;
 	}
 
@@ -38,6 +38,35 @@ using namespace std;
 			cout<<"Lista jest pusta."<<endl;
 		 return NULL;
 		 
+		}
+	}
+
+	int stos_lista::usun(){
+		element *p;
+		if(przod){
+			p = przod;
+			przod = przod -> nastepny;
+			if(!przod) tyl = NULL;
+			licznik--;
+			return p->klucz;
+		}
+		else{
+			cout<<"Lista jest pusta."<<endl;
+			return 0;
+		 
+		}
+	}
+
+	void stos_lista::usun(int tmp){
+		element *p;
+		p=przod;
+		while(p){
+			if (p->klucz == tmp){
+			p = p->nastepny;
+			licznik--;
+			break;			
+			}
+			p = p->nastepny;
 		}
 	}
 
@@ -82,7 +111,8 @@ using namespace std;
 
     	}
 }
-	void stos_lista::wczytaj_dane(string nazwa){
+
+void stos_lista::wczytaj_dane(string nazwa){
 	int tmp=0;
    	nazwa="dane/"+nazwa;
 	ifstream liczby(nazwa.c_str());
@@ -98,7 +128,30 @@ using namespace std;
 }
 
 int stos_lista::top(){
-	return przod->klucz;
+	if (przod)
+		return przod->klucz;
+	else
+		return 0;
+}
+
+bool stos_lista::znajdz(int a){
+	element *p;
+	bool znaleziony =0;
+	if(!przod) cout<<"Lista jest pusta."<<endl;
+	else
+	{
+		p = przod;
+		while(p)
+		{	
+			if (p->klucz == a){
+				znaleziony = 1;
+				break;
+			}
+			p = p->nastepny;
+		}
+		cout<<endl;
+	}
+	return znaleziony;
 }
 
 

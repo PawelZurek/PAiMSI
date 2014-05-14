@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <string>
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
 #include "stos_lista.hh"
@@ -25,7 +26,9 @@ private:
   int *wierzcholki;
   bool *odwiedzony;
   stos_lista stos;
-
+  stos_lista otwarte;
+  stos_lista zamkniete;
+  stos_lista punkty_odwiedzone;
 public:
   graf(int liczba_wierz);
   ~graf();
@@ -46,56 +49,78 @@ public:
 
   bool czy_sasiad(int v1,int v2);
 
-  void sasiedzi(int v);
+  void sasiedztwo(int v);
 
   void sasiedztwo();
 
   void dodaj_wierzcholek();
 
-  void usun_wierzcholek(int v);
+  void usuwanie_wierzcholka(int v);
 
   void usuwanie_wierzcholka();
 
   void dodawanie_krawedzi();
 
-  void dodaj_krawedz(int v1, int v2, int e);
+  void dodawanie_krawedzi(int v1, int v2, int e);
 
   void usuwanie_krawedzi();
 
-  void usun_krawedz( int v1, int v2 );
+  void usuwanie_krawedzi( int v1, int v2 );
+
+  void dodaj_wagi( int v1, int v2 , int waga);
 
   void wypelnij_zerami();
 
   void ilosc_wierzcholkow();
 
+  int get_wierzcholki();
+
   void wyswietl_wierzcholki();
 
   void dfs(int v);
 
-  void depth();
+  void dfs();
 
   void bfs(int v);
 
-  void breth();  
+  void bfs();  
 
   void storz_tab_odw();
 
   void usun_tab_odw();
 
-  void wypelnianie();
-  /*
+  void losuj_polaczenia();
 
-  int nastepny_dfs(int v);
+  void losuj_polaczenia(int proc);
 
-  void wyszukanie_depth();
+  void usun_wszystko();
 
-  void szukajcie(int v1, int v2);
+  string oblicz_F_G_H(int indeks);
 
-  void szukaj();
+  void a_star(int start, int koniec);
 
-  void nastepny( int v1, int v2);*/
+  void a_star();
+
+  int zdobadz_G(int indeks);
+
+  int zdobadz_F(int indeks);
+
+  int znajdz_g(string tmp);
+
+  int znajdz_f(string tmp);
+
+  int oblicz_H(int indeks);
+
+  int oblicz_G();
+
+  int znajdz_najmniejsze_f();
+
+  int przejdz_do_nastepnego(int indeks);
 
 };
 
+int strToInt(string s);
+
+  string intToStr(int n);
 
 #endif 
