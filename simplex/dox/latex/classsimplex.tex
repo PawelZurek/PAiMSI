@@ -1,0 +1,253 @@
+\hypertarget{classsimplex}{\section{simplex Class Reference}
+\label{classsimplex}\index{simplex@{simplex}}
+}
+
+
+Modeluje pojecie Simplex. Klasa sluzy do wykonania uprostrzonego algorytmu simplex tzn \-: -\/$>$ znalezienia najwiekszego zysku z funkcji celu.  
+
+
+
+
+{\ttfamily \#include $<$simplex.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsimplex_a8aaeb28157215071b929373ec0359653}{simplex} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy simplex. \end{DoxyCompactList}\item 
+\hyperlink{classsimplex_a5044f01be0ce221495ee6b5a8412f8ab}{$\sim$simplex} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy simplex. \end{DoxyCompactList}\item 
+void \hyperlink{classsimplex_a49d8689f9b244ffd9d1941dcc5382278}{wprowadz\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Funkcja do wprowadzania danych. \end{DoxyCompactList}\item 
+void \hyperlink{classsimplex_a38765e9873e84c9c1574528d39f5e9d9}{wyswietl} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietaljaca uklad rownan. \end{DoxyCompactList}\item 
+void \hyperlink{classsimplex_a6b34466c3336fa38ac333b9fbcfe26f4}{oblicz} ()
+\begin{DoxyCompactList}\small\item\em Funkcja liczaca najlepszy zysk. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double $\ast$$\ast$ \hyperlink{classsimplex_ac8767985af04610b7cbb310bb22a6f7c}{tab}
+\begin{DoxyCompactList}\small\item\em Pole typu $\ast$$\ast$double, bedzie uzywane do przechowywania macierzy ukladu rownan. \end{DoxyCompactList}\item 
+double $\ast$ \hyperlink{classsimplex_a8a31528b6dcde5dadf732e403f2910d1}{ograniczenia}
+\begin{DoxyCompactList}\small\item\em Pole typu $\ast$double, bedzie uzywane do przechowywania ograniczen poszczegolnych rowan. \end{DoxyCompactList}\item 
+int \hyperlink{classsimplex_adfd1d227f38ea360def13b1f15b20939}{koszt} \mbox{[}2\mbox{]}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane do przechowywania kosztow 2och zmiennych. \end{DoxyCompactList}\item 
+double \hyperlink{classsimplex_a08631fd56f6f55fb022860ee5edcbdf4}{zysk} \mbox{[}7\mbox{]}
+\begin{DoxyCompactList}\small\item\em Pole typu double, bedzie uzywane do liczenia najlepszego zysku. \end{DoxyCompactList}\item 
+int \hyperlink{classsimplex_a2345d5a390dc5284e4ed37d5f63ca5e8}{n}
+\begin{DoxyCompactList}\small\item\em Pole typu int, bedzie uzywane do przechowywania ilosci rownan. \end{DoxyCompactList}\item 
+double \hyperlink{classsimplex_abebe4828ea993bcfdb436a39123ce2c8}{y} \mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em Pola typu double, beda uzywane do zapisywania pozycji kluczowych punktow. \end{DoxyCompactList}\item 
+double \hyperlink{classsimplex_ac0619d7747a373ff01bf3dab3126b330}{x} \mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie Simplex. Klasa sluzy do wykonania uprostrzonego algorytmu simplex tzn \-: -\/$>$ znalezienia najwiekszego zysku z funkcji celu. 
+
+Definition at line 20 of file simplex.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classsimplex_a8aaeb28157215071b929373ec0359653}{\index{simplex@{simplex}!simplex@{simplex}}
+\index{simplex@{simplex}!simplex@{simplex}}
+\subsubsection[{simplex}]{\setlength{\rightskip}{0pt plus 5cm}simplex\-::simplex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a8aaeb28157215071b929373ec0359653}
+
+
+Konstruktor klasy simplex. 
+
+Konstruktor jest bezparametryczny, inicjalizuje wszystkie skladowe klasy wartosciami zerowymi. 
+
+Definition at line 12 of file simplex.\-cpp.
+
+\hypertarget{classsimplex_a5044f01be0ce221495ee6b5a8412f8ab}{\index{simplex@{simplex}!$\sim$simplex@{$\sim$simplex}}
+\index{$\sim$simplex@{$\sim$simplex}!simplex@{simplex}}
+\subsubsection[{$\sim$simplex}]{\setlength{\rightskip}{0pt plus 5cm}simplex\-::$\sim$simplex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a5044f01be0ce221495ee6b5a8412f8ab}
+
+
+Destruktor klasy simplex. 
+
+Konstruktor jest bezparametryczny, usuwa wszystkie zmienne zaalokowane dynamicznie. 
+
+Definition at line 16 of file simplex.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsimplex_a6b34466c3336fa38ac333b9fbcfe26f4}{\index{simplex@{simplex}!oblicz@{oblicz}}
+\index{oblicz@{oblicz}!simplex@{simplex}}
+\subsubsection[{oblicz}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::oblicz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a6b34466c3336fa38ac333b9fbcfe26f4}
+
+
+Funkcja liczaca najlepszy zysk. 
+
+Dzialanie funkcji\-: -\/$>$ obliczenie kluczowych punktow -\/$>$ obliczenie wartosci zysku w tych punktach -\/$>$ wybor punktu, w ktorym zysk jest najlepszy -\/$>$ wyswietlenie wynikow \-:
+\begin{DoxyItemize}
+\item wartosc zysku
+\item punkty, dla ktorych ten zysk jest osiagniety 
+\end{DoxyItemize}
+
+Definition at line 76 of file simplex.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{classsimplex_a6b34466c3336fa38ac333b9fbcfe26f4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a49d8689f9b244ffd9d1941dcc5382278}{\index{simplex@{simplex}!wprowadz\-\_\-dane@{wprowadz\-\_\-dane}}
+\index{wprowadz\-\_\-dane@{wprowadz\-\_\-dane}!simplex@{simplex}}
+\subsubsection[{wprowadz\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::wprowadz\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a49d8689f9b244ffd9d1941dcc5382278}
+
+
+Funkcja do wprowadzania danych. 
+
+Dzialanie funkcji\-: -\/$>$ wpisanie ilosci rownan -\/$>$ wpisanie poszczegolnych wspolczynnikow -\/$>$ wpisanie poszczegolnych ograniczen -\/$>$ wpisanie poszczegolnych kosztow 
+
+Definition at line 23 of file simplex.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{classsimplex_a49d8689f9b244ffd9d1941dcc5382278_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a38765e9873e84c9c1574528d39f5e9d9}{\index{simplex@{simplex}!wyswietl@{wyswietl}}
+\index{wyswietl@{wyswietl}!simplex@{simplex}}
+\subsubsection[{wyswietl}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::wyswietl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a38765e9873e84c9c1574528d39f5e9d9}
+
+
+Funkcja wyswietaljaca uklad rownan. 
+
+Dzialanie funkcji\-: -\/$>$ wyswietlenie wynikow \-:
+\begin{DoxyItemize}
+\item zmienne z wspolczynikami
+\item oraniczenia dla danego rownania 
+\end{DoxyItemize}
+
+Definition at line 57 of file simplex.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classsimplex_a38765e9873e84c9c1574528d39f5e9d9_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classsimplex_adfd1d227f38ea360def13b1f15b20939}{\index{simplex@{simplex}!koszt@{koszt}}
+\index{koszt@{koszt}!simplex@{simplex}}
+\subsubsection[{koszt}]{\setlength{\rightskip}{0pt plus 5cm}int simplex\-::koszt\mbox{[}2\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_adfd1d227f38ea360def13b1f15b20939}
+
+
+Pole typu int, bedzie uzywane do przechowywania kosztow 2och zmiennych. 
+
+
+
+Definition at line 33 of file simplex.\-hh.
+
+\hypertarget{classsimplex_a2345d5a390dc5284e4ed37d5f63ca5e8}{\index{simplex@{simplex}!n@{n}}
+\index{n@{n}!simplex@{simplex}}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}int simplex\-::n\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a2345d5a390dc5284e4ed37d5f63ca5e8}
+
+
+Pole typu int, bedzie uzywane do przechowywania ilosci rownan. 
+
+
+
+Definition at line 41 of file simplex.\-hh.
+
+\hypertarget{classsimplex_a8a31528b6dcde5dadf732e403f2910d1}{\index{simplex@{simplex}!ograniczenia@{ograniczenia}}
+\index{ograniczenia@{ograniczenia}!simplex@{simplex}}
+\subsubsection[{ograniczenia}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ simplex\-::ograniczenia\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a8a31528b6dcde5dadf732e403f2910d1}
+
+
+Pole typu $\ast$double, bedzie uzywane do przechowywania ograniczen poszczegolnych rowan. 
+
+
+
+Definition at line 29 of file simplex.\-hh.
+
+\hypertarget{classsimplex_ac8767985af04610b7cbb310bb22a6f7c}{\index{simplex@{simplex}!tab@{tab}}
+\index{tab@{tab}!simplex@{simplex}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ simplex\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_ac8767985af04610b7cbb310bb22a6f7c}
+
+
+Pole typu $\ast$$\ast$double, bedzie uzywane do przechowywania macierzy ukladu rownan. 
+
+
+
+Definition at line 25 of file simplex.\-hh.
+
+\hypertarget{classsimplex_ac0619d7747a373ff01bf3dab3126b330}{\index{simplex@{simplex}!x@{x}}
+\index{x@{x}!simplex@{simplex}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}double simplex\-::x\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_ac0619d7747a373ff01bf3dab3126b330}
+
+
+Definition at line 45 of file simplex.\-hh.
+
+\hypertarget{classsimplex_abebe4828ea993bcfdb436a39123ce2c8}{\index{simplex@{simplex}!y@{y}}
+\index{y@{y}!simplex@{simplex}}
+\subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}double simplex\-::y\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_abebe4828ea993bcfdb436a39123ce2c8}
+
+
+Pola typu double, beda uzywane do zapisywania pozycji kluczowych punktow. 
+
+
+
+Definition at line 45 of file simplex.\-hh.
+
+\hypertarget{classsimplex_a08631fd56f6f55fb022860ee5edcbdf4}{\index{simplex@{simplex}!zysk@{zysk}}
+\index{zysk@{zysk}!simplex@{simplex}}
+\subsubsection[{zysk}]{\setlength{\rightskip}{0pt plus 5cm}double simplex\-::zysk\mbox{[}7\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a08631fd56f6f55fb022860ee5edcbdf4}
+
+
+Pole typu double, bedzie uzywane do liczenia najlepszego zysku. 
+
+
+
+Definition at line 37 of file simplex.\-hh.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/simplex/prj/inc/\hyperlink{simplex_8hh}{simplex.\-hh}\item 
+/home/pawel/\-Dokumenty/programowanie/pamsi/simplex/prj/src/\hyperlink{simplex_8cpp}{simplex.\-cpp}\end{DoxyCompactItemize}

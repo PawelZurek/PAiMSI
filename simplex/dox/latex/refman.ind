@@ -1,0 +1,82 @@
+\begin{theindex}
+
+  \item {$\sim $simplex}
+    \subitem {simplex}, \hyperpage{8}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/doc/pages/strona.\discretionary {-}{}{}dox}, 
+		\hyperpage{11}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/inc/simplex.\discretionary {-}{}{}hh}, 
+		\hyperpage{11}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/src/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{12}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/src/simplex.\discretionary {-}{}{}cpp}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {koszt}
+    \subitem {simplex}, \hyperpage{9}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{13}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{13}
+
+  \indexspace
+
+  \item {n}
+    \subitem {simplex}, \hyperpage{9}
+
+  \indexspace
+
+  \item {oblicz}
+    \subitem {simplex}, \hyperpage{8}
+  \item {ograniczenia}
+    \subitem {simplex}, \hyperpage{9}
+
+  \indexspace
+
+  \item {simplex}, \hyperpage{7}
+    \subitem {$\sim $simplex}, \hyperpage{8}
+    \subitem {koszt}, \hyperpage{9}
+    \subitem {n}, \hyperpage{9}
+    \subitem {oblicz}, \hyperpage{8}
+    \subitem {ograniczenia}, \hyperpage{9}
+    \subitem {simplex}, \hyperpage{8}
+    \subitem {tab}, \hyperpage{9}
+    \subitem {wprowadz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{8}
+    \subitem {wyswietl}, \hyperpage{9}
+    \subitem {x}, \hyperpage{10}
+    \subitem {y}, \hyperpage{10}
+    \subitem {zysk}, \hyperpage{10}
+
+  \indexspace
+
+  \item {tab}
+    \subitem {simplex}, \hyperpage{9}
+
+  \indexspace
+
+  \item {wprowadz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {simplex}, \hyperpage{8}
+  \item {wyswietl}
+    \subitem {simplex}, \hyperpage{9}
+
+  \indexspace
+
+  \item {x}
+    \subitem {simplex}, \hyperpage{10}
+
+  \indexspace
+
+  \item {y}
+    \subitem {simplex}, \hyperpage{10}
+
+  \indexspace
+
+  \item {zysk}
+    \subitem {simplex}, \hyperpage{10}
+
+\end{theindex}

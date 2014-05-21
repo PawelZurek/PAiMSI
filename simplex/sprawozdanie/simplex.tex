@@ -1,0 +1,44 @@
+\documentclass[10 pt]{article}
+\usepackage{graphicx}
+\pagestyle{plain}
+\usepackage[OT4]{polski}
+\usepackage[utf8]{inputenc}
+\title{Sprawozdzanie 9 \\ \emph{\textbf{Simplex v0.5}}}
+\author{Paweł Żurek 200404}
+\date{21.05.2014}
+\begin{document}
+\tableofcontents
+\maketitle
+\section{Wstęp}
+Uproszczona wersja algorytmu Simplex, która pozwala znaleźć największą wartość zysku dla dwuwymiarowych funkcji celu.
+\section{Krótki opis programu}
+\textbf{Program prosi o : }
+\begin{itemize}
+\item wpisanie ilości równań
+\item wpisanie poszczególnych współczynnikow
+\item wpisanie poszczególnych ograniczen
+\item wpisanie poszczególnych kosztów
+\end{itemize}
+Następnie wykonuje algorytm i na końcu wyświetla wynik.
+
+\subsection{Uwagi :}
+\begin{itemize}
+\item Program działa tylko dla problemów DWU wymiarowych !!!!
+\end{itemize}
+\section{Algorytm }
+Dzialanie funkcji:
+\begin{itemize}
+\item obliczenie kluczowych punktów
+\item obliczenie wartości zysku w tych punktach
+\item wybor punktu, w którym zysk jest najlepszy
+\end{itemize}
+
+\section{Wnioski:}
+\begin{itemize}
+\item Program działa dobrze, lecz tylko dla przypadków dwu wymiarowych
+\item Kod jest skomplikowany, przez swoją prostotę. Tzn, jest zrobiony z prostych elementów, lecz ułożonych w skopmlikowany sposób
+\end{itemize}
+
+Dokładna dokumentacja jest dostępna w pliku \textit{dokumentacja.pdf} ( wygenerowana w \LaTeX 'u.
+
+\end{document}

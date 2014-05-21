@@ -1,0 +1,18 @@
+/*!
+\mainpage Simplex
+
+\author Pawel Zurek
+\date 21.05.2014
+\version 0.5
+
+Program umożliwia liczenie maksymalnego zysku na podstawie funkcji celu.
+
+\section etykieta-wazne-cechy Najważniejsze cechy
+
+Jest to uproszczona wersja algorytmu Simplexa, ponieważ obsłuje tylko przypadki 2-wymiarowe.
+  
+\section etykieta-op-algorytm  Opis algorytmu
+
+Ograniczając przestrzeń przynajmniej jedną prostą o zerowym współczynniku przy x lub y oraz prostą z nie zerowymi oboma współczynnikami, dostajemy zbiór charakterystycznych punktów. Algorytm liczy te punkty i sprawdza wartości zysku dla nich. Ostatecznie wybiera ten najlepszy i wyświetla zarówno go jak i wartość zysku dla wybranego punktu.
+ 
+ */

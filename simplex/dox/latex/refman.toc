@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {1}Simplex}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Najwa\IeC {\.z}niejsze cechy}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Opis algorytmu}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}simplex Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}simplex}{8}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}$\sim $simplex}{8}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}oblicz}{8}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}wprowadz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{8}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}wyswietl}{9}{subsubsection.4.1.3.3}
+\contentsline {subsection}{\numberline {4.1.4}Member Data Documentation}{9}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}koszt}{9}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}n}{9}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.3}ograniczenia}{9}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.4}tab}{10}{subsubsection.4.1.4.4}
+\contentsline {subsubsection}{\numberline {4.1.4.5}x}{10}{subsubsection.4.1.4.5}
+\contentsline {subsubsection}{\numberline {4.1.4.6}y}{10}{subsubsection.4.1.4.6}
+\contentsline {subsubsection}{\numberline {4.1.4.7}zysk}{10}{subsubsection.4.1.4.7}
+\contentsline {chapter}{\numberline {5}File Documentation}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/doc/pages/strona.dox File Reference}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/inc/simplex.hh File Reference}{11}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{12}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/src/main.cpp File Reference}{12}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{13}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Function Documentation}{13}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}main}{13}{subsubsection.5.3.2.1}
+\contentsline {section}{\numberline {5.4}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/simplex/prj/src/simplex.cpp File Reference}{14}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{14}{subsection.5.4.1}
+\contentsline {chapter}{Index}{15}{section*.6}
