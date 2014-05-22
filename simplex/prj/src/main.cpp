@@ -17,6 +17,5 @@ int main(){
 	s.wyswietl();
 	s.oblicz();
 
-
 	return 0;
 }
