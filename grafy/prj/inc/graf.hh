@@ -16,6 +16,7 @@
 
 using namespace std;
 
+
 class graf{
 private:
   int n; //ilosc wierzcholkow
@@ -25,10 +26,6 @@ private:
   int **tab;//tablica polaczen
   int *wierzcholki;
   bool *odwiedzony;
-  stos_lista stos;
-  stos_lista otwarte;
-  stos_lista zamkniete;
-  stos_lista punkty_odwiedzone;
 public:
   graf(int liczba_wierz);
   ~graf();
@@ -95,32 +92,6 @@ public:
 
   void usun_wszystko();
 
-  string oblicz_F_G_H(int indeks);
-
-  void a_star(int start, int koniec);
-
-  void a_star();
-
-  int zdobadz_G(int indeks);
-
-  int zdobadz_F(int indeks);
-
-  int znajdz_g(string tmp);
-
-  int znajdz_f(string tmp);
-
-  int oblicz_H(int indeks);
-
-  int oblicz_G();
-
-  int znajdz_najmniejsze_f();
-
-  int przejdz_do_nastepnego(int indeks);
-
 };
-
-int strToInt(string s);
-
-  string intToStr(int n);
 
 #endif 

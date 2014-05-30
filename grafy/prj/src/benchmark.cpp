@@ -29,7 +29,7 @@ void benchmark::algorytm(){
 		breth[i]=0;
 	}
 	int wielkosci [] = {100,250,500,750,1000,1500,2000};
-	/*graf g100(100);
+	graf g100(100);
 	g100.losuj_polaczenia(100);
 	graf g250(250);
 	g250.losuj_polaczenia(100);
@@ -40,8 +40,7 @@ void benchmark::algorytm(){
 	graf g1000(1000);
 	g1000.losuj_polaczenia(100);
 	graf g1500(1500);
-	g1500.losuj_polaczenia(100);*/
-	
+	g1500.losuj_polaczenia(100);*
 	string typ="dane/test.txt";
 	ofstream plik(typ.c_str());
 	for (int i = 0; i < 7; ++i){
@@ -151,8 +150,9 @@ void benchmark::algorytm(){
 
 	stworz_plik("breth100",breth, wielkosci);
 	stworz_plik("depth100",depth, wielkosci);
-*/
+
 }
+*/
 
 void benchmark::wyswietl_wszystko(double *d, double *b, int *s){
 	for (int i = 0; i < 7; i++){

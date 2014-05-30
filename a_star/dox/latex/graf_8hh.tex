@@ -1,0 +1,77 @@
+\hypertarget{graf_8hh}{\section{/home/pawel/\-Dokumenty/programowanie/pamsi/a\-\_\-star/prj/inc/graf.hh File Reference}
+\label{graf_8hh}\index{/home/pawel/\-Dokumenty/programowanie/pamsi/a\-\_\-star/prj/inc/graf.\-hh@{/home/pawel/\-Dokumenty/programowanie/pamsi/a\-\_\-star/prj/inc/graf.\-hh}}
+}
+
+
+Definicje funkcji dla klasy graf.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$map$>$}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+Include dependency graph for graf.\-hh\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graf_8hh__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graf_8hh__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_punkt}{Punkt}
+\begin{DoxyCompactList}\small\item\em Struktura punktu Struktura ta ma zdefiniowane dwie zmienne x oraz y, ktore odpowiadaja za przechowywanie pozycji na siatce. Rowniez zdefiniowane sa operator przypisania oraz operator logiczny relacji. \end{DoxyCompactList}\item 
+struct \hyperlink{struct_wierzcholek}{Wierzcholek}
+\begin{DoxyCompactList}\small\item\em Struktura \hyperlink{struct_wierzcholek}{Wierzcholek}. Opisuje wlasnosci wierzcholka. \end{DoxyCompactList}\item 
+class \hyperlink{classgraf}{graf}
+\begin{DoxyCompactList}\small\item\em Modeluje pojecie graf. Klasa sluzy glownie do wykonania algorytmu a\-\_\-star, czyli znalezienia najlepszej drogi miedzy dwoma punktami. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{graf_8hh_af54d448689b4613c3715929ca2a914a2}{Wierzcholek\-\_\-\-Typ} \{ \hyperlink{graf_8hh_af54d448689b4613c3715929ca2a914a2a846f623e19814cffb78d5ef92e77f7a3}{normalne}, 
+\hyperlink{graf_8hh_af54d448689b4613c3715929ca2a914a2adb5535e159eca8e4dc5aafad57d8a4ba}{sciana}, 
+\hyperlink{graf_8hh_af54d448689b4613c3715929ca2a914a2aeae5b57b7024c23312af9137b42aa6b1}{punkt}
+ \}
+\begin{DoxyCompactList}\small\item\em Rodzaje wierzcholkow Zdefiniowanie 3 roznych rodzajow wierzcholka \-: -\/$>$ normalne dla wierzcholkow wolnych, -\/$>$ sciana dla wierzcholkow bedacych przeszkodą, -\/$>$ punkt dla wierzcholkow, ktore sa punktami poczatkowymi i koncowymi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definicje funkcji dla klasy graf. 
+
+Definition in file \hyperlink{graf_8hh_source}{graf.\-hh}.
+
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{graf_8hh_af54d448689b4613c3715929ca2a914a2}{\index{graf.\-hh@{graf.\-hh}!Wierzcholek\-\_\-\-Typ@{Wierzcholek\-\_\-\-Typ}}
+\index{Wierzcholek\-\_\-\-Typ@{Wierzcholek\-\_\-\-Typ}!graf.hh@{graf.\-hh}}
+\subsubsection[{Wierzcholek\-\_\-\-Typ}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Wierzcholek\-\_\-\-Typ}}}\label{graf_8hh_af54d448689b4613c3715929ca2a914a2}
+
+
+Rodzaje wierzcholkow Zdefiniowanie 3 roznych rodzajow wierzcholka \-: -\/$>$ normalne dla wierzcholkow wolnych, -\/$>$ sciana dla wierzcholkow bedacych przeszkodą, -\/$>$ punkt dla wierzcholkow, ktore sa punktami poczatkowymi i koncowymi. 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{normalne@{normalne}!graf.\-hh@{graf.\-hh}}\index{graf.\-hh@{graf.\-hh}!normalne@{normalne}}\item[{\em 
+\hypertarget{graf_8hh_af54d448689b4613c3715929ca2a914a2a846f623e19814cffb78d5ef92e77f7a3}{normalne}\label{graf_8hh_af54d448689b4613c3715929ca2a914a2a846f623e19814cffb78d5ef92e77f7a3}
+}]\index{sciana@{sciana}!graf.\-hh@{graf.\-hh}}\index{graf.\-hh@{graf.\-hh}!sciana@{sciana}}\item[{\em 
+\hypertarget{graf_8hh_af54d448689b4613c3715929ca2a914a2adb5535e159eca8e4dc5aafad57d8a4ba}{sciana}\label{graf_8hh_af54d448689b4613c3715929ca2a914a2adb5535e159eca8e4dc5aafad57d8a4ba}
+}]\index{punkt@{punkt}!graf.\-hh@{graf.\-hh}}\index{graf.\-hh@{graf.\-hh}!punkt@{punkt}}\item[{\em 
+\hypertarget{graf_8hh_af54d448689b4613c3715929ca2a914a2aeae5b57b7024c23312af9137b42aa6b1}{punkt}\label{graf_8hh_af54d448689b4613c3715929ca2a914a2aeae5b57b7024c23312af9137b42aa6b1}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 23 of file graf.\-hh.
+

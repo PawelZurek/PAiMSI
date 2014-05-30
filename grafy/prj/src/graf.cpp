@@ -69,6 +69,7 @@ void graf::ustaw_polaczenia(){
     if (jest == 2){
       if ( ( (v1 >= wierzcholki[0] ) && (v1 <= wierzcholki[n-1]) ) && ( (v2 >= wierzcholki[0]) && (v2 <= wierzcholki[n-1]) ) ){
         tab[indeks][indeks2] = 1;      // Krawędź v1<->v2 obecna
+        tab[indeks2][indeks] = 1;
       }
       else{
         cout<<"Zle wartosci ! wierzcholek musi byc wiekszy od 0 i nie wiekszy od "<<n<<" !"<<endl;
@@ -500,8 +501,9 @@ void graf::losuj_polaczenia(int proc){
     indeks = rand() % n;
     indeks2 = rand() % n;
       if (tab[indeks][indeks2] == 0){
-        wartosc= 1;
+        wartosc= 1+ rand() % 20;
         tab[indeks][indeks2] = wartosc;
+        tab[indeks2][indeks] = wartosc;
         wagi[j] = wartosc;
       }
       else j--;
@@ -515,199 +517,4 @@ void graf::usun_wszystko(){
   for (int i = 0; i < n; i++)
     for (int j = 0; j < n; j++)
       tab[i][j] = 0;
-}
-
-void graf::a_star(){
-  int v1=0, v2=0;
-
-  cout<<"Podaj wierzcholek 1 : ";
-  cin>>v1;
-  cout<<"Podaj wierzcholek 2 : ";
-  cin>>v2;
-
-  a_star(v1,v2);
-
-}
-
-void graf::a_star(int start, int koniec){
-  otwarte.dodaj_element(start);
-  zamkniete.dodaj_element(start);
-  do{
-    punkty_odwiedzone.dodaj_element(start);
-    wartosci[start-1]=oblicz_F_G_H(start);
-
-    start=znajdz_najmniejsze_f();
-    otwarte.usun(start);
-    cout<<"start : "<<start<<endl;
-    zamkniete.dodaj_element(start);
-    for (int j = 0; j <  n; j++){
-      if ((czy_sasiad(start-1,j)==1) && (zamkniete.znajdz(j+1) == 0 )){
-        
-        if (otwarte.znajdz(j+1)==0){        
-          otwarte.dodaj_element(j+1);
-          start=j+1;
-          wartosci[j]=oblicz_F_G_H(j+1);
-        }
-        else{
-
-          if (zdobadz_G(j+1) > zdobadz_G(start)){
-              start=j+1;
-          wartosci[j]=oblicz_F_G_H(j+1);
-          }
-        }
-      }
-    }
-  }while(start != koniec);
-  cout<<koniec<<endl;
-  if (start == koniec){
-    cout<<"Znaleziono polaczenie nastepujaca droga : "<<endl;
-    punkty_odwiedzone.pokaz_elementy();
-  }
-  else
-    cout<<"Nie Znaleziono polaczenia"<<endl;
-}
-
-string graf::oblicz_F_G_H(int indeks){
-
-  int g=0,h=0,f=0;
-  string tmp,tmp1,tmp2,fgh;
-  g = oblicz_G();
-  tmp = intToStr(g);
-  h = oblicz_H(indeks);
-  tmp1 = intToStr(h);
-  f= g+h;
-  tmp2= intToStr(f);
-  fgh = tmp+"."+tmp1+","+tmp2;
-  cout<<endl<<fgh<<endl;
-  return fgh;
-}
-
-int graf::oblicz_H(int indeks){
-  int suma=0;
-  przejdz_do_nastepnego(indeks);
-  for (int i = 0; i < m; i++)
-  suma = suma + wagi[i];
-  
-  return suma;
-}
-int graf::przejdz_do_nastepnego(int indeks){
-  int j = 0;
-  for (j = 0; j < n; j++){
-      if ((tab[indeks-1][j] == 1) && (odwiedzony[j]==0)){
-        odwiedzony[j] = 1;
-        dodaj_wagi(indeks, j, 5);
-        break;
-      } 
-    }
-    return  j;
-}
-
-int graf::oblicz_G(){
-  int suma= 0, i =0 ; 
-  int *tmp;
-  if (punkty_odwiedzone.size() > 1){
-    int rozmiar = punkty_odwiedzone.size();
-    tmp  = new int[rozmiar];
-    while(punkty_odwiedzone.isempty() == 0 ){
-      tmp[i] = punkty_odwiedzone.top();
-      punkty_odwiedzone.pop();
-      i++;
-    }
-  for (int j = 0; j < rozmiar; j++){
-    punkty_odwiedzone.dodaj_element(tmp[j]);
-    suma = suma + (2*tmp[j]);
-  }
-  delete [] tmp;
-  }
-  
-  return suma;
-}
-
-int graf::znajdz_najmniejsze_f(){
-
-  
-  int *tymczas;
-  int *tmp;
-  int rozmiar = punkty_odwiedzone.size();
-  tymczas = new int[rozmiar];
-  tmp =  new int[rozmiar];
-  int i = 0, najmniejszy = 999, indeks = 0;
-  while(punkty_odwiedzone.isempty() == 0 ){
-    tymczas[i]=punkty_odwiedzone.usun();
-    tmp[i] = zdobadz_F(tymczas[i]);
-    i++;
-  }
-  for (int i = 0; i < rozmiar; i++){
-    punkty_odwiedzone.dodaj_element(tymczas[i]);
-     if( tmp[i] < najmniejszy ){
-         najmniejszy = tmp[ i ];
-         indeks = i;
-       }
-  }
-  delete [] tymczas;
-  delete [] tmp;
-  return indeks+1;
-}
-
-int graf::zdobadz_G(int indeks){
-  return znajdz_g(wartosci[indeks-1]);
-}
-
-int graf::zdobadz_F(int indeks){
-  return znajdz_f(wartosci[indeks-1]);
-}
-
-
-
-int graf::znajdz_g(string tmp){
-  int pos = tmp.find(".");
-
-  string g = tmp.substr(0,pos);
-  int g_gotowe  = strToInt(g);
-
-  return  g_gotowe;
-}
-
-int graf::znajdz_f(string tmp){
-  int pos = tmp.find(",");
-  string f = tmp.substr(pos+1);
-  int f_gotowe  = strToInt(f);
-
-  return  f_gotowe;
-} 
-
-
-
-string intToStr(int n){
-     string tmp;
-     if(n < 0) {
-      tmp = "-";
-      n = -n;
-     }
-     if(n > 9)
-      tmp += intToStr(n / 10);
-     tmp += n % 10 + 48;
-     return tmp;
-}
-
-int strToInt(string s){
-     unsigned tmp = 0, i = 0;
-     bool m = false;
-     if(s[0] == '-') {
-      m = true;
-      i++;
-     }
-     for(; i < s.size(); i++)
-      tmp = 10 * tmp + s[i] - 48;
-     return m ? -tmp : tmp;   
-}
-
-void graf::dodaj_wagi( int v1, int v2 , int waga){
-  tab[v1][v2] = waga;
-  for (int i = 0; i < m; i++)
-    if (wagi[i]==0){
-      wagi[i] = waga;
-      break;
-    }
-
 }

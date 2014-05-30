@@ -8,7 +8,7 @@ int main(){
 	
 	benchmark B;
 	B.algorytm();
-	/*
+/*
 	int w;
 	cout<<"Witaj w programie, na poczatek :\n";
 	cout<<"Podaj liczbe wierzchołków  : ";
@@ -18,7 +18,7 @@ int main(){
  	int oper=0;
 	
 	do{
-		cout<<"Oto nastepujace opcje programu :\n";
+		cout<<"\nOto nastepujace opcje programu :";
 		cout<<"\n1 -> ustaw_polaczenia\n"
 		<<"2 -> dodaj wierzcholek\n"
 		<<"3 -> usun wiercholek \n"
@@ -49,13 +49,13 @@ int main(){
 			case 11: g.dfs(); break;
 			case 12: g.bfs(); break;
 			case 13: g.losuj_polaczenia(); break;
-			case 14: g.a_star(); break;
+			case 14: g.dijkstry(); break;
 			case 10: break;
 			default: cerr << "\n***********nierozpoznana opcja ! Wpisz ponownie : ***********\n"; break;
 			}
 		}
 		else cout<<"\n***********podales zly znak, sprobuj jeszcze raz !***********\n";
 	}while(oper != 10);
-*/
+	*/
   return 0;
 } 

@@ -1,0 +1,4 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classbenchmark.html#aedc5a477317912eb0d9ca5f9f1da3b7c" title="Funkcja wykonujaca algorytm. " alt="" coords="104,5,248,32"/>
+<area shape="rect" id="node3" href="$classgraf.html#a0ccf7a033759840d0b63c9ab1eac79c3" title="Funkcja A_star. Funkcja implementujaca algorytm przeszukiwania A_star. Wywolywana bezparametrycznie..." alt="" coords="296,5,387,32"/>
+</map>

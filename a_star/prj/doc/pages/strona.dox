@@ -1,0 +1,22 @@
+/*!
+\mainpage A_star
+
+\author Pawel Zurek
+\date 29.05.2014
+\version 1.0
+
+Program umożliwia przeprowadzenie algorytmu A_star.
+
+\section etykieta-wazne-cechy Najważniejsze cechy
+
+Algorytm ten wyszukuje najlepszą ścieżkę pomiędzy dwoma punktami w grafie. W tym przypadku graf jest zilustrowany jako układ współrzędnych
+  
+\section etykieta-op-algorytm  Opis algorytmu
+
+Algorytm wyszukuje miejsce, które odwiedzi jako następne na podstawie wyszukania punktu o najmniejszej wartości funkcji F. Funkcja F to suma arytmetyczna funckji G i funkcji H. Funkcja H to funkcja Heurystyczna, przwidująca drogę z aktualnego punktu do końcowego. Funkcja G liczy drogę przebytą z punktu początkowego do aktualnego miejsca.
+
+\n Screen wykonania programu na moim komputerze ( 1 - przeszkoda , 2 - trasa wyszukiwania ) :
+
+\image html  WYKONANIE.png "wykonanie"
+ 
+ */

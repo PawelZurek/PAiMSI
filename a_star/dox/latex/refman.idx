@@ -1,0 +1,92 @@
+\indexentry{benchmark@{benchmark}|hyperpage}{7}
+\indexentry{benchmark@{benchmark}!benchmark@{benchmark}|hyperpage}{8}
+\indexentry{benchmark@{benchmark}!benchmark@{benchmark}|hyperpage}{8}
+\indexentry{benchmark@{benchmark}!algorytm@{algorytm}|hyperpage}{8}
+\indexentry{algorytm@{algorytm}!benchmark@{benchmark}|hyperpage}{8}
+\indexentry{benchmark@{benchmark}!czas\discretionary {-}{}{}\_\discretionary {-}{}{}start@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}|hyperpage}{9}
+\indexentry{czas\discretionary {-}{}{}\_\discretionary {-}{}{}start@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}!benchmark@{benchmark}|hyperpage}{9}
+\indexentry{benchmark@{benchmark}!czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}|hyperpage}{9}
+\indexentry{czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}!benchmark@{benchmark}|hyperpage}{9}
+\indexentry{benchmark@{benchmark}!ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu@{ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}|hyperpage}{9}
+\indexentry{ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu@{ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}!benchmark@{benchmark}|hyperpage}{9}
+\indexentry{benchmark@{benchmark}!czas@{czas}|hyperpage}{9}
+\indexentry{czas@{czas}!benchmark@{benchmark}|hyperpage}{9}
+\indexentry{benchmark@{benchmark}!czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly}|hyperpage}{9}
+\indexentry{czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly}!benchmark@{benchmark}|hyperpage}{9}
+\indexentry{benchmark@{benchmark}!elapsed\discretionary {-}{}{}Time@{elapsed\discretionary {-}{}{}Time}|hyperpage}{9}
+\indexentry{elapsed\discretionary {-}{}{}Time@{elapsed\discretionary {-}{}{}Time}!benchmark@{benchmark}|hyperpage}{9}
+\indexentry{benchmark@{benchmark}!size@{size}|hyperpage}{10}
+\indexentry{size@{size}!benchmark@{benchmark}|hyperpage}{10}
+\indexentry{benchmark@{benchmark}!t1@{t1}|hyperpage}{10}
+\indexentry{t1@{t1}!benchmark@{benchmark}|hyperpage}{10}
+\indexentry{benchmark@{benchmark}!t2@{t2}|hyperpage}{10}
+\indexentry{t2@{t2}!benchmark@{benchmark}|hyperpage}{10}
+\indexentry{benchmark@{benchmark}!tmp@{tmp}|hyperpage}{10}
+\indexentry{tmp@{tmp}!benchmark@{benchmark}|hyperpage}{10}
+\indexentry{graf@{graf}|hyperpage}{10}
+\indexentry{graf@{graf}!graf@{graf}|hyperpage}{12}
+\indexentry{graf@{graf}!graf@{graf}|hyperpage}{12}
+\indexentry{graf@{graf}!A\discretionary {-}{}{}\_\discretionary {-}{}{}star@{A\discretionary {-}{}{}\_\discretionary {-}{}{}star}|hyperpage}{12}
+\indexentry{A\discretionary {-}{}{}\_\discretionary {-}{}{}star@{A\discretionary {-}{}{}\_\discretionary {-}{}{}star}!graf@{graf}|hyperpage}{12}
+\indexentry{graf@{graf}!F@{F}|hyperpage}{12}
+\indexentry{F@{F}!graf@{graf}|hyperpage}{12}
+\indexentry{graf@{graf}!F@{F}|hyperpage}{12}
+\indexentry{F@{F}!graf@{graf}|hyperpage}{12}
+\indexentry{graf@{graf}!G@{G}|hyperpage}{13}
+\indexentry{G@{G}!graf@{graf}|hyperpage}{13}
+\indexentry{graf@{graf}!H@{H}|hyperpage}{13}
+\indexentry{H@{H}!graf@{graf}|hyperpage}{13}
+\indexentry{graf@{graf}!H@{H}|hyperpage}{13}
+\indexentry{H@{H}!graf@{graf}|hyperpage}{13}
+\indexentry{graf@{graf}!Rozwiazanie@{Rozwiazanie}|hyperpage}{13}
+\indexentry{Rozwiazanie@{Rozwiazanie}!graf@{graf}|hyperpage}{13}
+\indexentry{graf@{graf}!Stworz\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sciane@{Stworz\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sciane}|hyperpage}{13}
+\indexentry{Stworz\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sciane@{Stworz\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sciane}!graf@{graf}|hyperpage}{13}
+\indexentry{graf@{graf}!Ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}punkty@{Ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}punkty}|hyperpage}{13}
+\indexentry{Ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}punkty@{Ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}punkty}!graf@{graf}|hyperpage}{13}
+\indexentry{graf@{graf}!operator$<$$<$@{operator$<$$<$}|hyperpage}{14}
+\indexentry{operator$<$$<$@{operator$<$$<$}!graf@{graf}|hyperpage}{14}
+\indexentry{graf@{graf}!koniec@{koniec}|hyperpage}{14}
+\indexentry{koniec@{koniec}!graf@{graf}|hyperpage}{14}
+\indexentry{graf@{graf}!poczatek@{poczatek}|hyperpage}{14}
+\indexentry{poczatek@{poczatek}!graf@{graf}|hyperpage}{14}
+\indexentry{graf@{graf}!w@{w}|hyperpage}{14}
+\indexentry{w@{w}!graf@{graf}|hyperpage}{14}
+\indexentry{Punkt@{Punkt}|hyperpage}{14}
+\indexentry{Punkt@{Punkt}!operator!=@{operator!=}|hyperpage}{15}
+\indexentry{operator!=@{operator!=}!Punkt@{Punkt}|hyperpage}{15}
+\indexentry{Punkt@{Punkt}!operator==@{operator==}|hyperpage}{15}
+\indexentry{operator==@{operator==}!Punkt@{Punkt}|hyperpage}{15}
+\indexentry{Punkt@{Punkt}!x@{x}|hyperpage}{15}
+\indexentry{x@{x}!Punkt@{Punkt}|hyperpage}{15}
+\indexentry{Punkt@{Punkt}!y@{y}|hyperpage}{15}
+\indexentry{y@{y}!Punkt@{Punkt}|hyperpage}{15}
+\indexentry{Wierzcholek@{Wierzcholek}|hyperpage}{16}
+\indexentry{Wierzcholek@{Wierzcholek}!f@{f}|hyperpage}{16}
+\indexentry{f@{f}!Wierzcholek@{Wierzcholek}|hyperpage}{16}
+\indexentry{Wierzcholek@{Wierzcholek}!g@{g}|hyperpage}{16}
+\indexentry{g@{g}!Wierzcholek@{Wierzcholek}|hyperpage}{16}
+\indexentry{Wierzcholek@{Wierzcholek}!h@{h}|hyperpage}{16}
+\indexentry{h@{h}!Wierzcholek@{Wierzcholek}|hyperpage}{16}
+\indexentry{Wierzcholek@{Wierzcholek}!punkt@{punkt}|hyperpage}{17}
+\indexentry{punkt@{punkt}!Wierzcholek@{Wierzcholek}|hyperpage}{17}
+\indexentry{Wierzcholek@{Wierzcholek}!rodzic@{rodzic}|hyperpage}{17}
+\indexentry{rodzic@{rodzic}!Wierzcholek@{Wierzcholek}|hyperpage}{17}
+\indexentry{Wierzcholek@{Wierzcholek}!typ@{typ}|hyperpage}{17}
+\indexentry{typ@{typ}!Wierzcholek@{Wierzcholek}|hyperpage}{17}
+\indexentry{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/doc/pages/strona.\discretionary {-}{}{}dox@{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/doc/pages/strona.\discretionary {-}{}{}dox}|hyperpage}{19}
+\indexentry{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/inc/benchmark.\discretionary {-}{}{}hh@{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/inc/benchmark.\discretionary {-}{}{}hh}|hyperpage}{19}
+\indexentry{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/inc/graf.\discretionary {-}{}{}hh@{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/inc/graf.\discretionary {-}{}{}hh}|hyperpage}{20}
+\indexentry{graf.\discretionary {-}{}{}hh@{graf.\discretionary {-}{}{}hh}!Wierzcholek\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Typ@{Wierzcholek\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Typ}|hyperpage}{21}
+\indexentry{Wierzcholek\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Typ@{Wierzcholek\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Typ}!graf.hh@{graf.\discretionary {-}{}{}hh}|hyperpage}{21}
+\indexentry{normalne@{normalne}!graf.\-hh@{graf.\-hh}|hyperpage}{22}
+\indexentry{graf.\-hh@{graf.\-hh}!normalne@{normalne}|hyperpage}{22}
+\indexentry{sciana@{sciana}!graf.\-hh@{graf.\-hh}|hyperpage}{22}
+\indexentry{graf.\-hh@{graf.\-hh}!sciana@{sciana}|hyperpage}{22}
+\indexentry{punkt@{punkt}!graf.\-hh@{graf.\-hh}|hyperpage}{22}
+\indexentry{graf.\-hh@{graf.\-hh}!punkt@{punkt}|hyperpage}{22}
+\indexentry{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/benchmark.\discretionary {-}{}{}cpp@{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/benchmark.\discretionary {-}{}{}cpp}|hyperpage}{22}
+\indexentry{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/graf.\discretionary {-}{}{}cpp@{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/graf.\discretionary {-}{}{}cpp}|hyperpage}{22}
+\indexentry{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/main.\discretionary {-}{}{}cpp@{/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/main.\discretionary {-}{}{}cpp}|hyperpage}{23}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{24}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{24}

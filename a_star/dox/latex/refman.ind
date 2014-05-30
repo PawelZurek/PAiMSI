@@ -1,0 +1,200 @@
+\begin{theindex}
+
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/doc/pages/strona.\discretionary {-}{}{}dox}, 
+		\hyperpage{19}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/inc/benchmark.\discretionary {-}{}{}hh}, 
+		\hyperpage{19}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/inc/graf.\discretionary {-}{}{}hh}, 
+		\hyperpage{20}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/benchmark.\discretionary {-}{}{}cpp}, 
+		\hyperpage{22}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/graf.\discretionary {-}{}{}cpp}, 
+		\hyperpage{22}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/a\discretionary {-}{}{}\_\discretionary {-}{}{}star/prj/src/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {A\discretionary {-}{}{}\_\discretionary {-}{}{}star}
+    \subitem {graf}, \hyperpage{12}
+  \item {algorytm}
+    \subitem {benchmark}, \hyperpage{8}
+
+  \indexspace
+
+  \item {benchmark}, \hyperpage{7}
+    \subitem {algorytm}, \hyperpage{8}
+    \subitem {benchmark}, \hyperpage{8}
+    \subitem {czas}, \hyperpage{9}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly}, 
+		\hyperpage{9}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}, 
+		\hyperpage{9}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}, 
+		\hyperpage{9}
+    \subitem {elapsed\discretionary {-}{}{}Time}, \hyperpage{9}
+    \subitem {ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}, 
+		\hyperpage{9}
+    \subitem {size}, \hyperpage{10}
+    \subitem {t1}, \hyperpage{10}
+    \subitem {t2}, \hyperpage{10}
+    \subitem {tmp}, \hyperpage{10}
+
+  \indexspace
+
+  \item {czas}
+    \subitem {benchmark}, \hyperpage{9}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}caly}
+    \subitem {benchmark}, \hyperpage{9}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}start}
+    \subitem {benchmark}, \hyperpage{9}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}stop}
+    \subitem {benchmark}, \hyperpage{9}
+
+  \indexspace
+
+  \item {elapsed\discretionary {-}{}{}Time}
+    \subitem {benchmark}, \hyperpage{9}
+
+  \indexspace
+
+  \item {F}
+    \subitem {graf}, \hyperpage{12}
+  \item {f}
+    \subitem {Wierzcholek}, \hyperpage{16}
+
+  \indexspace
+
+  \item {G}
+    \subitem {graf}, \hyperpage{13}
+  \item {g}
+    \subitem {Wierzcholek}, \hyperpage{16}
+  \item {graf}, \hyperpage{10}
+    \subitem {A\discretionary {-}{}{}\_\discretionary {-}{}{}star}, 
+		\hyperpage{12}
+    \subitem {F}, \hyperpage{12}
+    \subitem {G}, \hyperpage{13}
+    \subitem {graf}, \hyperpage{12}
+    \subitem {H}, \hyperpage{13}
+    \subitem {koniec}, \hyperpage{14}
+    \subitem {operator$<$$<$}, \hyperpage{14}
+    \subitem {poczatek}, \hyperpage{14}
+    \subitem {Rozwiazanie}, \hyperpage{13}
+    \subitem {Stworz\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sciane}, 
+		\hyperpage{13}
+    \subitem {Ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}punkty}, 
+		\hyperpage{13}
+    \subitem {w}, \hyperpage{14}
+  \item {graf.\-hh}
+    \subitem {normalne}, \hyperpage{22}
+    \subitem {punkt}, \hyperpage{22}
+    \subitem {sciana}, \hyperpage{22}
+  \item {graf.\discretionary {-}{}{}hh}
+    \subitem {Wierzcholek\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Typ}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {H}
+    \subitem {graf}, \hyperpage{13}
+  \item {h}
+    \subitem {Wierzcholek}, \hyperpage{16}
+
+  \indexspace
+
+  \item {ile\discretionary {-}{}{}\_\discretionary {-}{}{}czasu}
+    \subitem {benchmark}, \hyperpage{9}
+
+  \indexspace
+
+  \item {koniec}
+    \subitem {graf}, \hyperpage{14}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{24}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{24}
+
+  \indexspace
+
+  \item {normalne}
+    \subitem {graf.\-hh}, \hyperpage{22}
+
+  \indexspace
+
+  \item {operator$<$$<$}
+    \subitem {graf}, \hyperpage{14}
+  \item {operator==}
+    \subitem {Punkt}, \hyperpage{15}
+
+  \indexspace
+
+  \item {poczatek}
+    \subitem {graf}, \hyperpage{14}
+  \item {Punkt}, \hyperpage{14}
+    \subitem {operator==}, \hyperpage{15}
+    \subitem {x}, \hyperpage{15}
+    \subitem {y}, \hyperpage{15}
+  \item {punkt}
+    \subitem {graf.\-hh}, \hyperpage{22}
+    \subitem {Wierzcholek}, \hyperpage{17}
+
+  \indexspace
+
+  \item {rodzic}
+    \subitem {Wierzcholek}, \hyperpage{17}
+  \item {Rozwiazanie}
+    \subitem {graf}, \hyperpage{13}
+
+  \indexspace
+
+  \item {sciana}
+    \subitem {graf.\-hh}, \hyperpage{22}
+  \item {size}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {Stworz\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sciane}
+    \subitem {graf}, \hyperpage{13}
+
+  \indexspace
+
+  \item {t1}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {t2}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {tmp}
+    \subitem {benchmark}, \hyperpage{10}
+  \item {typ}
+    \subitem {Wierzcholek}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}punkty}
+    \subitem {graf}, \hyperpage{13}
+
+  \indexspace
+
+  \item {w}
+    \subitem {graf}, \hyperpage{14}
+  \item {Wierzcholek}, \hyperpage{16}
+    \subitem {f}, \hyperpage{16}
+    \subitem {g}, \hyperpage{16}
+    \subitem {h}, \hyperpage{16}
+    \subitem {punkt}, \hyperpage{17}
+    \subitem {rodzic}, \hyperpage{17}
+    \subitem {typ}, \hyperpage{17}
+  \item {Wierzcholek\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Typ}
+    \subitem {graf.\discretionary {-}{}{}hh}, \hyperpage{21}
+
+  \indexspace
+
+  \item {x}
+    \subitem {Punkt}, \hyperpage{15}
+
+  \indexspace
+
+  \item {y}
+    \subitem {Punkt}, \hyperpage{15}
+
+\end{theindex}

@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Wst\IeC {\k e}p}{2}
+\contentsline {section}{\numberline {2}Kr\IeC {\'o}tki opis programu}{2}
+\contentsline {section}{\numberline {3}\textbf {DFS} vs \textbf {BFS} vs \textbf {A star}}{2}
+\contentsline {subsection}{\numberline {3.1}Wyniki : }{3}
+\contentsline {subsection}{\numberline {3.2}Uwagi :}{3}
+\contentsline {section}{\numberline {4}Algorytm \textbf {A*}}{3}
+\contentsline {section}{\numberline {5}Wnioski:}{4}
