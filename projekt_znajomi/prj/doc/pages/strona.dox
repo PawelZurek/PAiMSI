@@ -1,0 +1,18 @@
+/*!
+\mainpage Wyszukiwanie znajomości
+
+\author Paweł Żurek
+\date 04.06.2014
+\version 1.01
+
+Program umożliwia znalezienie połączenia między zadanymi osobami.
+
+\section etykieta-wazne-cechy Najważniejsze cechy
+
+Program potrafi przerobić plik z odpowiednio uporządkowanymi danymi. W pliku tym muszą być zawarte obok siebie dwa numeru wierzchołków. Świadczy to o ich połączeniu. Program na podstawie tego tworzy wierzchołki i połączenia między nimi. W aktualnej wersji programu wierzchołkami są zwykłe liczby. Związane jest to z trudnością zdobycia prawdziwych imion i nazwisk. Pojedyńcza liczba całkowita odpowiada jednej osobie. W programie jest to pojedyńczy wierzchołek.
+  
+\section etykieta-op-algorytm  Opis algorytmu
+
+Kiedy dane zostanę przerobione, program tworzy graf z wierzchołkami i połączeniami między nimi, każde o wadze tej samej i równej 1. Zakładam, że połączenie między każdą osobą ma tę samą wagę. Następnie program przerowadza algorytm szukania ścieżki między dwoma podanymi osobami ( wierzchołkami ). Jako wyjście jest spis ( wierzchołków ) osób, które trzeba poznać aby poznać chcianą osobę. 
+ 
+ */

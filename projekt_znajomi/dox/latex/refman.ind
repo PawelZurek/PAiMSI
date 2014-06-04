@@ -1,0 +1,149 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Graf}
+    \subitem {Graf}, \hyperpage{8}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/doc/pages/strona.\discretionary {-}{}{}dox}, 
+		\hyperpage{17}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/inc/\discretionary {-}{}{}Dijkstry.\discretionary {-}{}{}hh}, 
+		\hyperpage{17}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/src/\discretionary {-}{}{}Dijkstry.\discretionary {-}{}{}cpp}, 
+		\hyperpage{18}
+  \item {/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/src/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{19}
+
+  \indexspace
+
+  \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}bylo}
+    \subitem {Graf}, \hyperpage{8}
+  \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}poprawne}
+    \subitem {Graf}, \hyperpage{9}
+  \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}spojny}
+    \subitem {Graf}, \hyperpage{9}
+
+  \indexspace
+
+  \item {dijkstry}
+    \subitem {Graf}, \hyperpage{9}
+  \item {domyslny\discretionary {-}{}{}\_\discretionary {-}{}{}plik}
+    \subitem {Graf}, \hyperpage{10}
+  \item {dowolny\discretionary {-}{}{}\_\discretionary {-}{}{}plik}
+    \subitem {Graf}, \hyperpage{10}
+
+  \indexspace
+
+  \item {E}
+    \subitem {Graf}, \hyperpage{13}
+
+  \indexspace
+
+  \item {g}
+    \subitem {Wezel}, \hyperpage{15}
+  \item {generuj\discretionary {-}{}{}\_\discretionary {-}{}{}liste}
+    \subitem {Graf}, \hyperpage{11}
+  \item {Graf}, \hyperpage{7}
+    \subitem {$\sim $\discretionary {-}{}{}Graf}, \hyperpage{8}
+    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}bylo}, 
+		\hyperpage{8}
+    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}poprawne}, 
+		\hyperpage{9}
+    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}spojny}, 
+		\hyperpage{9}
+    \subitem {dijkstry}, \hyperpage{9}
+    \subitem {domyslny\discretionary {-}{}{}\_\discretionary {-}{}{}plik}, 
+		\hyperpage{10}
+    \subitem {dowolny\discretionary {-}{}{}\_\discretionary {-}{}{}plik}, 
+		\hyperpage{10}
+    \subitem {E}, \hyperpage{13}
+    \subitem {generuj\discretionary {-}{}{}\_\discretionary {-}{}{}liste}, 
+		\hyperpage{11}
+    \subitem {Graf}, \hyperpage{8}
+    \subitem {lista\discretionary {-}{}{}\_\discretionary {-}{}{}sasiadujaca}, 
+		\hyperpage{13}
+    \subitem {losowe\discretionary {-}{}{}\_\discretionary {-}{}{}dijkstry}, 
+		\hyperpage{11}
+    \subitem {przerob\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}fb}, 
+		\hyperpage{11}
+    \subitem {przypisz\discretionary {-}{}{}\_\discretionary {-}{}{}indeks}, 
+		\hyperpage{12}
+    \subitem {stworz\discretionary {-}{}{}\_\discretionary {-}{}{}liste\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}pliku}, 
+		\hyperpage{12}
+    \subitem {stworz\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholki}, 
+		\hyperpage{12}
+    \subitem {testowy\discretionary {-}{}{}\_\discretionary {-}{}{}plik}, 
+		\hyperpage{12}
+    \subitem {V}, \hyperpage{13}
+    \subitem {wierzcholki}, \hyperpage{13}
+    \subitem {wyswietl}, \hyperpage{13}
+
+  \indexspace
+
+  \item {lista\discretionary {-}{}{}\_\discretionary {-}{}{}sasiadujaca}
+    \subitem {Graf}, \hyperpage{13}
+  \item {losowe\discretionary {-}{}{}\_\discretionary {-}{}{}dijkstry}
+    \subitem {Graf}, \hyperpage{11}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{20}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{20}
+
+  \indexspace
+
+  \item {nr}
+    \subitem {Wezel}, \hyperpage{15}
+
+  \indexspace
+
+  \item {operator()}
+    \subitem {por}, \hyperpage{14}
+  \item {operator=}
+    \subitem {Wierzcholek}, \hyperpage{16}
+
+  \indexspace
+
+  \item {por}, \hyperpage{14}
+    \subitem {operator()}, \hyperpage{14}
+  \item {przerob\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}fb}
+    \subitem {Graf}, \hyperpage{11}
+  \item {przypisz\discretionary {-}{}{}\_\discretionary {-}{}{}indeks}
+    \subitem {Graf}, \hyperpage{12}
+
+  \indexspace
+
+  \item {sasiad}
+    \subitem {Wierzcholek}, \hyperpage{16}
+  \item {stworz\discretionary {-}{}{}\_\discretionary {-}{}{}liste\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}pliku}
+    \subitem {Graf}, \hyperpage{12}
+  \item {stworz\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholki}
+    \subitem {Graf}, \hyperpage{12}
+
+  \indexspace
+
+  \item {testowy\discretionary {-}{}{}\_\discretionary {-}{}{}plik}
+    \subitem {Graf}, \hyperpage{12}
+
+  \indexspace
+
+  \item {V}
+    \subitem {Graf}, \hyperpage{13}
+
+  \indexspace
+
+  \item {waga}
+    \subitem {Wierzcholek}, \hyperpage{16}
+  \item {Wezel}, \hyperpage{14}
+    \subitem {g}, \hyperpage{15}
+    \subitem {nr}, \hyperpage{15}
+  \item {Wierzcholek}, \hyperpage{15}
+    \subitem {operator=}, \hyperpage{16}
+    \subitem {sasiad}, \hyperpage{16}
+    \subitem {waga}, \hyperpage{16}
+    \subitem {Wierzcholek}, \hyperpage{16}
+  \item {wierzcholki}
+    \subitem {Graf}, \hyperpage{13}
+  \item {wyswietl}
+    \subitem {Graf}, \hyperpage{13}
+
+\end{theindex}

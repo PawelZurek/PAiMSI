@@ -1,0 +1,62 @@
+\contentsline {chapter}{\numberline {1}Wyszukiwanie znajomo\IeC {\'s}ci}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Najwa\IeC {\.z}niejsze cechy}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Opis algorytmu}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Graf Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Graf}{8}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}$\sim $\discretionary {-}{}{}Graf}{8}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}czy\discretionary {-}{}{}\_\discretionary {-}{}{}bylo}{8}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}czy\discretionary {-}{}{}\_\discretionary {-}{}{}poprawne}{9}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}czy\discretionary {-}{}{}\_\discretionary {-}{}{}spojny}{9}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}dijkstry}{9}{subsubsection.4.1.3.4}
+\contentsline {subsubsection}{\numberline {4.1.3.5}domyslny\discretionary {-}{}{}\_\discretionary {-}{}{}plik}{10}{subsubsection.4.1.3.5}
+\contentsline {subsubsection}{\numberline {4.1.3.6}dowolny\discretionary {-}{}{}\_\discretionary {-}{}{}plik}{10}{subsubsection.4.1.3.6}
+\contentsline {subsubsection}{\numberline {4.1.3.7}generuj\discretionary {-}{}{}\_\discretionary {-}{}{}liste}{11}{subsubsection.4.1.3.7}
+\contentsline {subsubsection}{\numberline {4.1.3.8}losowe\discretionary {-}{}{}\_\discretionary {-}{}{}dijkstry}{11}{subsubsection.4.1.3.8}
+\contentsline {subsubsection}{\numberline {4.1.3.9}przerob\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}fb}{12}{subsubsection.4.1.3.9}
+\contentsline {subsubsection}{\numberline {4.1.3.10}przypisz\discretionary {-}{}{}\_\discretionary {-}{}{}indeks}{12}{subsubsection.4.1.3.10}
+\contentsline {subsubsection}{\numberline {4.1.3.11}stworz\discretionary {-}{}{}\_\discretionary {-}{}{}liste\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}pliku}{12}{subsubsection.4.1.3.11}
+\contentsline {subsubsection}{\numberline {4.1.3.12}stworz\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholki}{12}{subsubsection.4.1.3.12}
+\contentsline {subsubsection}{\numberline {4.1.3.13}testowy\discretionary {-}{}{}\_\discretionary {-}{}{}plik}{12}{subsubsection.4.1.3.13}
+\contentsline {subsubsection}{\numberline {4.1.3.14}wyswietl}{13}{subsubsection.4.1.3.14}
+\contentsline {subsection}{\numberline {4.1.4}Member Data Documentation}{13}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}E}{13}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}lista\discretionary {-}{}{}\_\discretionary {-}{}{}sasiadujaca}{13}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.3}V}{13}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.4}wierzcholki}{13}{subsubsection.4.1.4.4}
+\contentsline {section}{\numberline {4.2}por Struct Reference}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{14}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}operator()}{14}{subsubsection.4.2.2.1}
+\contentsline {section}{\numberline {4.3}Wezel Struct Reference}{14}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{15}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Member Data Documentation}{15}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}g}{15}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}nr}{15}{subsubsection.4.3.2.2}
+\contentsline {section}{\numberline {4.4}Wierzcholek Class Reference}{15}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{15}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{16}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Wierzcholek}{16}{subsubsection.4.4.2.1}
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{16}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}operator=}{16}{subsubsection.4.4.3.1}
+\contentsline {subsection}{\numberline {4.4.4}Member Data Documentation}{16}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}sasiad}{16}{subsubsection.4.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.4.2}waga}{16}{subsubsection.4.4.4.2}
+\contentsline {chapter}{\numberline {5}File Documentation}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/doc/pages/strona.dox File Reference}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/inc/\discretionary {-}{}{}Dijkstry.hh File Reference}{17}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{18}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/src/\discretionary {-}{}{}Dijkstry.cpp File Reference}{18}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{19}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}/home/pawel/\discretionary {-}{}{}Dokumenty/programowanie/pamsi/projekt\discretionary {-}{}{}\_\discretionary {-}{}{}znajomi/prj/src/main.cpp File Reference}{19}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{19}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Function Documentation}{20}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}main}{20}{subsubsection.5.4.2.1}
+\contentsline {chapter}{Index}{21}{section*.10}
